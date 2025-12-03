@@ -1,0 +1,28 @@
+# AWS Credentials
+.env
+.aws/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Diagramas generados
+*.png
+*.jpg
+*.pdf
+diagrams/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
