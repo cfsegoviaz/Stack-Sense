@@ -1,0 +1,384 @@
+vm_name,strategy,reason,priority,complexity,cost_optimization,current_monthly_cost,os,powerstate
+bgr186a01,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,246.94,Microsoft Windows Server 2003 (64-bit),poweredOn
+bgr186a05clon,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,433.13,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+bgr186d01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Microsoft Windows Server 2016 (64-bit),poweredOn
+bgr186d03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Microsoft Windows Server 2016 or later (64-bit),poweredOn
+bgr186h01,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,26.05,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+bgr186h02,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+bgr186pr1,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+bgr186q01,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,262.42,Microsoft Windows Server 2003 (32-bit),poweredOn
+bgr186q02,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,262.42,Microsoft Windows Server 2003 (32-bit),poweredOn
+bgr186q05,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,520.84,Microsoft Windows Server 2008 (64-bit),poweredOn
+bgr186qv1,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+bgr186vm1,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),133.21,Microsoft Windows 2000 Server,poweredOn
+componentbgr,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,187.96,CentOS 7 (64-bit),poweredOn
+componentbgr3,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,246.94,CentOS 7 (64-bit),poweredOn
+ecbgr012002,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.61,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrdsq04,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),570.94,Microsoft Windows Server 2016 or later (64-bit),poweredOn
+ecbrlx01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1227.2,Red Hat Enterprise Linux 7 (64-bit),poweredOn
+ecbrlxav1,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),564.64,Ubuntu Linux (64-bit),poweredOn
+ecbrpra03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprap1,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),371.92,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprap10,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprap12,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprap13,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprap14,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprap15,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprap16,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprap17,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprap2,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,187.96,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrprap21,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprap23,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprap3,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,246.94,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrprap5,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprap6,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprap7,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprarb01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),278.42,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprbi01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),829.76,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcas02,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,125.47,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrprcc01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcert01,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),41.23,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprcf01,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),41.23,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprci1,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,246.94,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrprcl1,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1125.28,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcl10,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1125.28,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprcl11,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcl12,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcl13,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),2246.56,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcl14,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),2246.56,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcl2,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1125.28,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcl5,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1125.28,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcl6,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1125.28,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcl7,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcl8,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprcl9,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1125.28,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprct1,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,252.2,CentOS 7 (64-bit),poweredOn
+ecbrprct2,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,252.2,CentOS 7 (64-bit),poweredOn
+ecbrprct3,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),128.1,Red Hat Enterprise Linux 7 (64-bit),poweredOn
+ecbrprct4,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),66.05,Red Hat Enterprise Linux 7 (64-bit),poweredOn
+ECBRPRE01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrpre02,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1125.28,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprebn01,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,199.96,Microsoft Windows Server 2019 (64-bit),poweredOff
+ecbrprexc01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprexc02,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprf02,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,125.47,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrprf03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),262.42,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprf05,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprf06,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprg1,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),128.1,Other 2.6.x Linux (64-bit),poweredOn
+ecbrprgmi,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),251.74,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprh01,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),41.23,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrprh02,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),187.96,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprh03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprhmb01,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,187.96,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrpris1,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Debian GNU/Linux 9 (64-bit),poweredOn
+ecbrprkc01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprkc02,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprkf01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprkw01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprlx02,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),34.37,Red Hat Enterprise Linux 8 (64-bit),poweredOn
+ecbrprlx04,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,128.1,,poweredOn
+ECBRPRLX07,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Ubuntu Linux (64-bit),poweredOn
+ecbrprlx08,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,461.04,,poweredOn
+ecbrprlx09,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,,poweredOff
+ecbrprlx10,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,Ubuntu Linux (64-bit),poweredOff
+ecbrprlx11,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Ubuntu Linux (64-bit),poweredOn
+ecbrprlx12,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,252.2,Red Hat Enterprise Linux 8 (64-bit),poweredOff
+ecbrprlx13,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Ubuntu Linux (64-bit),poweredOn
+ecbrprlx14,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),34.37,Red Hat Enterprise Linux 8 (64-bit),poweredOn
+ecbrprlx15,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),34.37,Red Hat Enterprise Linux 8 (64-bit),poweredOn
+ecbrprlx16,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Red Hat Enterprise Linux 9 (64-bit),poweredOn
+ecbrprlx16_REQ 2025-046223,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,246.94,,poweredOff
+ecbrprlx17,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),34.37,Ubuntu Linux (64-bit),poweredOn
+ecbrprlx20,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Red Hat Enterprise Linux 9 (64-bit),poweredOn
+ecbrprlx21,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Debian GNU/Linux 4 (64-bit),poweredOn
+ecbrprlxcc,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),371.92,Red Hat Enterprise Linux 8 (64-bit),poweredOn
+ecbrprlxdn01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),252.2,Ubuntu Linux (64-bit),poweredOn
+ecbrprlxdn02,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),252.2,Ubuntu Linux (64-bit),poweredOn
+ecbrprlxgmor,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),126.27,Ubuntu Linux (64-bit),poweredOn
+ecbrprlxgmtr,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,161.47,CentOS 7 (64-bit),poweredOn
+ecbrprmd1,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),187.96,Red Hat Enterprise Linux 8 (64-bit),poweredOn
+ecbrprmd3,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Red Hat Enterprise Linux 9 (64-bit),poweredOn
+ecbrprmn01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,SUSE Linux Enterprise 11 (64-bit),poweredOn
+ecbrprnbk03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1037.68,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprpocq03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprq21,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,246.94,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrprq23,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,187.96,Microsoft Windows Server 2008 R2 (64-bit),poweredOff
+ecbrprq24,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,739.84,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrprq25,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,,poweredOff
+ecbrprq30,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,739.84,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrprq35,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,95.98,,poweredOff
+ecbrprq37,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,262.42,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrprq38,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),371.92,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprq44,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprq45,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1037.68,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprq46,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprq48,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),187.96,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprq49,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprq50,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprq52,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),187.96,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprq55,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprq58,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1475.68,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprq59,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprq62,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),187.96,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprq64,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1037.68,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprq68,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprq69,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1475.68,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprq70,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),371.92,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprq71,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprq72,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprs01,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,26.05,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrprs02,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,26.05,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrprsi11,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),371.92,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprsi12,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2022 (64-bit),poweredOn
+ECBRPRSI13,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2022 (64-bit),poweredOn
+ECBRPRSI14,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprsm1,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprsm4,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprsp01,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,1125.28,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrprsr1,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,,poweredOff
+ecbrprsrm1,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprti01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),2246.56,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprti02,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprti03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),371.92,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprti05,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprti06,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprti08,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprti09,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,246.94,Microsoft Windows Server 2025 (64-bit),poweredOn
+ecbrprvc3,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,187.96,VMware Photon OS (64-bit),poweredOn
+ECBRPRVM01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),262.42,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprw01,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrprw02,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrprw03,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrprw04,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrprw06,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw07,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,133.21,Microsoft Windows Server 2008 (64-bit),poweredOn
+ecbrprw08,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrprw15,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,262.42,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrprw16,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw17,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw19,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,125.47,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrprw20,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,371.92,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrprw25,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw27,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw29,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,41.23,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrprw30,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrprw31,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrprw32,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,520.84,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrprw33,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw35,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,125.47,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrprw38,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1037.68,Microsoft Windows Server 2019 (64-bit),poweredOn
+ECBRPRW38_RFC1335,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1037.68,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw39,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1037.68,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw43,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),187.96,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw44,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),371.92,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw44_RESTORE_REQ_2025-045998,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,187.96,,poweredOff
+ecbrprw45,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw47,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw48,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw49,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1475.68,Microsoft Windows Server 2016 (64-bit),poweredOn
+ECBRPRW49_RFC1335,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1475.68,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw50,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1475.68,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw51,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),262.42,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw52,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw53,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw56,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw57,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw58,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),520.84,Microsoft Windows Server 2016 (64-bit),poweredOn
+ECBRPRW58_RFC1335,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),520.84,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw59,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),520.84,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw60,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw62,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw63,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),125.47,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw64,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),520.84,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw65,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),520.84,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw68,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),262.42,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw69,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw70,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw71,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprw72,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw73,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1037.68,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw74,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw76,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1475.68,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw77,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1475.68,Microsoft Windows Server 2019 (64-bit),poweredOn
+ECBRPRW77_RFC1335,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1475.68,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw83,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),520.84,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw85,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ECBRPRW85_RFC1335,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw86,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw87,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),2246.56,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrprw89,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprw90,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.89,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprw91,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprwe25,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1475.68,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprwe26,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1475.68,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprwe27,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 or later (64-bit),poweredOn
+ecbrprwe31,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 or later (64-bit),poweredOn
+ecbrprwe32,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1037.68,Microsoft Windows Server 2016 or later (64-bit),poweredOn
+ecbrprwe33,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1037.68,Microsoft Windows Server 2016 or later (64-bit),poweredOn
+ecbrprwe34,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),246.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrprwe35,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),371.92,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrprwe36,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),371.92,Microsoft Windows Server 2022 (64-bit),poweredOn
+ECBRPRXDR,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),252.2,Rocky Linux (64-bit),poweredOn
+ecbrtsap1,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),391.92,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsap2,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),265.34,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsap3,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),141.47,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsap4,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),136.67,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsap5,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),284.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsap6,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),258.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsass02,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),256.54,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrtscc01,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),55.63,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtscl03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),405.12,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtscl04,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),405.12,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtscl05,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),404.72,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsf02,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,282.42,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrtsf02clon,Rehost,Lift & Shift estándar,Baja,Baja,Reserved Instances,282.42,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrtsf03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),273.34,Microsoft Windows Server 2019 (64-bit),poweredOn
+ECBRTSF04,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),130.27,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrtsf05,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),138.27,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrtsh01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),278.42,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsh03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),154.27,Microsoft Windows Server 2022 (64-bit),poweredOn
+ECBRTSH04,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),47.63,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrtskc01,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),50.83,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtskf01,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),70.83,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtskw01,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),51.63,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtslx03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),136.1,Ubuntu Linux (64-bit),poweredOn
+ecbrtspocAD_client,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),128.67,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtspoccl01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),134.27,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtspoccl02,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),134.27,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsq10,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,79.63,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrtsq15,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),56.43,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrtsq17,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),632.68,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsq18,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),292.22,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsq18clon,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),284.22,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsq19,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),346.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsq20,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),159.87,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsq21,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),192.67,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsq22,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),267.74,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsq23,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),489.52,Microsoft Windows Server 2019 (64-bit),poweredOn
+ECBRTSQ25,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),439.42,Microsoft Windows Server 2022 (64-bit),poweredOn
+ECBRTSQ27,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),165.47,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrtss01,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,26.85,Microsoft Windows Server 2003 (32-bit),poweredOn
+ecbrtss01clon,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,26.85,Microsoft Windows Server 2003 (32-bit),poweredOn
+ecbrtssg01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),362.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsti01,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),265.34,Microsoft Windows Server 2016 (64-bit),poweredOn
+ECBRTSVM01,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),47.63,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrtsw01,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,134.81,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrtsw02,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,134.81,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrtsw02_clon,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,134.81,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrtsw03,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,134.01,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrtsw04,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,134.01,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrtsw06,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),139.87,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw06_POC,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),139.87,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw07,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,138.01,Microsoft Windows Server 2008 (64-bit),poweredOn
+ecbrtsw08,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,134.81,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrtsw100,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),268.02,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw101,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),268.02,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw102,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),262.14,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw105,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),257.34,Microsoft Windows Server 2019 (64-bit),poweredOn
+ECBRTSW105_POC,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),257.34,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw106,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),257.34,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw107,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),257.34,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw110,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),262.14,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw111,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),131.87,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw112,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),131.87,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw113,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),505.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw113clon,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),262.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw114,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),135.87,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw115,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),262.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw116,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),257.34,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw117,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),257.34,Microsoft Windows Server 2019 (64-bit),poweredOn
+ECBRTSW118,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),276.82,Microsoft Windows Server 2022 (64-bit),poweredOn
+ECBRTSW119,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),137.47,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrtsw12,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,46.83,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrtsw12poc,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,46.83,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrtsw14,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,268.82,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrtsw15,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),258.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw16,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,46.83,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+ecbrtsw17,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),55.63,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrtsw18,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,34.05,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrtsw19,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,28.45,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+ecbrtsw21,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),266.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw22,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),51.63,Microsoft Windows Server 2012 (64-bit),poweredOn
+ecbrtsw25,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),253.34,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw26,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),253.34,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw28,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),252.54,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw29,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),258.14,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw30,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),387.92,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw31,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),57.23,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw32,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),267.74,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw33,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),302.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw34,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),275.22,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw35,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),275.22,Microsoft Windows Server 2016 (64-bit),poweredOn
+ECBRTSW37,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),211.96,Microsoft Windows Server 2022 (64-bit),poweredOn
+ecbrtsw90,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,46.03,Microsoft Windows Server 2008 (64-bit),poweredOn
+ecbrtsw91,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),502.69,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw92,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),1051.28,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw93,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),54.03,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw94,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),274.42,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw95,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),258.94,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw96,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),274.42,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtsw97,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),282.94,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtsw98,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),262.14,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtswe02,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),501.89,Microsoft Windows Server 2016 (64-bit),poweredOn
+ecbrtswe03,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),260.54,Microsoft Windows Server 2016 or later (64-bit),poweredOn
+ecbrtswe04,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),298.42,Microsoft Windows Server 2019 (64-bit),poweredOn
+ecbrtswe05,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),257.34,Microsoft Windows Server 2016 (64-bit),poweredOn
+ECBRTSWE07,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),149.47,Microsoft Windows Server 2022 (64-bit),poweredOn
+OmniStackVC-172-20-45-216,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Ubuntu Linux (64-bit),poweredOn
+OmniStackVC-172-20-45-218,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Ubuntu Linux (64-bit),poweredOn
+OmniStackVC-172-20-45-220,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Ubuntu Linux (64-bit),poweredOn
+OmniStackVC-172-20-45-222,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Ubuntu Linux (64-bit),poweredOn
+OmniStackVC-172-20-45-224,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Ubuntu Linux (64-bit),poweredOn
+OmniStackVC-172-20-45-226,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Ubuntu Linux (64-bit),poweredOn
+OmniStackVC-172-20-45-250,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Ubuntu Linux (64-bit),poweredOn
+OmniStackVC-172-20-45-48,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Ubuntu Linux (64-bit),poweredOn
+OmniStackVC-172-20-45-66,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Ubuntu Linux (64-bit),poweredOn
+OmniStackVC-172-20-45-69,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),739.84,Ubuntu Linux (64-bit),poweredOn
+poc_certificadora,Rehost,Lift & Shift - OS moderno,Media,Baja,Reserved Instances (40% ahorro),520.84,Microsoft Windows Server 2022 (64-bit),poweredOn
+puio186f00,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+srvpro01,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,246.94,Microsoft Windows Server 2003 (32-bit),poweredOn
+Template Server 2022 v21H2-BASE,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,34.37,,poweredOff
+Template Server 2022 v21H2-IIS,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,34.37,,poweredOff
+Template_RedHat_8.9_no_hard,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,34.37,Red Hat Enterprise Linux 8 (64-bit),poweredOff
+Template_server2016_Base,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,34.37,,poweredOff
+Template_W2008R2_Entx64,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,41.23,Microsoft Windows Server 2008 R2 (64-bit),poweredOff
+Template_W2016__BDD_sysprep,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,41.23,Microsoft Windows Server 2016 (64-bit),poweredOff
+Template_W2016_BDD_SQL2016ENT_DOMINIO,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,Microsoft Windows Server 2012 (64-bit),poweredOff
+Template_W2016_IIS_DMZ_PD,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,Microsoft Windows Server 2012 (64-bit),poweredOff
+Template_W2016_IIS_DOMINIO,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,Microsoft Windows Server 2012 (64-bit),poweredOff
+Template_W2016_SinHardening,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,Microsoft Windows Server 2016 or later (64-bit),poweredOff
+Template_W2016_SO_DMZ,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,246.94,Microsoft Windows Server 2016 (64-bit),poweredOff
+Template_W2016_SO_DOMINIO_APP,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,520.84,Microsoft Windows Server 2012 (64-bit),poweredOff
+Template_W2016BDD,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,246.94,Microsoft Windows Server 2016 (64-bit),poweredOff
+Template_W2019_Hardening_Base_Dominio,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,Microsoft Windows Server 2016 (64-bit),poweredOff
+Template_W2019_Hardening_Base_NoDominio,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,Microsoft Windows Server 2016 (64-bit),poweredOff
+Template_w2019_Hardening_IIS_DMZ_Dotnet6_D,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,Microsoft Windows Server 2016 (64-bit),poweredOff
+Template_w2019_Hardening_IIS_DMZ_Dotnet6_p,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,Microsoft Windows Server 2016 (64-bit),poweredOff
+Template_w2019_Hardening_IIS_Dominio_Dotnet6_p,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,125.47,Microsoft Windows Server 2016 (64-bit),poweredOff
+Template_W2019_Hardening_SQL2019STD_Dominio,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,64.74,,poweredOff
+Template_W2019_SinHardening_Base,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,41.23,Microsoft Windows Server 2016 (64-bit),poweredOff
+Template_Win2025-Base,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,34.37,,poweredOff
+Template_Windows2003Standard64bit,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,41.23,Microsoft Windows Server 2003 (64-bit),poweredOff
+Template_WindowsServer2003_BDD2000,Retire,VM apagada - evaluar si es necesaria,Alta,Baja,Eliminar costo completo,41.23,Microsoft Windows Server 2003 (64-bit),poweredOff
+test186com1,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,134.64,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186cw1,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186h01,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,131.61,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186h01clon,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,131.61,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186h02,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186h02clon,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186q01,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,52.03,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186q02,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,86.03,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186q03,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,132.01,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186q04,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,265.34,Microsoft Windows Server 2008 (64-bit),poweredOn
+test186w01,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,131.77,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186w05,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,133.21,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186w06,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,25.25,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186w07,Retire,Windows 2003 EOL - sin soporte desde 2015,Crítica,Alta,Upgrade o containerizar,132.01,Microsoft Windows Server 2003 Standard (32-bit),poweredOn
+test186w09,Replatform,Windows 2008 EOL - upgrade a 2019/2022,Alta,Media,Upgrade antes de migrar,52.03,Microsoft Windows Server 2008 R2 (64-bit),poweredOn
+vCLS-38443851-4131-4d32-3239-34303036374c,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),66.05,VMware Photon CRX (64-bit),poweredOn
+vCLS-394a3153-4138-4d32-3244-314d3031464e,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),66.05,VMware Photon CRX (64-bit),poweredOn
+vCLS-7ee39516-b2fc-442c-b439-bcd5a1fb20ec,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),62.21,VMware Photon OS (64-bit),poweredOn
+vCLS-824960f0-1889-4a7e-9751-667f0d6bcd6b,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),62.21,VMware Photon OS (64-bit),poweredOn
+vCLS-96f9b1cb-1265-4fc6-9b2c-8ccb96119600,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),62.21,VMware Photon OS (64-bit),poweredOn
+vCLS-d3221465-9cf2-42fc-8499-543d7d1670f2,Refactor,Candidato a Lambda o ECS Fargate,Media,Alta,Serverless o containers (40-60% ahorro),62.21,VMware Photon OS (64-bit),poweredOn

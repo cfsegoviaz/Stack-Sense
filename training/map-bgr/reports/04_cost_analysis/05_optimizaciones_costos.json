@@ -1,0 +1,87 @@
+{
+  "strategy_summary": {
+    "vm_name": {
+      "Refactor": 26,
+      "Rehost": 261,
+      "Replatform": 19,
+      "Retire": 77
+    },
+    "current_monthly_cost": {
+      "Refactor": 1440.5,
+      "Rehost": 116298.16,
+      "Replatform": 4506.75,
+      "Retire": 9972.19
+    }
+  },
+  "optimizations": [
+    {
+      "strategy": "Eliminar VMs apagadas",
+      "vms_affected": 33,
+      "monthly_savings": 4259.57,
+      "annual_savings": 51114.84,
+      "implementation": "Inmediata",
+      "risk": "Bajo",
+      "actions": [
+        "Validar con owners si son necesarias",
+        "Crear snapshots antes de eliminar",
+        "Eliminar VMs y recursos asociados"
+      ]
+    },
+    {
+      "strategy": "Reserved Instances (1 año)",
+      "vms_affected": 350,
+      "monthly_savings": 51182.79,
+      "annual_savings": 614193.48,
+      "implementation": "3 meses (después de estabilización)",
+      "risk": "Bajo",
+      "actions": [
+        "Identificar VMs estables (80% del inventario)",
+        "Comprar RIs para instancias más usadas",
+        "Monitorear utilización de RIs"
+      ]
+    },
+    {
+      "strategy": "Spot Instances para Dev/Test",
+      "vms_affected": 70,
+      "monthly_savings": 3884.59,
+      "annual_savings": 46615.04,
+      "implementation": "2-3 meses",
+      "risk": "Bajo",
+      "actions": [
+        "Identificar ambientes no productivos",
+        "Implementar auto-restart en caso de interrupción",
+        "Usar Spot para cargas batch y procesamiento"
+      ]
+    },
+    {
+      "strategy": "Auto Scaling",
+      "vms_affected": 105,
+      "monthly_savings": 20889.25,
+      "annual_savings": 250671.03,
+      "implementation": "3-4 meses",
+      "risk": "Medio",
+      "actions": [
+        "Implementar en aplicaciones web y APIs",
+        "Configurar políticas de scaling (CPU, memoria, requests)",
+        "Definir min/max instancias por aplicación"
+      ]
+    },
+    {
+      "strategy": "Servicios Managed (RDS, Lambda, ECS)",
+      "vms_affected": 35,
+      "monthly_savings": 4193.43,
+      "annual_savings": 50321.2,
+      "implementation": "4-6 meses",
+      "risk": "Alto",
+      "actions": [
+        "Migrar bases de datos a RDS/Aurora",
+        "Refactorizar microservicios a Lambda",
+        "Containerizar aplicaciones en ECS/EKS"
+      ]
+    }
+  ],
+  "total_savings": {
+    "monthly": 84409.63,
+    "annual": 1012915.59
+  }
+}

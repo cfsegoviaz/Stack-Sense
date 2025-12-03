@@ -1,0 +1,384 @@
+vm_name,current_vcpu,current_memory_gb,current_storage_gb,os,powerstate,recommended_instance,instance_vcpu,instance_memory_gb,monthly_compute_usd,monthly_storage_usd,monthly_total_usd,monthly_ri_usd,annual_total_usd,annual_ri_usd
+bgr186a01,4,12.0,50.0,Microsoft Windows Server 2003 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+bgr186a05clon,4,3.36,2183.91,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.xlarge,4,8,258.42,174.71,433.13,259.88,5197.59,3118.55
+bgr186d01,6,26.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.2xlarge,8,64,735.84,4.0,739.84,443.9,8878.08,5326.85
+bgr186d03,5,26.0,50.0,Microsoft Windows Server 2016 or later (64-bit),poweredOn,r5.2xlarge,8,64,735.84,4.0,739.84,443.9,8878.08,5326.85
+bgr186h01,1,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,t3.small,2,2,22.05,4.0,26.05,15.63,312.55,187.53
+bgr186h02,2,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+bgr186pr1,2,2.0,50.02,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.54,959.12
+bgr186q01,4,5.43,50.0,Microsoft Windows Server 2003 (32-bit),poweredOn,c5.xlarge,4,8,258.42,4.0,262.42,157.45,3149.04,1889.42
+bgr186q02,4,5.0,50.0,Microsoft Windows Server 2003 (32-bit),poweredOn,c5.xlarge,4,8,258.42,4.0,262.42,157.45,3149.04,1889.42
+bgr186q05,6,10.0,50.0,Microsoft Windows Server 2008 (64-bit),poweredOn,c5.2xlarge,8,16,516.84,4.0,520.84,312.5,6250.08,3750.05
+bgr186qv1,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+bgr186vm1,2,2.0,50.0,Microsoft Windows 2000 Server,poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+componentbgr,4,18.0,50.0,CentOS 7 (64-bit),poweredOn,r5.xlarge,4,32,183.96,4.0,187.96,112.78,2255.52,1353.31
+componentbgr3,8,16.0,50.0,CentOS 7 (64-bit),poweredOn,t3.2xlarge,8,32,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbgr012002,2,2.0,55.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.4,133.61,80.17,1603.32,961.99
+ecbrdsq04,4,10.0,4100.0,Microsoft Windows Server 2016 or later (64-bit),poweredOn,t3.xlarge,4,16,242.94,328.0,570.94,342.57,6851.33,4110.8
+ecbrlx01,24,72.0,1324.0,Red Hat Enterprise Linux 7 (64-bit),poweredOn,m5.8xlarge,32,128,1121.28,105.92,1227.2,736.32,14726.4,8835.84
+ecbrlxav1,10,40.0,50.0,Ubuntu Linux (64-bit),poweredOn,m5.4xlarge,16,64,560.64,4.0,564.64,338.78,6775.68,4065.41
+ecbrpra03,4,12.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprap1,4,24.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.xlarge,4,32,367.92,4.0,371.92,223.15,4463.04,2677.82
+ecbrprap10,8,20.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprap12,4,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprap13,4,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprap14,4,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprap15,8,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprap16,8,32.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprap17,8,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprap2,2,10.0,50.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,r5.large,2,16,183.96,4.0,187.96,112.78,2255.52,1353.31
+ecbrprap21,4,8.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprap23,2,6.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprap3,3,7.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprap5,4,12.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprap6,2,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprap7,2,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprarb01,4,6.0,250.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.xlarge,4,8,258.42,20.0,278.42,167.05,3341.04,2004.62
+ecbrprbi01,4,64.0,1174.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.2xlarge,8,64,735.84,93.92,829.76,497.86,9957.12,5974.27
+ecbrprcas02,2,6.0,50.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprcc01,2,6.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprcert01,2,4.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.medium,2,4,37.23,4.0,41.23,24.74,494.76,296.86
+ecbrprcf01,2,4.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.medium,2,4,37.23,4.0,41.23,24.74,494.76,296.86
+ecbrprci1,4,16.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprcl1,12,32.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,m5.4xlarge,16,64,1121.28,4.0,1125.28,675.17,13503.36,8102.02
+ecbrprcl10,14,40.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,m5.4xlarge,16,64,1121.28,4.0,1125.28,675.17,13503.36,8102.02
+ecbrprcl11,4,46.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.2xlarge,8,64,735.84,4.0,739.84,443.9,8878.08,5326.85
+ecbrprcl12,4,46.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.2xlarge,8,64,735.84,4.0,739.84,443.9,8878.08,5326.85
+ecbrprcl13,24,80.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,m5.8xlarge,32,128,2242.56,4.0,2246.56,1347.94,26958.72,16175.23
+ecbrprcl14,24,80.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,m5.8xlarge,32,128,2242.56,4.0,2246.56,1347.94,26958.72,16175.23
+ecbrprcl2,12,32.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,m5.4xlarge,16,64,1121.28,4.0,1125.28,675.17,13503.36,8102.02
+ecbrprcl5,12,36.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,m5.4xlarge,16,64,1121.28,4.0,1125.28,675.17,13503.36,8102.02
+ecbrprcl6,12,36.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,m5.4xlarge,16,64,1121.28,4.0,1125.28,675.17,13503.36,8102.02
+ecbrprcl7,8,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprcl8,8,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprcl9,14,40.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,m5.4xlarge,16,64,1121.28,4.0,1125.28,675.17,13503.36,8102.02
+ecbrprct1,8,8.0,50.0,CentOS 7 (64-bit),poweredOn,c5.2xlarge,8,16,248.2,4.0,252.2,151.32,3026.4,1815.84
+ecbrprct2,8,8.0,50.0,CentOS 7 (64-bit),poweredOn,c5.2xlarge,8,16,248.2,4.0,252.2,151.32,3026.4,1815.84
+ecbrprct3,4,4.5,50.0,Red Hat Enterprise Linux 7 (64-bit),poweredOn,c5.xlarge,4,8,124.1,4.0,128.1,76.86,1537.2,922.32
+ecbrprct4,1,1.0,50.0,Red Hat Enterprise Linux 7 (64-bit),poweredOn,c5.large,2,4,62.05,4.0,66.05,39.63,792.6,475.56
+ECBRPRE01,4,12.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrpre02,12,32.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,m5.4xlarge,16,64,1121.28,4.0,1125.28,675.17,13503.36,8102.02
+ecbrprebn01,2,12.0,200.0,Microsoft Windows Server 2019 (64-bit),poweredOff,r5.large,2,16,183.96,16.0,199.96,119.98,2399.52,1439.71
+ecbrprexc01,6,18.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprexc02,6,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprf02,2,6.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprf03,4,6.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,c5.xlarge,4,8,258.42,4.0,262.42,157.45,3149.04,1889.42
+ecbrprf05,4,8.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprf06,4,8.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprg1,4,7.81,50.0,Other 2.6.x Linux (64-bit),poweredOn,c5.xlarge,4,8,124.1,4.0,128.1,76.86,1537.2,922.32
+ecbrprgmi,4,12.0,110.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,8.8,251.74,151.05,3020.93,1812.56
+ecbrprh01,2,4.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOn,t3.medium,2,4,37.23,4.0,41.23,24.74,494.76,296.86
+ecbrprh02,2,10.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.large,2,16,183.96,4.0,187.96,112.78,2255.52,1353.31
+ecbrprh03,4,8.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprhmb01,2,16.0,50.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,r5.large,2,16,183.96,4.0,187.96,112.78,2255.52,1353.31
+ecbrpris1,4,8.0,50.0,Debian GNU/Linux 9 (64-bit),poweredOn,t3.xlarge,4,16,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprkc01,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprkc02,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprkf01,2,6.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprkw01,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprlx02,2,4.0,50.0,Red Hat Enterprise Linux 8 (64-bit),poweredOn,t3.medium,2,4,30.37,4.0,34.37,20.62,412.42,247.45
+ecbrprlx04,4,4.0,50.0,nan,poweredOn,c5.xlarge,4,8,124.1,4.0,128.1,76.86,1537.2,922.32
+ECBRPRLX07,10,80.0,50.0,Ubuntu Linux (64-bit),poweredOn,r5.4xlarge,16,128,735.84,4.0,739.84,443.9,8878.08,5326.85
+ecbrprlx08,4,64.0,1164.0,nan,poweredOn,r5.2xlarge,8,64,367.92,93.12,461.04,276.62,5532.48,3319.49
+ecbrprlx09,4,8.0,50.0,nan,poweredOff,t3.xlarge,4,16,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprlx10,4,8.0,50.0,Ubuntu Linux (64-bit),poweredOff,t3.xlarge,4,16,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprlx11,4,8.0,50.0,Ubuntu Linux (64-bit),poweredOn,t3.xlarge,4,16,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprlx12,6,8.0,50.0,Red Hat Enterprise Linux 8 (64-bit),poweredOff,c5.2xlarge,8,16,248.2,4.0,252.2,151.32,3026.4,1815.84
+ecbrprlx13,4,8.0,50.0,Ubuntu Linux (64-bit),poweredOn,t3.xlarge,4,16,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprlx14,2,4.0,50.0,Red Hat Enterprise Linux 8 (64-bit),poweredOn,t3.medium,2,4,30.37,4.0,34.37,20.62,412.42,247.45
+ecbrprlx15,2,4.0,50.0,Red Hat Enterprise Linux 8 (64-bit),poweredOn,t3.medium,2,4,30.37,4.0,34.37,20.62,412.42,247.45
+ecbrprlx16,8,32.0,50.0,Red Hat Enterprise Linux 9 (64-bit),poweredOn,t3.2xlarge,8,32,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprlx16_REQ 2025-046223,8,32.0,50.0,nan,poweredOff,t3.2xlarge,8,32,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprlx17,2,4.0,50.0,Ubuntu Linux (64-bit),poweredOn,t3.medium,2,4,30.37,4.0,34.37,20.62,412.42,247.45
+ecbrprlx20,4,8.0,50.0,Red Hat Enterprise Linux 9 (64-bit),poweredOn,t3.xlarge,4,16,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprlx21,4,16.0,50.0,Debian GNU/Linux 4 (64-bit),poweredOn,t3.xlarge,4,16,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprlxcc,4,40.0,50.0,Red Hat Enterprise Linux 8 (64-bit),poweredOn,r5.2xlarge,8,64,367.92,4.0,371.92,223.15,4463.04,2677.82
+ecbrprlxdn01,8,8.0,50.0,Ubuntu Linux (64-bit),poweredOn,c5.2xlarge,8,16,248.2,4.0,252.2,151.32,3026.4,1815.84
+ecbrprlxdn02,8,8.0,50.0,Ubuntu Linux (64-bit),poweredOn,c5.2xlarge,8,16,248.2,4.0,252.2,151.32,3026.4,1815.84
+ecbrprlxgmor,4,8.0,60.0,Ubuntu Linux (64-bit),poweredOn,t3.xlarge,4,16,121.47,4.8,126.27,75.76,1515.26,909.16
+ecbrprlxgmtr,4,12.0,500.0,CentOS 7 (64-bit),poweredOn,t3.xlarge,4,16,121.47,40.0,161.47,96.88,1937.66,1162.6
+ecbrprmd1,4,20.0,50.0,Red Hat Enterprise Linux 8 (64-bit),poweredOn,r5.xlarge,4,32,183.96,4.0,187.96,112.78,2255.52,1353.31
+ecbrprmd3,4,16.0,50.0,Red Hat Enterprise Linux 9 (64-bit),poweredOn,t3.xlarge,4,16,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprmn01,4,11.0,50.0,SUSE Linux Enterprise 11 (64-bit),poweredOn,t3.xlarge,4,16,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprnbk03,12,16.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,c5.4xlarge,16,32,1033.68,4.0,1037.68,622.61,12452.16,7471.3
+ecbrprpocq03,8,16.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprq21,4,11.0,50.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprq23,2,16.0,50.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOff,r5.large,2,16,183.96,4.0,187.96,112.78,2255.52,1353.31
+ecbrprq24,8,36.0,50.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,r5.2xlarge,8,64,735.84,4.0,739.84,443.9,8878.08,5326.85
+ecbrprq25,4,12.0,50.0,nan,poweredOff,t3.xlarge,4,16,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprq30,8,56.0,50.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,r5.2xlarge,8,64,735.84,4.0,739.84,443.9,8878.08,5326.85
+ecbrprq35,2,12.0,50.0,nan,poweredOff,r5.large,2,16,91.98,4.0,95.98,57.59,1151.76,691.06
+ecbrprq37,4,4.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.xlarge,4,8,258.42,4.0,262.42,157.45,3149.04,1889.42
+ecbrprq38,4,30.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,r5.xlarge,4,32,367.92,4.0,371.92,223.15,4463.04,2677.82
+ecbrprq44,8,30.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprq45,16,24.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.4xlarge,16,32,1033.68,4.0,1037.68,622.61,12452.16,7471.3
+ecbrprq46,8,24.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprq48,2,12.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.large,2,16,183.96,4.0,187.96,112.78,2255.52,1353.31
+ecbrprq49,4,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprq50,8,18.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprq52,2,12.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.large,2,16,183.96,4.0,187.96,112.78,2255.52,1353.31
+ecbrprq55,4,13.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprq58,12,64.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,r5.4xlarge,16,128,1471.68,4.0,1475.68,885.41,17708.16,10624.9
+ecbrprq59,8,20.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprq62,2,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.large,2,16,183.96,4.0,187.96,112.78,2255.52,1353.31
+ecbrprq64,16,18.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,c5.4xlarge,16,32,1033.68,4.0,1037.68,622.61,12452.16,7471.3
+ecbrprq68,4,16.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprq69,12,120.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,r5.4xlarge,16,128,1471.68,4.0,1475.68,885.41,17708.16,10624.9
+ecbrprq70,4,24.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,r5.xlarge,4,32,367.92,4.0,371.92,223.15,4463.04,2677.82
+ecbrprq71,6,40.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,r5.2xlarge,8,64,735.84,4.0,739.84,443.9,8878.08,5326.85
+ecbrprq72,4,16.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprs01,1,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,t3.small,2,2,22.05,4.0,26.05,15.63,312.55,187.53
+ecbrprs02,1,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,t3.small,2,2,22.05,4.0,26.05,15.63,312.55,187.53
+ecbrprsi11,4,24.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,r5.xlarge,4,32,367.92,4.0,371.92,223.15,4463.04,2677.82
+ecbrprsi12,4,8.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ECBRPRSI13,2,6.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ECBRPRSI14,2,6.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprsm1,2,8.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprsm4,6,20.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprsp01,16,32.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOn,m5.4xlarge,16,64,1121.28,4.0,1125.28,675.17,13503.36,8102.02
+ecbrprsr1,4,16.0,50.0,nan,poweredOff,t3.xlarge,4,16,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprsrm1,2,5.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprti01,18,22.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,m5.8xlarge,32,128,2242.56,4.0,2246.56,1347.94,26958.72,16175.23
+ecbrprti02,8,28.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprti03,4,20.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.xlarge,4,32,367.92,4.0,371.92,223.15,4463.04,2677.82
+ecbrprti05,8,24.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprti06,4,12.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprti08,4,16.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprti09,4,16.0,50.0,Microsoft Windows Server 2025 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprvc3,4,21.0,50.0,VMware Photon OS (64-bit),poweredOn,r5.xlarge,4,32,183.96,4.0,187.96,112.78,2255.52,1353.31
+ECBRPRVM01,4,4.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,c5.xlarge,4,8,258.42,4.0,262.42,157.45,3149.04,1889.42
+ecbrprw01,2,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+ecbrprw02,2,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+ecbrprw03,2,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+ecbrprw04,2,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+ecbrprw06,2,6.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprw07,2,2.86,50.0,Microsoft Windows Server 2008 (64-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+ecbrprw08,2,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+ecbrprw15,4,4.0,50.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,c5.xlarge,4,8,258.42,4.0,262.42,157.45,3149.04,1889.42
+ecbrprw16,4,8.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw17,4,8.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw19,2,6.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprw20,4,18.0,50.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,r5.xlarge,4,32,367.92,4.0,371.92,223.15,4463.04,2677.82
+ecbrprw25,4,8.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw27,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw29,2,4.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,t3.medium,2,4,37.23,4.0,41.23,24.74,494.76,296.86
+ecbrprw30,1,1.86,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+ecbrprw31,2,3.61,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+ecbrprw32,8,8.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOn,c5.2xlarge,8,16,516.84,4.0,520.84,312.5,6250.08,3750.05
+ecbrprw33,8,16.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprw35,2,8.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprw38,10,16.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,c5.4xlarge,16,32,1033.68,4.0,1037.68,622.61,12452.16,7471.3
+ECBRPRW38_RFC1335,10,16.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,c5.4xlarge,16,32,1033.68,4.0,1037.68,622.61,12452.16,7471.3
+ecbrprw39,10,16.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,c5.4xlarge,16,32,1033.68,4.0,1037.68,622.61,12452.16,7471.3
+ecbrprw43,2,12.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,r5.large,2,16,183.96,4.0,187.96,112.78,2255.52,1353.31
+ecbrprw44,4,20.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.xlarge,4,32,367.92,4.0,371.92,223.15,4463.04,2677.82
+ecbrprw44_RESTORE_REQ_2025-045998,4,20.0,50.0,nan,poweredOff,r5.xlarge,4,32,183.96,4.0,187.96,112.78,2255.52,1353.31
+ecbrprw45,8,20.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprw47,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw48,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw49,14,60.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.4xlarge,16,128,1471.68,4.0,1475.68,885.41,17708.16,10624.9
+ECBRPRW49_RFC1335,14,60.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.4xlarge,16,128,1471.68,4.0,1475.68,885.41,17708.16,10624.9
+ecbrprw50,14,60.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.4xlarge,16,128,1471.68,4.0,1475.68,885.41,17708.16,10624.9
+ecbrprw51,4,7.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.xlarge,4,8,258.42,4.0,262.42,157.45,3149.04,1889.42
+ecbrprw52,4,12.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw53,4,12.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw56,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw57,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw58,6,10.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.2xlarge,8,16,516.84,4.0,520.84,312.5,6250.08,3750.05
+ECBRPRW58_RFC1335,6,10.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.2xlarge,8,16,516.84,4.0,520.84,312.5,6250.08,3750.05
+ecbrprw59,6,10.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.2xlarge,8,16,516.84,4.0,520.84,312.5,6250.08,3750.05
+ecbrprw60,6,24.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprw62,2,6.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprw63,2,6.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+ecbrprw64,8,10.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.2xlarge,8,16,516.84,4.0,520.84,312.5,6250.08,3750.05
+ecbrprw65,8,10.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.2xlarge,8,16,516.84,4.0,520.84,312.5,6250.08,3750.05
+ecbrprw68,4,6.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.xlarge,4,8,258.42,4.0,262.42,157.45,3149.04,1889.42
+ecbrprw69,4,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw70,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw71,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw72,4,12.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw73,10,16.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,c5.4xlarge,16,32,1033.68,4.0,1037.68,622.61,12452.16,7471.3
+ecbrprw74,4,8.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw76,12,64.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,r5.4xlarge,16,128,1471.68,4.0,1475.68,885.41,17708.16,10624.9
+ecbrprw77,12,64.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,r5.4xlarge,16,128,1471.68,4.0,1475.68,885.41,17708.16,10624.9
+ECBRPRW77_RFC1335,12,64.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,r5.4xlarge,16,128,1471.68,4.0,1475.68,885.41,17708.16,10624.9
+ecbrprw83,8,10.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,c5.2xlarge,8,16,516.84,4.0,520.84,312.5,6250.08,3750.05
+ecbrprw85,4,12.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ECBRPRW85_RFC1335,4,12.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw86,4,12.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprw87,20,32.0,50.0,Microsoft Windows Server 2019 (64-bit),poweredOn,m5.8xlarge,32,128,2242.56,4.0,2246.56,1347.94,26958.72,16175.23
+ecbrprw89,8,32.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprw90,8,32.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,4.0,489.89,293.93,5878.66,3527.19
+ecbrprw91,4,12.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprwe25,12,64.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.4xlarge,16,128,1471.68,4.0,1475.68,885.41,17708.16,10624.9
+ecbrprwe26,12,64.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.4xlarge,16,128,1471.68,4.0,1475.68,885.41,17708.16,10624.9
+ecbrprwe27,4,8.0,50.0,Microsoft Windows Server 2016 or later (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprwe31,4,8.0,50.0,Microsoft Windows Server 2016 or later (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprwe32,10,12.0,50.0,Microsoft Windows Server 2016 or later (64-bit),poweredOn,c5.4xlarge,16,32,1033.68,4.0,1037.68,622.61,12452.16,7471.3
+ecbrprwe33,10,12.0,50.0,Microsoft Windows Server 2016 or later (64-bit),poweredOn,c5.4xlarge,16,32,1033.68,4.0,1037.68,622.61,12452.16,7471.3
+ecbrprwe34,4,12.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+ecbrprwe35,2,27.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,r5.xlarge,4,32,367.92,4.0,371.92,223.15,4463.04,2677.82
+ecbrprwe36,2,27.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,r5.xlarge,4,32,367.92,4.0,371.92,223.15,4463.04,2677.82
+ECBRPRXDR,8,12.09,50.0,Rocky Linux (64-bit),poweredOn,c5.2xlarge,8,16,248.2,4.0,252.2,151.32,3026.4,1815.84
+ecbrtsap1,4,24.0,300.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.xlarge,4,32,367.92,24.0,391.92,235.15,4703.04,2821.82
+ecbrtsap2,4,16.0,280.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,22.4,265.34,159.21,3184.13,1910.48
+ecbrtsap3,2,8.0,250.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,20.0,141.47,84.88,1697.66,1018.6
+ecbrtsap4,2,8.0,190.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,15.2,136.67,82.0,1640.06,984.04
+ecbrtsap5,4,8.0,525.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,42.0,284.94,170.97,3419.33,2051.6
+ecbrtsap6,4,8.0,200.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,16.0,258.94,155.37,3107.33,1864.4
+ecbrtsass02,4,8.0,170.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.xlarge,4,16,242.94,13.6,256.54,153.93,3078.53,1847.12
+ecbrtscc01,2,4.0,230.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.medium,2,4,37.23,18.4,55.63,33.38,667.56,400.54
+ecbrtscl03,4,20.0,465.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.xlarge,4,32,367.92,37.2,405.12,243.07,4861.44,2916.86
+ecbrtscl04,4,20.0,465.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.xlarge,4,32,367.92,37.2,405.12,243.07,4861.44,2916.86
+ecbrtscl05,4,20.0,460.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.xlarge,4,32,367.92,36.8,404.72,242.83,4856.64,2913.98
+ecbrtsf02,4,4.0,300.0,Microsoft Windows Server 2012 (64-bit),poweredOn,c5.xlarge,4,8,258.42,24.0,282.42,169.45,3389.04,2033.42
+ecbrtsf02clon,4,4.0,300.0,Microsoft Windows Server 2012 (64-bit),poweredOn,c5.xlarge,4,8,258.42,24.0,282.42,169.45,3389.04,2033.42
+ecbrtsf03,4,8.0,380.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,30.4,273.34,164.01,3280.13,1968.08
+ECBRTSF04,2,8.0,110.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.large,2,8,121.47,8.8,130.27,78.16,1563.26,937.96
+ecbrtsf05,2,6.0,210.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.large,2,8,121.47,16.8,138.27,82.96,1659.26,995.56
+ecbrtsh01,4,4.0,250.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.xlarge,4,8,258.42,20.0,278.42,167.05,3341.04,2004.62
+ecbrtsh03,2,6.0,410.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.large,2,8,121.47,32.8,154.27,92.56,1851.26,1110.76
+ECBRTSH04,2,4.0,130.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.medium,2,4,37.23,10.4,47.63,28.58,571.56,342.94
+ecbrtskc01,2,4.0,170.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.medium,2,4,37.23,13.6,50.83,30.5,609.96,365.98
+ecbrtskf01,2,4.0,420.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.medium,2,4,37.23,33.6,70.83,42.5,849.96,509.98
+ecbrtskw01,2,4.0,180.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.medium,2,4,37.23,14.4,51.63,30.98,619.56,371.74
+ecbrtslx03,3,4.0,150.0,Ubuntu Linux (64-bit),poweredOn,c5.xlarge,4,8,124.1,12.0,136.1,81.66,1633.2,979.92
+ecbrtspocAD_client,2,6.0,90.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.large,2,8,121.47,7.2,128.67,77.2,1544.06,926.44
+ecbrtspoccl01,2,8.0,160.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,12.8,134.27,80.56,1611.26,966.76
+ecbrtspoccl02,2,8.0,160.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,12.8,134.27,80.56,1611.26,966.76
+ecbrtsq10,2,4.0,530.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,t3.medium,2,4,37.23,42.4,79.63,47.78,955.56,573.34
+ecbrtsq15,2,4.0,240.0,Microsoft Windows Server 2012 (64-bit),poweredOn,t3.medium,2,4,37.23,19.2,56.43,33.86,677.16,406.3
+ecbrtsq17,4,10.0,4871.64,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,389.73,632.68,379.61,7592.1,4555.26
+ecbrtsq18,4,14.0,616.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,49.28,292.22,175.33,3506.69,2104.01
+ecbrtsq18clon,4,14.0,516.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,41.28,284.22,170.53,3410.69,2046.41
+ecbrtsq19,4,8.0,1300.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,104.0,346.94,208.17,4163.33,2498.0
+ecbrtsq20,2,5.0,480.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,38.4,159.87,95.92,1918.46,1151.08
+ecbrtsq21,2,6.0,890.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,71.2,192.67,115.6,2312.06,1387.24
+ecbrtsq22,4,16.0,310.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,24.8,267.74,160.65,3212.93,1927.76
+ecbrtsq23,4,24.0,1520.0,Microsoft Windows Server 2019 (64-bit),poweredOn,r5.xlarge,4,32,367.92,121.6,489.52,293.71,5874.24,3524.54
+ECBRTSQ25,4,14.0,2456.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.xlarge,4,16,242.94,196.48,439.42,263.65,5273.09,3163.85
+ECBRTSQ27,2,6.0,550.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.large,2,8,121.47,44.0,165.47,99.28,1985.66,1191.4
+ecbrtss01,1,2.0,60.0,Microsoft Windows Server 2003 (32-bit),poweredOn,t3.small,2,2,22.05,4.8,26.85,16.11,322.15,193.29
+ecbrtss01clon,1,2.0,60.0,Microsoft Windows Server 2003 (32-bit),poweredOn,t3.small,2,2,22.05,4.8,26.85,16.11,322.15,193.29
+ecbrtssg01,4,8.0,1500.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,120.0,362.94,217.77,4355.33,2613.2
+ecbrtsti01,4,10.0,280.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,22.4,265.34,159.21,3184.13,1910.48
+ECBRTSVM01,2,4.0,130.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.medium,2,4,37.23,10.4,47.63,28.58,571.56,342.94
+ecbrtsw01,2,2.0,70.01,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,5.6,134.81,80.89,1617.73,970.64
+ecbrtsw02,2,2.0,70.01,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,5.6,134.81,80.89,1617.73,970.64
+ecbrtsw02_clon,2,2.0,70.01,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,5.6,134.81,80.89,1617.73,970.64
+ecbrtsw03,2,2.0,60.02,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.8,134.01,80.41,1608.14,964.88
+ecbrtsw04,2,2.0,60.02,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.8,134.01,80.41,1608.14,964.88
+ecbrtsw06,2,6.0,230.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,18.4,139.87,83.92,1678.46,1007.08
+ecbrtsw06_POC,2,6.0,230.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,18.4,139.87,83.92,1678.46,1007.08
+ecbrtsw07,2,3.0,110.0,Microsoft Windows Server 2008 (64-bit),poweredOn,c5.large,2,4,129.21,8.8,138.01,82.81,1656.12,993.67
+ecbrtsw08,2,2.0,70.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,5.6,134.81,80.89,1617.72,970.63
+ecbrtsw100,4,4.0,120.0,Microsoft Windows Server 2019 (64-bit),poweredOn,c5.xlarge,4,8,258.42,9.6,268.02,160.81,3216.24,1929.74
+ecbrtsw101,4,4.0,120.0,Microsoft Windows Server 2019 (64-bit),poweredOn,c5.xlarge,4,8,258.42,9.6,268.02,160.81,3216.24,1929.74
+ecbrtsw102,4,14.0,240.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,19.2,262.14,157.29,3145.73,1887.44
+ecbrtsw105,4,10.0,180.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,14.4,257.34,154.41,3088.13,1852.88
+ECBRTSW105_POC,4,12.0,180.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,14.4,257.34,154.41,3088.13,1852.88
+ecbrtsw106,4,8.0,180.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,14.4,257.34,154.41,3088.13,1852.88
+ecbrtsw107,4,8.0,180.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,14.4,257.34,154.41,3088.13,1852.88
+ecbrtsw110,4,8.0,240.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,19.2,262.14,157.29,3145.73,1887.44
+ecbrtsw111,2,6.0,130.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,10.4,131.87,79.12,1582.46,949.48
+ecbrtsw112,2,6.0,130.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.large,2,8,121.47,10.4,131.87,79.12,1582.46,949.48
+ecbrtsw113,6,16.0,250.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,20.0,505.89,303.53,6070.66,3642.39
+ecbrtsw113clon,4,12.0,250.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,20.0,262.94,157.77,3155.33,1893.2
+ecbrtsw114,2,8.0,180.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.large,2,8,121.47,14.4,135.87,81.52,1630.46,978.28
+ecbrtsw115,4,14.0,250.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,20.0,262.94,157.77,3155.33,1893.2
+ecbrtsw116,4,8.0,180.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,14.4,257.34,154.41,3088.13,1852.88
+ecbrtsw117,4,10.0,180.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,14.4,257.34,154.41,3088.13,1852.88
+ECBRTSW118,4,6.0,230.0,Microsoft Windows Server 2022 (64-bit),poweredOn,c5.xlarge,4,8,258.42,18.4,276.82,166.09,3321.84,1993.1
+ECBRTSW119,2,8.0,200.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.large,2,8,121.47,16.0,137.47,82.48,1649.66,989.8
+ecbrtsw12,2,4.0,120.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,t3.medium,2,4,37.23,9.6,46.83,28.1,561.96,337.18
+ecbrtsw12poc,2,4.0,120.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,t3.medium,2,4,37.23,9.6,46.83,28.1,561.96,337.18
+ecbrtsw14,4,4.0,130.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,c5.xlarge,4,8,258.42,10.4,268.82,161.29,3225.84,1935.5
+ecbrtsw15,4,8.0,200.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,16.0,258.94,155.37,3107.33,1864.4
+ecbrtsw16,2,4.0,120.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,t3.medium,2,4,37.23,9.6,46.83,28.1,561.96,337.18
+ecbrtsw17,2,4.0,230.0,Microsoft Windows Server 2012 (64-bit),poweredOn,t3.medium,2,4,37.23,18.4,55.63,33.38,667.56,400.54
+ecbrtsw18,1,2.0,150.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,t3.small,2,2,22.05,12.0,34.05,20.43,408.55,245.13
+ecbrtsw19,1,2.0,80.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,t3.small,2,2,22.05,6.4,28.45,17.07,341.35,204.81
+ecbrtsw21,4,8.0,300.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,24.0,266.94,160.17,3203.33,1922.0
+ecbrtsw22,1,3.0,180.0,Microsoft Windows Server 2012 (64-bit),poweredOn,t3.medium,2,4,37.23,14.4,51.63,30.98,619.56,371.74
+ecbrtsw25,4,8.0,130.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,10.4,253.34,152.01,3040.13,1824.08
+ecbrtsw26,4,8.0,130.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,10.4,253.34,152.01,3040.13,1824.08
+ecbrtsw28,4,8.0,120.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,9.6,252.54,151.53,3030.53,1818.32
+ecbrtsw29,4,8.0,190.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,15.2,258.14,154.89,3097.73,1858.64
+ecbrtsw30,4,18.0,250.0,Microsoft Windows Server 2016 (64-bit),poweredOn,r5.xlarge,4,32,367.92,20.0,387.92,232.75,4655.04,2793.02
+ecbrtsw31,2,4.0,250.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.medium,2,4,37.23,20.0,57.23,34.34,686.76,412.06
+ecbrtsw32,4,8.0,310.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,24.8,267.74,160.65,3212.93,1927.76
+ecbrtsw33,4,8.0,750.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,60.0,302.94,181.77,3635.33,2181.2
+ecbrtsw34,4,6.0,210.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.xlarge,4,8,258.42,16.8,275.22,165.13,3302.64,1981.58
+ecbrtsw35,4,6.0,210.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.xlarge,4,8,258.42,16.8,275.22,165.13,3302.64,1981.58
+ECBRTSW37,2,10.0,350.0,Microsoft Windows Server 2022 (64-bit),poweredOn,r5.large,2,16,183.96,28.0,211.96,127.18,2543.52,1526.11
+ecbrtsw90,2,4.0,110.0,Microsoft Windows Server 2008 (64-bit),poweredOn,t3.medium,2,4,37.23,8.8,46.03,27.62,552.36,331.42
+ecbrtsw91,6,12.0,210.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,16.8,502.69,301.61,6032.26,3619.35
+ecbrtsw92,10,16.0,220.0,Microsoft Windows Server 2019 (64-bit),poweredOn,c5.4xlarge,16,32,1033.68,17.6,1051.28,630.77,12615.36,7569.22
+ecbrtsw93,2,4.0,210.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.medium,2,4,37.23,16.8,54.03,32.42,648.36,389.02
+ecbrtsw94,4,4.0,200.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.xlarge,4,8,258.42,16.0,274.42,164.65,3293.04,1975.82
+ecbrtsw95,4,8.0,200.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,16.0,258.94,155.37,3107.33,1864.4
+ecbrtsw96,4,6.0,200.0,Microsoft Windows Server 2016 (64-bit),poweredOn,c5.xlarge,4,8,258.42,16.0,274.42,164.65,3293.04,1975.82
+ecbrtsw97,4,10.0,500.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,40.0,282.94,169.77,3395.33,2037.2
+ecbrtsw98,4,8.0,240.0,Microsoft Windows Server 2019 (64-bit),poweredOn,t3.xlarge,4,16,242.94,19.2,262.14,157.29,3145.73,1887.44
+ecbrtswe02,6,16.0,200.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.2xlarge,8,32,485.89,16.0,501.89,301.13,6022.66,3613.59
+ecbrtswe03,4,8.0,220.0,Microsoft Windows Server 2016 or later (64-bit),poweredOn,t3.xlarge,4,16,242.94,17.6,260.54,156.33,3126.53,1875.92
+ecbrtswe04,4,6.0,500.0,Microsoft Windows Server 2019 (64-bit),poweredOn,c5.xlarge,4,8,258.42,40.0,298.42,179.05,3581.04,2148.62
+ecbrtswe05,4,12.0,180.0,Microsoft Windows Server 2016 (64-bit),poweredOn,t3.xlarge,4,16,242.94,14.4,257.34,154.41,3088.13,1852.88
+ECBRTSWE07,2,5.0,350.0,Microsoft Windows Server 2022 (64-bit),poweredOn,t3.large,2,8,121.47,28.0,149.47,89.68,1793.66,1076.2
+OmniStackVC-172-20-45-216,6,108.0,50.0,Ubuntu Linux (64-bit),poweredOn,r5.4xlarge,16,128,735.84,4.0,739.84,443.9,8878.08,5326.85
+OmniStackVC-172-20-45-218,6,108.0,50.0,Ubuntu Linux (64-bit),poweredOn,r5.4xlarge,16,128,735.84,4.0,739.84,443.9,8878.08,5326.85
+OmniStackVC-172-20-45-220,6,108.0,50.0,Ubuntu Linux (64-bit),poweredOn,r5.4xlarge,16,128,735.84,4.0,739.84,443.9,8878.08,5326.85
+OmniStackVC-172-20-45-222,6,108.0,50.0,Ubuntu Linux (64-bit),poweredOn,r5.4xlarge,16,128,735.84,4.0,739.84,443.9,8878.08,5326.85
+OmniStackVC-172-20-45-224,6,108.0,50.0,Ubuntu Linux (64-bit),poweredOn,r5.4xlarge,16,128,735.84,4.0,739.84,443.9,8878.08,5326.85
+OmniStackVC-172-20-45-226,6,108.0,50.0,Ubuntu Linux (64-bit),poweredOn,r5.4xlarge,16,128,735.84,4.0,739.84,443.9,8878.08,5326.85
+OmniStackVC-172-20-45-250,8,92.0,50.0,Ubuntu Linux (64-bit),poweredOn,r5.4xlarge,16,128,735.84,4.0,739.84,443.9,8878.08,5326.85
+OmniStackVC-172-20-45-48,8,68.0,50.0,Ubuntu Linux (64-bit),poweredOn,r5.4xlarge,16,128,735.84,4.0,739.84,443.9,8878.08,5326.85
+OmniStackVC-172-20-45-66,8,68.0,50.0,Ubuntu Linux (64-bit),poweredOn,r5.4xlarge,16,128,735.84,4.0,739.84,443.9,8878.08,5326.85
+OmniStackVC-172-20-45-69,8,68.0,50.0,Ubuntu Linux (64-bit),poweredOn,r5.4xlarge,16,128,735.84,4.0,739.84,443.9,8878.08,5326.85
+poc_certificadora,6,10.0,50.0,Microsoft Windows Server 2022 (64-bit),poweredOn,c5.2xlarge,8,16,516.84,4.0,520.84,312.5,6250.08,3750.05
+puio186f00,2,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+srvpro01,4,10.0,50.0,Microsoft Windows Server 2003 (32-bit),poweredOn,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+Template Server 2022 v21H2-BASE,2,4.0,50.0,nan,poweredOff,t3.medium,2,4,30.37,4.0,34.37,20.62,412.42,247.45
+Template Server 2022 v21H2-IIS,2,4.0,50.0,nan,poweredOff,t3.medium,2,4,30.37,4.0,34.37,20.62,412.42,247.45
+Template_RedHat_8.9_no_hard,2,4.0,50.0,Red Hat Enterprise Linux 8 (64-bit),poweredOff,t3.medium,2,4,30.37,4.0,34.37,20.62,412.42,247.45
+Template_server2016_Base,2,4.0,50.0,nan,poweredOff,t3.medium,2,4,30.37,4.0,34.37,20.62,412.42,247.45
+Template_W2008R2_Entx64,2,4.0,50.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOff,t3.medium,2,4,37.23,4.0,41.23,24.74,494.76,296.86
+Template_W2016__BDD_sysprep,2,4.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOff,t3.medium,2,4,37.23,4.0,41.23,24.74,494.76,296.86
+Template_W2016_BDD_SQL2016ENT_DOMINIO,2,6.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOff,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+Template_W2016_IIS_DMZ_PD,2,6.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOff,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+Template_W2016_IIS_DOMINIO,2,6.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOff,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+Template_W2016_SinHardening,2,6.0,50.0,Microsoft Windows Server 2016 or later (64-bit),poweredOff,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+Template_W2016_SO_DMZ,4,8.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOff,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+Template_W2016_SO_DOMINIO_APP,6,10.0,50.0,Microsoft Windows Server 2012 (64-bit),poweredOff,c5.2xlarge,8,16,516.84,4.0,520.84,312.5,6250.08,3750.05
+Template_W2016BDD,4,16.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOff,t3.xlarge,4,16,242.94,4.0,246.94,148.17,2963.33,1778.0
+Template_W2019_Hardening_Base_Dominio,2,6.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOff,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+Template_W2019_Hardening_Base_NoDominio,2,6.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOff,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+Template_w2019_Hardening_IIS_DMZ_Dotnet6_D,2,6.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOff,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+Template_w2019_Hardening_IIS_DMZ_Dotnet6_p,2,6.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOff,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+Template_w2019_Hardening_IIS_Dominio_Dotnet6_p,2,6.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOff,t3.large,2,8,121.47,4.0,125.47,75.28,1505.66,903.4
+Template_W2019_Hardening_SQL2019STD_Dominio,2,6.0,50.0,nan,poweredOff,t3.large,2,8,60.74,4.0,64.74,38.84,776.83,466.1
+Template_W2019_SinHardening_Base,2,4.0,50.0,Microsoft Windows Server 2016 (64-bit),poweredOff,t3.medium,2,4,37.23,4.0,41.23,24.74,494.76,296.86
+Template_Win2025-Base,2,4.0,50.0,nan,poweredOff,t3.medium,2,4,30.37,4.0,34.37,20.62,412.42,247.45
+Template_Windows2003Standard64bit,2,4.0,50.0,Microsoft Windows Server 2003 (64-bit),poweredOff,t3.medium,2,4,37.23,4.0,41.23,24.74,494.76,296.86
+Template_WindowsServer2003_BDD2000,2,4.0,50.0,Microsoft Windows Server 2003 (64-bit),poweredOff,t3.medium,2,4,37.23,4.0,41.23,24.74,494.76,296.86
+test186com1,2,3.0,67.86,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,5.43,134.64,80.78,1615.66,969.4
+test186cw1,2,2.0,50.02,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.54,959.12
+test186h01,2,2.0,30.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,2.4,131.61,78.97,1579.32,947.59
+test186h01clon,2,2.0,30.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,2.4,131.61,78.97,1579.32,947.59
+test186h02,2,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+test186h02clon,2,2.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+test186q01,2,4.0,185.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,t3.medium,2,4,37.23,14.8,52.03,31.22,624.36,374.62
+test186q02,1,3.0,610.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,t3.medium,2,4,37.23,48.8,86.03,51.62,1032.36,619.42
+test186q03,2,1.0,35.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,2.8,132.01,79.21,1584.12,950.47
+test186q04,4,10.0,280.0,Microsoft Windows Server 2008 (64-bit),poweredOn,t3.xlarge,4,16,242.94,22.4,265.34,159.21,3184.13,1910.48
+test186w01,1,0.68,32.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,2.56,131.77,79.06,1581.24,948.74
+test186w05,2,1.0,50.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,4.0,133.21,79.93,1598.52,959.11
+test186w06,1,2.0,40.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,t3.small,2,2,22.05,3.2,25.25,15.15,302.95,181.77
+test186w07,2,0.75,35.0,Microsoft Windows Server 2003 Standard (32-bit),poweredOn,c5.large,2,4,129.21,2.8,132.01,79.21,1584.12,950.47
+test186w09,2,4.0,185.0,Microsoft Windows Server 2008 R2 (64-bit),poweredOn,t3.medium,2,4,37.23,14.8,52.03,31.22,624.36,374.62
+vCLS-38443851-4131-4d32-3239-34303036374c,1,0.16,50.0,VMware Photon CRX (64-bit),poweredOn,c5.large,2,4,62.05,4.0,66.05,39.63,792.6,475.56
+vCLS-394a3153-4138-4d32-3244-314d3031464e,1,0.16,50.0,VMware Photon CRX (64-bit),poweredOn,c5.large,2,4,62.05,4.0,66.05,39.63,792.6,475.56
+vCLS-7ee39516-b2fc-442c-b439-bcd5a1fb20ec,1,0.12,2.0,VMware Photon OS (64-bit),poweredOn,c5.large,2,4,62.05,0.16,62.21,37.33,746.52,447.91
+vCLS-824960f0-1889-4a7e-9751-667f0d6bcd6b,1,0.12,2.0,VMware Photon OS (64-bit),poweredOn,c5.large,2,4,62.05,0.16,62.21,37.33,746.52,447.91
+vCLS-96f9b1cb-1265-4fc6-9b2c-8ccb96119600,1,0.12,2.0,VMware Photon OS (64-bit),poweredOn,c5.large,2,4,62.05,0.16,62.21,37.33,746.52,447.91
+vCLS-d3221465-9cf2-42fc-8499-543d7d1670f2,1,0.12,2.0,VMware Photon OS (64-bit),poweredOn,c5.large,2,4,62.05,0.16,62.21,37.33,746.52,447.91

@@ -1,0 +1,1097 @@
+[
+  {
+    "nombre": "PortalAdmBGR",
+    "archivo": "G.I-PortalAdmBGR.html",
+    "servidores": [
+      "ecbrprw44",
+      "ecbrprnwpc",
+      "bgr71por",
+      "bgrbase",
+      "ecbrtsw26",
+      "ecbrtsq17windowswindows",
+      "ecbrprw45",
+      "bgr62unidad",
+      "bgr66cantidad",
+      "ecbrtsw25",
+      "ecbrtsnwpc",
+      "bgr6descripci",
+      "ecbrprcl13",
+      "bgrcelular"
+    ],
+    "tecnologias": [
+      "SQL Server",
+      ".NET"
+    ],
+    "puertos": [
+      84,
+      95,
+      92
+    ],
+    "urls": [],
+    "bases_datos": [
+      "PORTAL_ADMINISTRATIVO_BGR",
+      "para",
+      "o",
+      "97",
+      "Engine"
+    ],
+    "descripcion": "",
+    "vms_matched": [
+      {
+        "vm_nombre": "ecbrprw44",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.111",
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrprw44_RESTORE_REQ_2025-045998",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": NaN,
+        "powerstate": "poweredOff",
+        "ip": NaN,
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrtsw26",
+        "vcpus": 4,
+        "memory_gb": 8.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.41.85",
+        "match_pattern": "ecbrtsw26"
+      },
+      {
+        "vm_nombre": "ecbrprw45",
+        "vcpus": 8,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.112",
+        "match_pattern": "ecbrprw45"
+      },
+      {
+        "vm_nombre": "ecbrtsw25",
+        "vcpus": 4,
+        "memory_gb": 8.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.41.84",
+        "match_pattern": "ecbrtsw25"
+      },
+      {
+        "vm_nombre": "ecbrprcl13",
+        "vcpus": 24,
+        "memory_gb": 80.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.167.59",
+        "match_pattern": "ecbrprcl13"
+      }
+    ],
+    "categoria": {
+      "tipo": "Portal Web",
+      "stack": ".NET/IIS",
+      "database": "SQL Server",
+      "componentes": [
+        "Load Balancer",
+        "Web Tier",
+        "App Tier",
+        "Database"
+      ]
+    },
+    "arquitectura_aws": {
+      "compute": [
+        "Application Load Balancer (ALB)",
+        "EC2 Auto Scaling Group (min 2 instancias)",
+        "Considerar: ECS Fargate para containerización"
+      ],
+      "database": [
+        "RDS SQL Server (Multi-AZ para HA)",
+        "Automated backups (7-35 días)",
+        "Read replicas si es necesario"
+      ],
+      "storage": [
+        "EBS gp3 para discos de aplicación",
+        "S3 para archivos estáticos y backups",
+        "EFS si requiere file sharing entre instancias"
+      ],
+      "networking": [
+        "VPC con subnets públicas y privadas",
+        "NAT Gateway para salida a internet",
+        "VPC Endpoints para servicios AWS",
+        "Route 53 para DNS"
+      ],
+      "security": [
+        "Security Groups (least privilege)",
+        "WAF en ALB (si es web pública)",
+        "Secrets Manager para credenciales",
+        "IAM roles para EC2",
+        "KMS para encriptación"
+      ],
+      "monitoring": [
+        "CloudWatch Logs y Metrics",
+        "CloudWatch Alarms",
+        "X-Ray para tracing (APIs)",
+        "SNS para notificaciones"
+      ]
+    },
+    "recursos_totales": {
+      "vms": 6,
+      "vcpus": 48,
+      "memory_gb": 156.0
+    },
+    "criticidad": "Alta"
+  },
+  {
+    "nombre": "PortalGuiaBGR",
+    "archivo": "G.I-PortalGuiaBGR.html",
+    "servidores": [
+      "ecbrprnwpc",
+      "ecbrprw44",
+      "bgr71por",
+      "bgrbase",
+      "ecbrtscc01",
+      "ecbrprw45",
+      "bgr64impacto",
+      "ecbrtsw21windowswindows",
+      "bgr62unidad",
+      "bgr66cantidad",
+      "bgr6descripci",
+      "ecbrprcl13",
+      "bgrmicroservicio",
+      "bgrcelular"
+    ],
+    "tecnologias": [
+      "SQL Server",
+      ".NET"
+    ],
+    "puertos": [
+      84,
+      95,
+      92
+    ],
+    "urls": [],
+    "bases_datos": [
+      "PORTAL_ADMINISTRATIVO_BGRMicroservicio",
+      "para",
+      "o",
+      "97",
+      "Engine"
+    ],
+    "descripcion": "",
+    "vms_matched": [
+      {
+        "vm_nombre": "ecbrprw44",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.111",
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrprw44_RESTORE_REQ_2025-045998",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": NaN,
+        "powerstate": "poweredOff",
+        "ip": NaN,
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrtscc01",
+        "vcpus": 2,
+        "memory_gb": 4.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.41.87",
+        "match_pattern": "ecbrtscc01"
+      },
+      {
+        "vm_nombre": "ecbrprw45",
+        "vcpus": 8,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.112",
+        "match_pattern": "ecbrprw45"
+      },
+      {
+        "vm_nombre": "ecbrprcl13",
+        "vcpus": 24,
+        "memory_gb": 80.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.167.59",
+        "match_pattern": "ecbrprcl13"
+      }
+    ],
+    "categoria": {
+      "tipo": "Portal Web",
+      "stack": ".NET/IIS",
+      "database": "SQL Server",
+      "componentes": [
+        "Load Balancer",
+        "Web Tier",
+        "App Tier",
+        "Database"
+      ]
+    },
+    "arquitectura_aws": {
+      "compute": [
+        "Application Load Balancer (ALB)",
+        "EC2 Auto Scaling Group (min 2 instancias)",
+        "Considerar: ECS Fargate para containerización"
+      ],
+      "database": [
+        "RDS SQL Server (Multi-AZ para HA)",
+        "Automated backups (7-35 días)",
+        "Read replicas si es necesario"
+      ],
+      "storage": [
+        "EBS gp3 para discos de aplicación",
+        "S3 para archivos estáticos y backups",
+        "EFS si requiere file sharing entre instancias"
+      ],
+      "networking": [
+        "VPC con subnets públicas y privadas",
+        "NAT Gateway para salida a internet",
+        "VPC Endpoints para servicios AWS",
+        "Route 53 para DNS"
+      ],
+      "security": [
+        "Security Groups (least privilege)",
+        "WAF en ALB (si es web pública)",
+        "Secrets Manager para credenciales",
+        "IAM roles para EC2",
+        "KMS para encriptación"
+      ],
+      "monitoring": [
+        "CloudWatch Logs y Metrics",
+        "CloudWatch Alarms",
+        "X-Ray para tracing (APIs)",
+        "SNS para notificaciones"
+      ]
+    },
+    "recursos_totales": {
+      "vms": 5,
+      "vcpus": 42,
+      "memory_gb": 144.0
+    },
+    "criticidad": "Alta"
+  },
+  {
+    "nombre": "Api Portal",
+    "archivo": "G.I.-Api Portal.html",
+    "servidores": [
+      "ecbrprnwpc",
+      "ecbrprw44",
+      "bgr71por",
+      "bgrbase",
+      "ecbrtscc01",
+      "ecbrprw45",
+      "bgr64impacto",
+      "ecbrtsw21windowswindows",
+      "bgr62unidad",
+      "bgr66cantidad",
+      "ecbrprcl13",
+      "bgrmicroservicio",
+      "bgrcelular"
+    ],
+    "tecnologias": [
+      "SQL Server",
+      ".NET"
+    ],
+    "puertos": [
+      84,
+      95,
+      92
+    ],
+    "urls": [],
+    "bases_datos": [
+      "PORTAL_ADMINISTRATIVO_BGRMicroservicio",
+      "para",
+      "o",
+      "97",
+      "Engine"
+    ],
+    "descripcion": "",
+    "vms_matched": [
+      {
+        "vm_nombre": "ecbrprw44",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.111",
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrprw44_RESTORE_REQ_2025-045998",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": NaN,
+        "powerstate": "poweredOff",
+        "ip": NaN,
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrtscc01",
+        "vcpus": 2,
+        "memory_gb": 4.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.41.87",
+        "match_pattern": "ecbrtscc01"
+      },
+      {
+        "vm_nombre": "ecbrprw45",
+        "vcpus": 8,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.112",
+        "match_pattern": "ecbrprw45"
+      },
+      {
+        "vm_nombre": "ecbrprcl13",
+        "vcpus": 24,
+        "memory_gb": 80.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.167.59",
+        "match_pattern": "ecbrprcl13"
+      }
+    ],
+    "categoria": {
+      "tipo": "Portal Web",
+      "stack": ".NET/IIS",
+      "database": "SQL Server",
+      "componentes": [
+        "Load Balancer",
+        "Web Tier",
+        "App Tier",
+        "Database"
+      ]
+    },
+    "arquitectura_aws": {
+      "compute": [
+        "Application Load Balancer (ALB)",
+        "EC2 Auto Scaling Group (min 2 instancias)",
+        "Considerar: ECS Fargate para containerización"
+      ],
+      "database": [
+        "RDS SQL Server (Multi-AZ para HA)",
+        "Automated backups (7-35 días)",
+        "Read replicas si es necesario"
+      ],
+      "storage": [
+        "EBS gp3 para discos de aplicación",
+        "S3 para archivos estáticos y backups",
+        "EFS si requiere file sharing entre instancias"
+      ],
+      "networking": [
+        "VPC con subnets públicas y privadas",
+        "NAT Gateway para salida a internet",
+        "VPC Endpoints para servicios AWS",
+        "Route 53 para DNS"
+      ],
+      "security": [
+        "Security Groups (least privilege)",
+        "WAF en ALB (si es web pública)",
+        "Secrets Manager para credenciales",
+        "IAM roles para EC2",
+        "KMS para encriptación"
+      ],
+      "monitoring": [
+        "CloudWatch Logs y Metrics",
+        "CloudWatch Alarms",
+        "X-Ray para tracing (APIs)",
+        "SNS para notificaciones"
+      ]
+    },
+    "recursos_totales": {
+      "vms": 5,
+      "vcpus": 42,
+      "memory_gb": 144.0
+    },
+    "criticidad": "Alta"
+  },
+  {
+    "nombre": "Backoffice Banca Digital",
+    "archivo": "G.I.-Backoffice Banca Digital.html",
+    "servidores": [
+      "172.20.41.86",
+      "ecbrprtyc",
+      "ecbrtsw93",
+      "bgrbackoffice",
+      "172.20.1.128",
+      "ecbrprncapi",
+      "172.20.1.174",
+      "bgrbase",
+      "172.20.1.15",
+      "172.20.41.58",
+      "bgrbancadigitaltest2",
+      "172.20.41.174",
+      "200.115.44.68",
+      "172.20.42.27",
+      "172.20.115.17",
+      "ecbrtsncapi",
+      "bgr71por",
+      "bgr64impacto",
+      "172.20.1.214",
+      "172.20.46.52",
+      "172.20.41.21",
+      "bgr62unidad",
+      "172.20.1.215",
+      "172.20.41.123",
+      "bgrbancadigital2",
+      "ecbrtsqbdaws",
+      "172.20.115.18",
+      "ecbrprwe27",
+      "172.20.41.32",
+      "bgr66cantidad",
+      "172.20.115.13",
+      "172.20.1.46",
+      "172.20.1.138",
+      "ecbrprwe31"
+    ],
+    "tecnologias": [
+      "Oracle",
+      "SQL Server",
+      ".NET",
+      "Redis"
+    ],
+    "puertos": [
+      8043,
+      84,
+      92,
+      222,
+      95
+    ],
+    "urls": [
+      "https://ecbrprncapi.bgr.com:8043",
+      "https://bgrbancadigitaltest2.s3.us-east-1.amazonaws.com",
+      "https://upload-templates-test.s3.us-east-1.amazonaws.comhttps://172.20.1.138:8043",
+      "https://bgrbancadigital2.s3.us-east-1.amazonaws.com",
+      "https://MSAPIS.BGR.COM:8043",
+      "https://ecbrtsncapi.bgr.com:8043",
+      "https://MSAPIS-TEST.BGR.COM:8043",
+      "http://200.115.44.68",
+      "https://172.20.41.58:8043",
+      "http://172.20.41.21"
+    ],
+    "bases_datos": [
+      "BACKOFFICE_SISTEMAS_BGR",
+      "para",
+      "o",
+      "97",
+      "Engine"
+    ],
+    "descripcion": "",
+    "vms_matched": [
+      {
+        "vm_nombre": "ecbrtsw93",
+        "vcpus": 2,
+        "memory_gb": 4.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.41.123",
+        "match_pattern": "ecbrtsw93"
+      },
+      {
+        "vm_nombre": "ecbrprwe27",
+        "vcpus": 4,
+        "memory_gb": 8.0,
+        "os": "Microsoft Windows Server 2016 or later (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "192.168.18.13",
+        "match_pattern": "ecbrprwe27"
+      },
+      {
+        "vm_nombre": "ecbrprwe31",
+        "vcpus": 4,
+        "memory_gb": 8.0,
+        "os": "Microsoft Windows Server 2016 or later (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.115.17",
+        "match_pattern": "ecbrprwe31"
+      }
+    ],
+    "categoria": {
+      "tipo": "Aplicación Backoffice",
+      "stack": ".NET/IIS",
+      "database": "SQL Server",
+      "componentes": [
+        "Web Tier",
+        "App Tier",
+        "Database",
+        "File Storage"
+      ]
+    },
+    "arquitectura_aws": {
+      "compute": [
+        "EC2 instances (2+ para HA)",
+        "Considerar: ECS si es containerizable"
+      ],
+      "database": [
+        "RDS SQL Server (Multi-AZ para HA)",
+        "Automated backups (7-35 días)",
+        "Read replicas si es necesario"
+      ],
+      "storage": [
+        "EBS gp3 para discos de aplicación",
+        "S3 para archivos estáticos y backups",
+        "EFS si requiere file sharing entre instancias"
+      ],
+      "networking": [
+        "VPC con subnets públicas y privadas",
+        "NAT Gateway para salida a internet",
+        "VPC Endpoints para servicios AWS",
+        "Route 53 para DNS"
+      ],
+      "security": [
+        "Security Groups (least privilege)",
+        "WAF en ALB (si es web pública)",
+        "Secrets Manager para credenciales",
+        "IAM roles para EC2",
+        "KMS para encriptación"
+      ],
+      "monitoring": [
+        "CloudWatch Logs y Metrics",
+        "CloudWatch Alarms",
+        "X-Ray para tracing (APIs)",
+        "SNS para notificaciones"
+      ]
+    },
+    "recursos_totales": {
+      "vms": 3,
+      "vcpus": 10,
+      "memory_gb": 20.0
+    },
+    "criticidad": "Alta"
+  },
+  {
+    "nombre": "Backoffice Sistemas",
+    "archivo": "G.I.-Backoffice Sistemas.html",
+    "servidores": [
+      "ecbrprnwpc",
+      "ecbrprw44",
+      "bgr71por",
+      "bgrbase",
+      "ecbrtscc01",
+      "ecbrprw45",
+      "bgr64impacto",
+      "ecbrtsw21windowswindows",
+      "bgr62unidad",
+      "bgr66cantidad",
+      "bgr6descripci",
+      "ecbrprcl13",
+      "bgrmicroservicio",
+      "bgrcelular"
+    ],
+    "tecnologias": [
+      "SQL Server",
+      ".NET"
+    ],
+    "puertos": [
+      84,
+      95,
+      92
+    ],
+    "urls": [],
+    "bases_datos": [
+      "PORTAL_ADMINISTRATIVO_BGRMicroservicio",
+      "para",
+      "o",
+      "97",
+      "Engine"
+    ],
+    "descripcion": "",
+    "vms_matched": [
+      {
+        "vm_nombre": "ecbrprw44",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.111",
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrprw44_RESTORE_REQ_2025-045998",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": NaN,
+        "powerstate": "poweredOff",
+        "ip": NaN,
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrtscc01",
+        "vcpus": 2,
+        "memory_gb": 4.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.41.87",
+        "match_pattern": "ecbrtscc01"
+      },
+      {
+        "vm_nombre": "ecbrprw45",
+        "vcpus": 8,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.112",
+        "match_pattern": "ecbrprw45"
+      },
+      {
+        "vm_nombre": "ecbrprcl13",
+        "vcpus": 24,
+        "memory_gb": 80.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.167.59",
+        "match_pattern": "ecbrprcl13"
+      }
+    ],
+    "categoria": {
+      "tipo": "Aplicación Backoffice",
+      "stack": ".NET/IIS",
+      "database": "SQL Server",
+      "componentes": [
+        "Web Tier",
+        "App Tier",
+        "Database",
+        "File Storage"
+      ]
+    },
+    "arquitectura_aws": {
+      "compute": [
+        "EC2 instances (2+ para HA)",
+        "Considerar: ECS si es containerizable"
+      ],
+      "database": [
+        "RDS SQL Server (Multi-AZ para HA)",
+        "Automated backups (7-35 días)",
+        "Read replicas si es necesario"
+      ],
+      "storage": [
+        "EBS gp3 para discos de aplicación",
+        "S3 para archivos estáticos y backups",
+        "EFS si requiere file sharing entre instancias"
+      ],
+      "networking": [
+        "VPC con subnets públicas y privadas",
+        "NAT Gateway para salida a internet",
+        "VPC Endpoints para servicios AWS",
+        "Route 53 para DNS"
+      ],
+      "security": [
+        "Security Groups (least privilege)",
+        "WAF en ALB (si es web pública)",
+        "Secrets Manager para credenciales",
+        "IAM roles para EC2",
+        "KMS para encriptación"
+      ],
+      "monitoring": [
+        "CloudWatch Logs y Metrics",
+        "CloudWatch Alarms",
+        "X-Ray para tracing (APIs)",
+        "SNS para notificaciones"
+      ]
+    },
+    "recursos_totales": {
+      "vms": 5,
+      "vcpus": 42,
+      "memory_gb": 144.0
+    },
+    "criticidad": "Media"
+  },
+  {
+    "nombre": "Saras",
+    "archivo": "G.I.-Saras.html",
+    "servidores": [
+      "ecbrtsncapi",
+      "bgr71por",
+      "bgrbase",
+      "bgr64impacto",
+      "172.20.41.173",
+      "bgr62unidad",
+      "ecbrprw83",
+      "bgr66cantidad",
+      "ecbrtsw98",
+      "172.20.1.128",
+      "ecbrprncapi",
+      "172.20.1.174",
+      "172.20.1.76"
+    ],
+    "tecnologias": [
+      "SQL Server",
+      ".NET",
+      "Redis"
+    ],
+    "puertos": [
+      8043,
+      84,
+      95,
+      92
+    ],
+    "urls": [
+      "https://MSAPIS-TEST.BGR.COM:8043",
+      "https://MSAPIS.BGR.COM:8043",
+      "https://ecbrprncapi.bgr.com:8043",
+      "https://ecbrtsncapi.bgr.com:8043"
+    ],
+    "bases_datos": [
+      "SARAS",
+      "para",
+      "o",
+      "97",
+      "Engine"
+    ],
+    "descripcion": "",
+    "vms_matched": [
+      {
+        "vm_nombre": "ecbrprw83",
+        "vcpus": 8,
+        "memory_gb": 10.0,
+        "os": "Microsoft Windows Server 2019 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.76",
+        "match_pattern": "ecbrprw83"
+      },
+      {
+        "vm_nombre": "ecbrtsw98",
+        "vcpus": 4,
+        "memory_gb": 8.0,
+        "os": "Microsoft Windows Server 2019 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.41.173",
+        "match_pattern": "ecbrtsw98"
+      }
+    ],
+    "categoria": {
+      "tipo": "Aplicación Empresarial",
+      "stack": ".NET/IIS",
+      "database": "SQL Server",
+      "componentes": [
+        "App Tier",
+        "Database"
+      ]
+    },
+    "arquitectura_aws": {
+      "compute": [
+        "EC2 instances (2+ para HA)",
+        "Considerar: ECS si es containerizable"
+      ],
+      "database": [
+        "RDS SQL Server (Multi-AZ para HA)",
+        "Automated backups (7-35 días)",
+        "Read replicas si es necesario"
+      ],
+      "storage": [
+        "EBS gp3 para discos de aplicación",
+        "S3 para archivos estáticos y backups",
+        "EFS si requiere file sharing entre instancias"
+      ],
+      "networking": [
+        "VPC con subnets públicas y privadas",
+        "NAT Gateway para salida a internet",
+        "VPC Endpoints para servicios AWS",
+        "Route 53 para DNS"
+      ],
+      "security": [
+        "Security Groups (least privilege)",
+        "WAF en ALB (si es web pública)",
+        "Secrets Manager para credenciales",
+        "IAM roles para EC2",
+        "KMS para encriptación"
+      ],
+      "monitoring": [
+        "CloudWatch Logs y Metrics",
+        "CloudWatch Alarms",
+        "X-Ray para tracing (APIs)",
+        "SNS para notificaciones"
+      ]
+    },
+    "recursos_totales": {
+      "vms": 2,
+      "vcpus": 12,
+      "memory_gb": 18.0
+    },
+    "criticidad": "Media"
+  },
+  {
+    "nombre": "Seq",
+    "archivo": "G.I.-Seq.html",
+    "servidores": [
+      "ecbrprnwpc",
+      "ecbrprw44",
+      "bgr71por",
+      "bgrbase",
+      "ecbrtscc01",
+      "ecbrprw45",
+      "bgr64impacto",
+      "ecbrtsw21windowswindows",
+      "bgr62unidad",
+      "bgr66cantidad",
+      "ecbrprcl13",
+      "bgrmicroservicio",
+      "bgrcelular"
+    ],
+    "tecnologias": [
+      "SQL Server",
+      ".NET"
+    ],
+    "puertos": [
+      84,
+      95,
+      92
+    ],
+    "urls": [],
+    "bases_datos": [
+      "PORTAL_ADMINISTRATIVO_BGRMicroservicio",
+      "para",
+      "o",
+      "97",
+      "Engine"
+    ],
+    "descripcion": "",
+    "vms_matched": [
+      {
+        "vm_nombre": "ecbrprw44",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.111",
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrprw44_RESTORE_REQ_2025-045998",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": NaN,
+        "powerstate": "poweredOff",
+        "ip": NaN,
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrtscc01",
+        "vcpus": 2,
+        "memory_gb": 4.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.41.87",
+        "match_pattern": "ecbrtscc01"
+      },
+      {
+        "vm_nombre": "ecbrprw45",
+        "vcpus": 8,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.112",
+        "match_pattern": "ecbrprw45"
+      },
+      {
+        "vm_nombre": "ecbrprcl13",
+        "vcpus": 24,
+        "memory_gb": 80.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.167.59",
+        "match_pattern": "ecbrprcl13"
+      }
+    ],
+    "categoria": {
+      "tipo": "Aplicación Empresarial",
+      "stack": ".NET/IIS",
+      "database": "SQL Server",
+      "componentes": [
+        "App Tier",
+        "Database"
+      ]
+    },
+    "arquitectura_aws": {
+      "compute": [
+        "EC2 instances (2+ para HA)",
+        "Considerar: ECS si es containerizable"
+      ],
+      "database": [
+        "RDS SQL Server (Multi-AZ para HA)",
+        "Automated backups (7-35 días)",
+        "Read replicas si es necesario"
+      ],
+      "storage": [
+        "EBS gp3 para discos de aplicación",
+        "S3 para archivos estáticos y backups",
+        "EFS si requiere file sharing entre instancias"
+      ],
+      "networking": [
+        "VPC con subnets públicas y privadas",
+        "NAT Gateway para salida a internet",
+        "VPC Endpoints para servicios AWS",
+        "Route 53 para DNS"
+      ],
+      "security": [
+        "Security Groups (least privilege)",
+        "WAF en ALB (si es web pública)",
+        "Secrets Manager para credenciales",
+        "IAM roles para EC2",
+        "KMS para encriptación"
+      ],
+      "monitoring": [
+        "CloudWatch Logs y Metrics",
+        "CloudWatch Alarms",
+        "X-Ray para tracing (APIs)",
+        "SNS para notificaciones"
+      ]
+    },
+    "recursos_totales": {
+      "vms": 5,
+      "vcpus": 42,
+      "memory_gb": 144.0
+    },
+    "criticidad": "Media"
+  },
+  {
+    "nombre": "Sonar Qube",
+    "archivo": "G.I.-Sonar Qube.html",
+    "servidores": [
+      "ecbrprnwpc",
+      "ecbrprw44",
+      "bgr71por",
+      "bgrbase",
+      "ecbrtscc01",
+      "ecbrprw45",
+      "bgr64impacto",
+      "ecbrtsw21windowswindows",
+      "bgr62unidad",
+      "bgr66cantidad",
+      "ecbrprcl13",
+      "bgrmicroservicio",
+      "bgrcelular"
+    ],
+    "tecnologias": [
+      "SQL Server",
+      ".NET"
+    ],
+    "puertos": [
+      84,
+      95,
+      92
+    ],
+    "urls": [],
+    "bases_datos": [
+      "PORTAL_ADMINISTRATIVO_BGRMicroservicio",
+      "para",
+      "o",
+      "97",
+      "Engine"
+    ],
+    "descripcion": "",
+    "vms_matched": [
+      {
+        "vm_nombre": "ecbrprw44",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.111",
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrprw44_RESTORE_REQ_2025-045998",
+        "vcpus": 4,
+        "memory_gb": 20.0,
+        "os": NaN,
+        "powerstate": "poweredOff",
+        "ip": NaN,
+        "match_pattern": "ecbrprw44"
+      },
+      {
+        "vm_nombre": "ecbrtscc01",
+        "vcpus": 2,
+        "memory_gb": 4.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.41.87",
+        "match_pattern": "ecbrtscc01"
+      },
+      {
+        "vm_nombre": "ecbrprw45",
+        "vcpus": 8,
+        "memory_gb": 20.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.1.112",
+        "match_pattern": "ecbrprw45"
+      },
+      {
+        "vm_nombre": "ecbrprcl13",
+        "vcpus": 24,
+        "memory_gb": 80.0,
+        "os": "Microsoft Windows Server 2016 (64-bit)",
+        "powerstate": "poweredOn",
+        "ip": "172.20.167.59",
+        "match_pattern": "ecbrprcl13"
+      }
+    ],
+    "categoria": {
+      "tipo": "Herramienta DevOps",
+      "stack": ".NET/IIS",
+      "database": "SQL Server",
+      "componentes": [
+        "App Server",
+        "Database"
+      ]
+    },
+    "arquitectura_aws": {
+      "compute": [
+        "EC2 instances (2+ para HA)",
+        "Considerar: ECS si es containerizable"
+      ],
+      "database": [
+        "RDS SQL Server (Multi-AZ para HA)",
+        "Automated backups (7-35 días)",
+        "Read replicas si es necesario"
+      ],
+      "storage": [
+        "EBS gp3 para discos de aplicación",
+        "S3 para archivos estáticos y backups",
+        "EFS si requiere file sharing entre instancias"
+      ],
+      "networking": [
+        "VPC con subnets públicas y privadas",
+        "NAT Gateway para salida a internet",
+        "VPC Endpoints para servicios AWS",
+        "Route 53 para DNS"
+      ],
+      "security": [
+        "Security Groups (least privilege)",
+        "WAF en ALB (si es web pública)",
+        "Secrets Manager para credenciales",
+        "IAM roles para EC2",
+        "KMS para encriptación"
+      ],
+      "monitoring": [
+        "CloudWatch Logs y Metrics",
+        "CloudWatch Alarms",
+        "X-Ray para tracing (APIs)",
+        "SNS para notificaciones"
+      ]
+    },
+    "recursos_totales": {
+      "vms": 5,
+      "vcpus": 42,
+      "memory_gb": 144.0
+    },
+    "criticidad": "Media"
+  }
+]

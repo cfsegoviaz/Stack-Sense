@@ -1,0 +1,384 @@
+nombre,powerstate,vcpus,memory_gb,os,ip,dns,cluster,host
+bgr186a01,poweredOn,4,12.0,Microsoft Windows Server 2003 (64-bit),172.20.1.27,BGR186A01.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+bgr186a05clon,poweredOn,4,3.36,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.254,BGR186A05clon.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+bgr186d01,poweredOn,6,26.0,Microsoft Windows Server 2016 (64-bit),172.20.55.30,bgr186d01.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+bgr186d03,poweredOn,5,26.0,Microsoft Windows Server 2016 or later (64-bit),172.20.55.13,bgr186d03.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+bgr186h01,poweredOn,1,2.0,Microsoft Windows Server 2003 Standard (32-bit),169.254.16.21,bgr186h01.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+bgr186h02,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.40.14,bgr186h02.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+bgr186pr1,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.19,bgr186pr1.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+bgr186q01,poweredOn,4,5.43,Microsoft Windows Server 2003 (32-bit),172.20.40.25,bgr186q01.bgr.com,Cluster_Quito,ecbrprsx13.bgr.com
+bgr186q02,poweredOn,4,5.0,Microsoft Windows Server 2003 (32-bit),172.20.40.26,bgr186q02.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+bgr186q05,poweredOn,6,10.0,Microsoft Windows Server 2008 (64-bit),172.20.1.64,BGR186Q05.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+bgr186qv1,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.1.85,BGR186QV1.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+bgr186vm1,poweredOn,2,2.0,Microsoft Windows 2000 Server,172.20.40.10,bgr186vm1.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+componentbgr,poweredOn,4,18.0,CentOS 7 (64-bit),200.115.34.134,campanias.bgr.com.ec,Cluster_Quito,ecbrprsx22.bgr.com
+componentbgr3,poweredOn,8,16.0,CentOS 7 (64-bit),172.20.115.32,notificaciones.bgr.com.ec,Cluster_Quito,ecbrprsx20.bgr.com
+ecbgr012002,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.36,ecbgr012002.uio.bpichincha.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrdsq04,poweredOn,4,10.0,Microsoft Windows Server 2016 or later (64-bit),172.20.41.124,ecbrdsq04.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrlx01,poweredOn,24,72.0,Red Hat Enterprise Linux 7 (64-bit),192.168.122.1,ecbrlx01.bgr.com,Cluster_BI,ecbrprsx31.bgr.com
+ecbrlxav1,poweredOn,10,40.0,Ubuntu Linux (64-bit),172.20.45.7,vision,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrpra03,poweredOn,4,12.0,Microsoft Windows Server 2016 (64-bit),172.20.1.106,ecbrpra03.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprap1,poweredOn,4,24.0,Microsoft Windows Server 2016 (64-bit),172.20.55.36,ECBRPRAP1.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprap10,poweredOn,8,20.0,Microsoft Windows Server 2016 (64-bit),172.20.1.200,ECBRPRAP10.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprap12,poweredOn,4,16.0,Microsoft Windows Server 2016 (64-bit),172.20.1.202,ECBRPRAP12.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprap13,poweredOn,4,16.0,Microsoft Windows Server 2016 (64-bit),172.20.1.203,ECBRPRAP13.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprap14,poweredOn,4,16.0,Microsoft Windows Server 2016 (64-bit),172.20.1.204,ECBRPRAP14.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprap15,poweredOn,8,16.0,Microsoft Windows Server 2016 (64-bit),172.20.1.131,ecbrprap15.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprap16,poweredOn,8,32.0,Microsoft Windows Server 2016 (64-bit),172.20.55.62,ECBRPRAP16.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprap17,poweredOn,8,16.0,Microsoft Windows Server 2016 (64-bit),172.20.55.64,ECBRPRAP17.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprap2,poweredOn,2,10.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.55.49,ECBRPRAP2.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+ecbrprap21,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.1.21,ECBRPRAP21.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprap23,poweredOn,2,6.0,Microsoft Windows Server 2019 (64-bit),172.20.55.87,ecbrprap23.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprap3,poweredOn,3,7.0,Microsoft Windows Server 2012 (64-bit),172.20.55.50,ECBRPRAP3.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprap5,poweredOn,4,12.0,Microsoft Windows Server 2016 (64-bit),172.20.55.52,ecbrprap5.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprap6,poweredOn,2,8.0,Microsoft Windows Server 2016 (64-bit),172.20.1.240,ECBRPRAP6.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprap7,poweredOn,2,8.0,Microsoft Windows Server 2016 (64-bit),172.20.1.241,ECBRPRAP7.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprarb01,poweredOn,4,6.0,Microsoft Windows Server 2016 (64-bit),172.20.1.177,ecbrprarb01.bgr.com,Cluster_BI,ecbrprsx31.bgr.com
+ecbrprbi01,poweredOn,4,64.0,Microsoft Windows Server 2016 (64-bit),172.20.1.216,ecbrprbi01.bgr.com,Cluster_BI,ecbrprsx31.bgr.com
+ecbrprcas02,poweredOn,2,6.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.55.41,ecbrprcas02.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprcc01,poweredOn,2,6.0,Microsoft Windows Server 2016 (64-bit),172.20.1.122,ECBRPRCC01.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprcert01,poweredOn,2,4.0,Microsoft Windows Server 2022 (64-bit),172.20.55.132,ecbrprcert01.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprcf01,poweredOn,2,4.0,Microsoft Windows Server 2016 (64-bit),172.20.1.110,ECBRPRCF01.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprci1,poweredOn,4,16.0,Microsoft Windows Server 2012 (64-bit),172.20.1.102,ecbrprci1.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprcl1,poweredOn,12,32.0,Microsoft Windows Server 2016 (64-bit),172.20.167.51,ecbrprcl1.bgr.com,Cluster_Quito,ecbrprsx13.bgr.com
+ecbrprcl10,poweredOn,14,40.0,Microsoft Windows Server 2019 (64-bit),172.20.167.99,ecbrprcl10.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+ecbrprcl11,poweredOn,4,46.0,Microsoft Windows Server 2016 (64-bit),172.20.167.58,ecbrprcl11.bgr.com,Cluster_Quito,ecbrprsx13.bgr.com
+ecbrprcl12,poweredOn,4,46.0,Microsoft Windows Server 2016 (64-bit),172.20.167.98,ECBRPRCL12.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+ecbrprcl13,poweredOn,24,80.0,Microsoft Windows Server 2016 (64-bit),172.20.167.59,ECBRPRCL13.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprcl14,poweredOn,24,80.0,Microsoft Windows Server 2016 (64-bit),172.20.167.60,ECBRPRCL14.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+ecbrprcl2,poweredOn,12,32.0,Microsoft Windows Server 2016 (64-bit),172.20.167.52,ecbrprcl2.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+ecbrprcl5,poweredOn,12,36.0,Microsoft Windows Server 2016 (64-bit),169.254.4.195,ecbrprcl5.bgr.com,Cluster_Quito,ecbrprsx13.bgr.com
+ecbrprcl6,poweredOn,12,36.0,Microsoft Windows Server 2016 (64-bit),172.20.167.54,ecbrprcl6.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+ecbrprcl7,poweredOn,8,16.0,Microsoft Windows Server 2016 (64-bit),172.20.167.55,ecbrprcl7.bgr.com,Cluster_Quito,ecbrprsx13.bgr.com
+ecbrprcl8,poweredOn,8,16.0,Microsoft Windows Server 2016 (64-bit),172.20.167.97,ecbrprcl8.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+ecbrprcl9,poweredOn,14,40.0,Microsoft Windows Server 2019 (64-bit),172.20.167.56,ecbrprcl9.bgr.com,Cluster_Quito,ecbrprsx13.bgr.com
+ecbrprct1,poweredOn,8,8.0,CentOS 7 (64-bit),172.20.55.45,ecbrprct1,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprct2,poweredOn,8,8.0,CentOS 7 (64-bit),172.20.55.46,ECBRPRCT2,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprct3,poweredOn,4,4.5,Red Hat Enterprise Linux 7 (64-bit),172.20.1.104,ecbrprct3,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprct4,poweredOn,1,1.0,Red Hat Enterprise Linux 7 (64-bit),172.20.1.105,172.20.55.30.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ECBRPRE01,poweredOn,4,12.0,Microsoft Windows Server 2022 (64-bit),172.20.1.41,ECBRPRE01.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrpre02,poweredOn,12,32.0,Microsoft Windows Server 2022 (64-bit),172.20.55.126,ECBRPRE02.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprebn01,poweredOff,2,12.0,Microsoft Windows Server 2019 (64-bit),,templatebase_2019,Cluster_Test,ecbrtssx06.bgr.com
+ecbrprexc01,poweredOn,6,18.0,Microsoft Windows Server 2016 (64-bit),172.20.55.93,ecbrprexc01.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprexc02,poweredOn,6,16.0,Microsoft Windows Server 2016 (64-bit),172.20.55.94,ecbrprexc02.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprf02,poweredOn,2,6.0,Microsoft Windows Server 2012 (64-bit),172.20.1.90,ECBRPRF02.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprf03,poweredOn,4,6.0,Microsoft Windows Server 2019 (64-bit),172.20.1.178,ecbrprf03.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+ecbrprf05,poweredOn,4,8.0,Microsoft Windows Server 2022 (64-bit),172.20.1.16,ECBRPRF05.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprf06,poweredOn,4,8.0,Microsoft Windows Server 2022 (64-bit),172.20.1.117,ECBRPRF06.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprg1,poweredOn,4,7.81,Other 2.6.x Linux (64-bit),172.20.55.47,ECBRPRG1,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprgmi,poweredOn,4,12.0,Microsoft Windows Server 2019 (64-bit),172.20.55.105,ECBRPRGMI.bgr.com,Cluster_BI,ecbrprsx31.bgr.com
+ecbrprh01,poweredOn,2,4.0,Microsoft Windows Server 2012 (64-bit),172.20.40.12,ECBRPRH01.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+ecbrprh02,poweredOn,2,10.0,Microsoft Windows Server 2016 (64-bit),172.20.1.238,ECBRPRH02.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprh03,poweredOn,4,8.0,Microsoft Windows Server 2022 (64-bit),172.20.1.236,ECBRPRH03.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprhmb01,poweredOn,2,16.0,Microsoft Windows Server 2008 R2 (64-bit),169.254.1.5,ECBRPRHMB01.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrpris1,poweredOn,4,8.0,Debian GNU/Linux 9 (64-bit),172.20.1.218,localhost,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprkc01,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),192.168.12.10,ECBRPRKC01,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprkc02,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.115.11,ECBRPRKC02,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprkf01,poweredOn,2,6.0,Microsoft Windows Server 2016 (64-bit),172.20.1.144,ECBRPRKF01.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprkw01,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.1.140,ECBRPRKW01.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprlx02,poweredOn,2,4.0,Red Hat Enterprise Linux 8 (64-bit),172.20.1.20,ecbrprlx02,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprlx04,poweredOn,4,4.0,,,,Cluster_Quito,ecbrprsx21.bgr.com
+ECBRPRLX07,poweredOn,10,80.0,Ubuntu Linux (64-bit),172.20.115.24,ecbrprlx07,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprlx08,poweredOn,4,64.0,,,,Cluster_BI,ecbrprsx31.bgr.com
+ecbrprlx09,poweredOff,4,8.0,,,ecbrprlx09,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprlx10,poweredOff,4,8.0,Ubuntu Linux (64-bit),,ecbrprlx10,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprlx11,poweredOn,4,8.0,Ubuntu Linux (64-bit),fe80::250:56ff:feae:c13b,ecbrprlx11,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprlx12,poweredOff,6,8.0,Red Hat Enterprise Linux 8 (64-bit),,ecbrprlx12,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprlx13,poweredOn,4,8.0,Ubuntu Linux (64-bit),172.20.115.35,ecbrprlx13,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprlx14,poweredOn,2,4.0,Red Hat Enterprise Linux 8 (64-bit),172.20.55.116,ecbrprlx14,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprlx15,poweredOn,2,4.0,Red Hat Enterprise Linux 8 (64-bit),172.20.55.117,ecbrprlx15,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprlx16,poweredOn,8,32.0,Red Hat Enterprise Linux 9 (64-bit),172.20.65.203,ecbrprlx16,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprlx16_REQ 2025-046223,poweredOff,8,32.0,,,,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprlx17,poweredOn,2,4.0,Ubuntu Linux (64-bit),172.20.55.75,ecbrprlx17,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprlx20,poweredOn,4,8.0,Red Hat Enterprise Linux 9 (64-bit),172.20.55.125,ecbrprlx20,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprlx21,poweredOn,4,16.0,Debian GNU/Linux 4 (64-bit),172.20.1.17,ecbrprlx21,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprlxcc,poweredOn,4,40.0,Red Hat Enterprise Linux 8 (64-bit),172.20.42.16,ecbrprlxcc,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprlxdn01,poweredOn,8,8.0,Ubuntu Linux (64-bit),172.20.55.89,forwarder,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprlxdn02,poweredOn,8,8.0,Ubuntu Linux (64-bit),172.20.55.90,forwarder,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprlxgmor,poweredOn,4,8.0,Ubuntu Linux (64-bit),172.20.55.103,ecbrprlxgmor.bgr.com,Cluster_BI,ecbrprsx31.bgr.com
+ecbrprlxgmtr,poweredOn,4,12.0,CentOS 7 (64-bit),172.20.55.102,ecbrprlxgmtr,Cluster_BI,ecbrprsx31.bgr.com
+ecbrprmd1,poweredOn,4,20.0,Red Hat Enterprise Linux 8 (64-bit),172.20.55.115,ecbrprmd1,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprmd3,poweredOn,4,16.0,Red Hat Enterprise Linux 9 (64-bit),172.20.55.153,ecbrprmd3,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprmn01,poweredOn,4,11.0,SUSE Linux Enterprise 11 (64-bit),172.20.55.150,localhost,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprnbk03,poweredOn,12,16.0,Microsoft Windows Server 2022 (64-bit),172.20.65.204,ecbrprnbk03.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprpocq03,poweredOn,8,16.0,Microsoft Windows Server 2022 (64-bit),172.20.1.127,ECBRPRPOCQ03.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprq21,poweredOn,4,11.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.1.129,ECBRPRQ21.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprq23,poweredOff,2,16.0,Microsoft Windows Server 2008 R2 (64-bit),,ECBRPRQ23.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprq24,poweredOn,8,36.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.1.93,ECBRPRQ24.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprq25,poweredOff,4,12.0,,,,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprq30,poweredOn,8,56.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.1.12,ECBRPRQ30.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprq35,poweredOff,2,12.0,,,,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprq37,poweredOn,4,4.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.1.42,ecbrprq37.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+ecbrprq38,poweredOn,4,30.0,Microsoft Windows Server 2019 (64-bit),172.20.167.62,ECBRPRQ38.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprq44,poweredOn,8,30.0,Microsoft Windows Server 2016 (64-bit),172.20.167.63,ecbrprq44.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprq45,poweredOn,16,24.0,Microsoft Windows Server 2016 (64-bit),172.20.167.64,ecbrprq45.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprq46,poweredOn,8,24.0,Microsoft Windows Server 2016 (64-bit),172.20.167.65,ecbrprq46.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprq48,poweredOn,2,12.0,Microsoft Windows Server 2016 (64-bit),172.20.167.66,ecbrprq48.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+ecbrprq49,poweredOn,4,16.0,Microsoft Windows Server 2016 (64-bit),172.20.167.67,ecbrprq49.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprq50,poweredOn,8,18.0,Microsoft Windows Server 2016 (64-bit),172.20.167.68,ecbrprq50.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprq52,poweredOn,2,12.0,Microsoft Windows Server 2016 (64-bit),172.20.167.69,ecbrprq52.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+ecbrprq55,poweredOn,4,13.0,Microsoft Windows Server 2016 (64-bit),172.20.167.70,ecbrprq55.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprq58,poweredOn,12,64.0,Microsoft Windows Server 2019 (64-bit),172.20.1.89,ecbrprq58.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+ecbrprq59,poweredOn,8,20.0,Microsoft Windows Server 2019 (64-bit),172.20.167.72,ecbrprq59.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprq62,poweredOn,2,16.0,Microsoft Windows Server 2016 (64-bit),172.20.167.74,ecbrprq62.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprq64,poweredOn,16,18.0,Microsoft Windows Server 2019 (64-bit),172.20.167.75,ecbrprq64.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+ecbrprq68,poweredOn,4,16.0,Microsoft Windows Server 2022 (64-bit),172.20.167.76,ECBRPRQ68.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprq69,poweredOn,12,120.0,Microsoft Windows Server 2019 (64-bit),172.20.167.77,ECBRPRQ69.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+ecbrprq70,poweredOn,4,24.0,Microsoft Windows Server 2022 (64-bit),172.20.167.78,ECBRPRQ70.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprq71,poweredOn,6,40.0,Microsoft Windows Server 2022 (64-bit),172.20.167.100,ECBRPRQ71.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprq72,poweredOn,4,16.0,Microsoft Windows Server 2022 (64-bit),172.20.167.101,ECBRPRQ72.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprs01,poweredOn,1,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.42.13,ecbrprs01.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprs02,poweredOn,1,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.42.14,ecbrprs02.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprsi11,poweredOn,4,24.0,Microsoft Windows Server 2022 (64-bit),172.20.50.50,ecbrprsi11.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprsi12,poweredOn,4,8.0,Microsoft Windows Server 2022 (64-bit),172.20.50.51,ecbrprsi12.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ECBRPRSI13,poweredOn,2,6.0,Microsoft Windows Server 2022 (64-bit),172.20.50.60,ECBRPRSI13.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ECBRPRSI14,poweredOn,2,6.0,Microsoft Windows Server 2022 (64-bit),172.20.50.61,ECBRPRSI14.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprsm1,poweredOn,2,8.0,Microsoft Windows Server 2022 (64-bit),172.20.65.39,ECBRPRSM1.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprsm4,poweredOn,6,20.0,Microsoft Windows Server 2019 (64-bit),172.20.55.65,ecbrprsm4.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprsp01,poweredOn,16,32.0,Microsoft Windows Server 2012 (64-bit),172.20.1.13,ECBRPRSP01.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprsr1,poweredOff,4,16.0,,,,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprsrm1,poweredOn,2,5.0,Microsoft Windows Server 2016 (64-bit),172.20.1.94,ECBRPRSRM1.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprti01,poweredOn,18,22.0,Microsoft Windows Server 2016 (64-bit),172.20.1.155,ecbrprti01.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprti02,poweredOn,8,28.0,Microsoft Windows Server 2016 (64-bit),172.20.1.156,ecbrprti02.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprti03,poweredOn,4,20.0,Microsoft Windows Server 2016 (64-bit),172.20.1.157,ecbrprti03.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprti05,poweredOn,8,24.0,Microsoft Windows Server 2016 (64-bit),172.20.1.161,ecbrprti05.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprti06,poweredOn,4,12.0,Microsoft Windows Server 2016 (64-bit),172.20.1.162,ecbrprti06.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprti08,poweredOn,4,16.0,Microsoft Windows Server 2022 (64-bit),172.20.1.108,ECBRPRTI08.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprti09,poweredOn,4,16.0,Microsoft Windows Server 2025 (64-bit),172.20.55.152,ECBRPRTI09.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprvc3,poweredOn,4,21.0,VMware Photon OS (64-bit),172.20.1.174,ecbrprvc3.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ECBRPRVM01,poweredOn,4,4.0,Microsoft Windows Server 2022 (64-bit),172.20.40.80,ECBRPRVM01.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+ecbrprw01,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.1.98,ECBRPRW01.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprw02,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.1.98,ECBRPRW02.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw03,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.1.97,ECBRPRW03.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprw04,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.1.97,ECBRPRW04.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw06,poweredOn,2,6.0,Microsoft Windows Server 2016 (64-bit),172.20.1.82,ECBRPRW06.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprw07,poweredOn,2,2.86,Microsoft Windows Server 2008 (64-bit),172.20.1.83,ECBRPRW07.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprw08,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.1.84,ECBRPRW08.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprw15,poweredOn,4,4.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.1.234,ECBRPRW15.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+ecbrprw16,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),200.115.44.68,ECBRPRW16,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprw17,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.1.92,ECBRPRW17.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprw19,poweredOn,2,6.0,Microsoft Windows Server 2012 (64-bit),172.20.1.31,ECBRPRW19.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw20,poweredOn,4,18.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.1.11,ECBRPRW20.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw25,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.1.35,ECBRPRW25.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprw27,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.1.30,ECBRPRW27.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprw29,poweredOn,2,4.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.1.49,ECBRPRW29.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprw30,poweredOn,1,1.86,Microsoft Windows Server 2003 Standard (32-bit),172.20.1.50,ECBRPRW30.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw31,poweredOn,2,3.61,Microsoft Windows Server 2003 Standard (32-bit),172.20.1.40,ECBRPRW31.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprw32,poweredOn,8,8.0,Microsoft Windows Server 2012 (64-bit),172.20.55.48,ecbrprw32.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprw33,poweredOn,8,16.0,Microsoft Windows Server 2019 (64-bit),172.20.1.81,ECBRPRW33.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprw35,poweredOn,2,8.0,Microsoft Windows Server 2012 (64-bit),172.20.1.101,ECBRPRW35.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprw38,poweredOn,10,16.0,Microsoft Windows Server 2019 (64-bit),172.20.1.57,ECBRPRW38.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ECBRPRW38_RFC1335,poweredOn,10,16.0,Microsoft Windows Server 2019 (64-bit),172.20.1.141,ECBRPRW38CLON.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprw39,poweredOn,10,16.0,Microsoft Windows Server 2019 (64-bit),172.20.1.58,ECBRPRW39.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+ecbrprw43,poweredOn,2,12.0,Microsoft Windows Server 2019 (64-bit),172.20.1.56,ECBRPRW43.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprw44,poweredOn,4,20.0,Microsoft Windows Server 2016 (64-bit),172.20.1.111,ECBRPRW44.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprw44_RESTORE_REQ_2025-045998,poweredOff,4,20.0,,,,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprw45,poweredOn,8,20.0,Microsoft Windows Server 2016 (64-bit),172.20.1.112,ECBRPRW45.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprw47,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),192.168.1.114,ECBRPRW47.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprw48,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),192.168.1.115,ECBRPRW48.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprw49,poweredOn,14,60.0,Microsoft Windows Server 2016 (64-bit),172.20.1.133,ECBRPRW49.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ECBRPRW49_RFC1335,poweredOn,14,60.0,Microsoft Windows Server 2016 (64-bit),172.20.1.164,ECBRPRW49CLON.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw50,poweredOn,14,60.0,Microsoft Windows Server 2016 (64-bit),192.168.1.134,ECBRPRW50.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprw51,poweredOn,4,7.0,Microsoft Windows Server 2016 (64-bit),172.20.1.139,ECBRPRW51.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprw52,poweredOn,4,12.0,Microsoft Windows Server 2016 (64-bit),172.20.1.145,ECBRPRW52.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw53,poweredOn,4,12.0,Microsoft Windows Server 2016 (64-bit),172.20.1.146,ECBRPRW53.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprw56,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.1.239,ECBRPRW56.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprw57,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.1.242,ECBRPRW57.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprw58,poweredOn,6,10.0,Microsoft Windows Server 2016 (64-bit),192.168.99.197,ECBRPRW58.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ECBRPRW58_RFC1335,poweredOn,6,10.0,Microsoft Windows Server 2016 (64-bit),172.20.1.130,ECBRPRW58CLON.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ecbrprw59,poweredOn,6,10.0,Microsoft Windows Server 2016 (64-bit),192.168.99.198,ECBRPRW59.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprw60,poweredOn,6,24.0,Microsoft Windows Server 2016 (64-bit),172.20.1.208,ecbrprw60.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprw62,poweredOn,2,6.0,Microsoft Windows Server 2016 (64-bit),192.168.1.220,ECBRPRW62.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw63,poweredOn,2,6.0,Microsoft Windows Server 2016 (64-bit),192.168.1.221,ECBRPRW63.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw64,poweredOn,8,10.0,Microsoft Windows Server 2016 (64-bit),172.20.1.224,ECBRPRW64.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprw65,poweredOn,8,10.0,Microsoft Windows Server 2016 (64-bit),172.20.1.225,ECBRPRW65.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprw68,poweredOn,4,6.0,Microsoft Windows Server 2016 (64-bit),172.20.1.132,ECBRPRW68.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprw69,poweredOn,4,16.0,Microsoft Windows Server 2016 (64-bit),172.20.1.229,ECBRPRW69.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprw70,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.1.230,ECBRPRW70.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprw71,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.1.180,ECBRPRW71.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+ecbrprw72,poweredOn,4,12.0,Microsoft Windows Server 2019 (64-bit),172.20.1.247,ecbrprw72.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw73,poweredOn,10,16.0,Microsoft Windows Server 2019 (64-bit),172.20.1.248,ECBRPRW73.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprw74,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.1.100,ECBRPRW74.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprw76,poweredOn,12,64.0,Microsoft Windows Server 2019 (64-bit),172.20.1.143,ECBRPRW76.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprw77,poweredOn,12,64.0,Microsoft Windows Server 2019 (64-bit),172.20.1.120,ECBRPRW77.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+ECBRPRW77_RFC1335,poweredOn,12,64.0,Microsoft Windows Server 2019 (64-bit),172.20.1.148,ECBRPRW77CLON.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprw83,poweredOn,8,10.0,Microsoft Windows Server 2019 (64-bit),172.20.1.76,ECBRPRW83.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprw85,poweredOn,4,12.0,Microsoft Windows Server 2019 (64-bit),172.20.1.154,ECBRPRW85.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ECBRPRW85_RFC1335,poweredOn,4,12.0,Microsoft Windows Server 2019 (64-bit),172.20.1.142,ECBRPRW85CLON.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+ecbrprw86,poweredOn,4,12.0,Microsoft Windows Server 2019 (64-bit),172.20.1.250,ECBRPRW86.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprw87,poweredOn,20,32.0,Microsoft Windows Server 2019 (64-bit),172.20.1.118,ECBRPRW87.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprw89,poweredOn,8,32.0,Microsoft Windows Server 2022 (64-bit),172.20.1.173,ecbrprw89.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw90,poweredOn,8,32.0,Microsoft Windows Server 2022 (64-bit),172.20.1.191,ecbrprw90.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprw91,poweredOn,4,12.0,Microsoft Windows Server 2022 (64-bit),172.20.55.129,ECBRPRW91.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+ecbrprwe25,poweredOn,12,64.0,Microsoft Windows Server 2016 (64-bit),172.20.1.136,ECBRPRWE25,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprwe26,poweredOn,12,64.0,Microsoft Windows Server 2016 (64-bit),192.168.1.137,ECBRPRWE26,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprwe27,poweredOn,4,8.0,Microsoft Windows Server 2016 or later (64-bit),192.168.18.13,ECBRPRWE27,Cluster_Quito,ecbrprsx21.bgr.com
+ecbrprwe31,poweredOn,4,8.0,Microsoft Windows Server 2016 or later (64-bit),172.20.115.17,ECBRPRWE31,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprwe32,poweredOn,10,12.0,Microsoft Windows Server 2016 or later (64-bit),172.20.1.244,ECBRPRWE32,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprwe33,poweredOn,10,12.0,Microsoft Windows Server 2016 or later (64-bit),172.20.1.245,ECBRPRWE33,Cluster_Quito,ecbrprsx17.bgr.com
+ecbrprwe34,poweredOn,4,12.0,Microsoft Windows Server 2016 (64-bit),172.20.115.23,ECBRPRWE34,Cluster_Quito,ecbrprsx16.bgr.com
+ecbrprwe35,poweredOn,2,27.0,Microsoft Windows Server 2022 (64-bit),172.20.115.36,ecbrprwe35,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrprwe36,poweredOn,2,27.0,Microsoft Windows Server 2022 (64-bit),172.20.115.37,ecbrprwe36,Cluster_Quito,ecbrprsx17.bgr.com
+ECBRPRXDR,poweredOn,8,12.09,Rocky Linux (64-bit),172.20.55.112,v1sg.1358fe40,Cluster_Quito,ecbrprsx22.bgr.com
+ecbrtsap1,poweredOn,4,24.0,Microsoft Windows Server 2016 (64-bit),172.20.41.45,Ecbrtsap1.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsap2,poweredOn,4,16.0,Microsoft Windows Server 2016 (64-bit),172.20.41.132,ecbrtsap2.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsap3,poweredOn,2,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.133,ecbrtsap3.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsap4,poweredOn,2,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.134,ecbrtsap4.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsap5,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.149,ecbrtsap5.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsap6,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.151,ecbrtsap6.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsass02,poweredOn,4,8.0,Microsoft Windows Server 2022 (64-bit),172.20.41.237,ECBRTSASS02.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtscc01,poweredOn,2,4.0,Microsoft Windows Server 2016 (64-bit),172.20.41.87,ecbrtscc01.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtscl03,poweredOn,4,20.0,Microsoft Windows Server 2016 (64-bit),192.168.1.100,ecbrtscl03.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtscl04,poweredOn,4,20.0,Microsoft Windows Server 2016 (64-bit),192.168.1.101,ecbrtscl04.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtscl05,poweredOn,4,20.0,Microsoft Windows Server 2016 (64-bit),192.168.1.102,ecbrtscl05.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsf02,poweredOn,4,4.0,Microsoft Windows Server 2012 (64-bit),172.20.41.90,ecbrtsf02.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsf02clon,poweredOn,4,4.0,Microsoft Windows Server 2012 (64-bit),172.20.41.5,ecbrtsf02clon.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsf03,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.41.205,ecbrtsf03.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ECBRTSF04,poweredOn,2,8.0,Microsoft Windows Server 2022 (64-bit),172.20.41.252,ECBRTSF04.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsf05,poweredOn,2,6.0,Microsoft Windows Server 2022 (64-bit),172.20.41.3,ECBRTSF05.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsh01,poweredOn,4,4.0,Microsoft Windows Server 2016 (64-bit),172.20.41.129,ecbrtsh01.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsh03,poweredOn,2,6.0,Microsoft Windows Server 2022 (64-bit),172.20.41.4,ECBRTSH03.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ECBRTSH04,poweredOn,2,4.0,Microsoft Windows Server 2022 (64-bit),172.20.41.193,ECBRTSH04.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtskc01,poweredOn,2,4.0,Microsoft Windows Server 2016 (64-bit),172.20.41.97,ecbrtskc01,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtskf01,poweredOn,2,4.0,Microsoft Windows Server 2016 (64-bit),172.20.41.98,ecbrtskf01.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtskw01,poweredOn,2,4.0,Microsoft Windows Server 2016 (64-bit),172.20.41.96,ecbrtskw01.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtslx03,poweredOn,3,4.0,Ubuntu Linux (64-bit),172.20.41.227,ecbrtslx03,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtspocAD_client,poweredOn,2,6.0,Microsoft Windows Server 2019 (64-bit),172.20.165.17,ecbrtspocAD_client.bgrtest.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtspoccl01,poweredOn,2,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.155,ecbrtspoccl01.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtspoccl02,poweredOn,2,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.156,ecbrtspoccl02.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsq10,poweredOn,2,4.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.41.79,ECBRTSQ10.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsq15,poweredOn,2,4.0,Microsoft Windows Server 2012 (64-bit),172.20.41.40,ecbrtsq15.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsq17,poweredOn,4,10.0,Microsoft Windows Server 2016 (64-bit),172.20.41.86,ecbrtsq17.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsq18,poweredOn,4,14.0,Microsoft Windows Server 2016 (64-bit),172.20.41.95,ecbrtsq18.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsq18clon,poweredOn,4,14.0,Microsoft Windows Server 2016 (64-bit),172.20.41.6,ecbrtsq18clon.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsq19,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.102,ecbrtsq19.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsq20,poweredOn,2,5.0,Microsoft Windows Server 2016 (64-bit),172.20.41.105,ECBRTSQ20.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsq21,poweredOn,2,6.0,Microsoft Windows Server 2016 (64-bit),172.20.41.131,ecbrtsq21.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsq22,poweredOn,4,16.0,Microsoft Windows Server 2019 (64-bit),172.20.41.167,ecbrtsq22.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsq23,poweredOn,4,24.0,Microsoft Windows Server 2019 (64-bit),172.20.41.174,ecbrtsq23.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ECBRTSQ25,poweredOn,4,14.0,Microsoft Windows Server 2022 (64-bit),172.20.41.248,ECBRTSQ25.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ECBRTSQ27,poweredOn,2,6.0,Microsoft Windows Server 2022 (64-bit),172.20.41.194,ECBRTSQ27.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtss01,poweredOn,1,2.0,Microsoft Windows Server 2003 (32-bit),172.20.46.11,ecbrtss01.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtss01clon,poweredOn,1,2.0,Microsoft Windows Server 2003 (32-bit),172.20.47.94,ecbrtss01clon.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtssg01,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.240,ecbrtssg01.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsti01,poweredOn,4,10.0,Microsoft Windows Server 2016 (64-bit),172.20.41.164,ecbrtsti01.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ECBRTSVM01,poweredOn,2,4.0,Microsoft Windows Server 2022 (64-bit),172.20.41.130,ECBRTSVM01.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw01,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),193.168.10.1,ecbrtsw01.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw02,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.62,ecbrtsw02.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw02_clon,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.62,ecbrtsw02.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw03,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.63,ecbrtsw03.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw04,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),193.168.20.2,ecbrtsw04.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw06,poweredOn,2,6.0,Microsoft Windows Server 2016 (64-bit),172.20.41.66,ecbrtsw06.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw06_POC,poweredOn,2,6.0,Microsoft Windows Server 2016 (64-bit),172.20.41.49,ecbrtsw06_poc.bgr.com,Cluster_BI,ecbrprsx31.bgr.com
+ecbrtsw07,poweredOn,2,3.0,Microsoft Windows Server 2008 (64-bit),172.20.41.67,ecbrtsw07.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw08,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.68,ECBRTSW08.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw100,poweredOn,4,4.0,Microsoft Windows Server 2019 (64-bit),172.20.41.178,ecbrtsw100.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw101,poweredOn,4,4.0,Microsoft Windows Server 2019 (64-bit),172.20.41.179,ecbrtsw101.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw102,poweredOn,4,14.0,Microsoft Windows Server 2016 (64-bit),172.20.41.191,ecbrtsw102.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw105,poweredOn,4,10.0,Microsoft Windows Server 2019 (64-bit),172.20.41.204,ecbrtsw105.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ECBRTSW105_POC,poweredOn,4,12.0,Microsoft Windows Server 2019 (64-bit),172.20.41.48,ecbrtsw105_poc.bgr.com,Cluster_BI,ecbrprsx31.bgr.com
+ecbrtsw106,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.41.208,ecbrtsw106.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw107,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.41.209,ecbrtsw107.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw110,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.41.222,ecbrtsw110.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw111,poweredOn,2,6.0,Microsoft Windows Server 2016 (64-bit),192.168.120.50,ecbrtsw111.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw112,poweredOn,2,6.0,Microsoft Windows Server 2016 (64-bit),172.20.41.224,ecbrtsw112.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw113,poweredOn,6,16.0,Microsoft Windows Server 2016 (64-bit),172.20.41.218,ecbrtsw113.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw113clon,poweredOn,4,12.0,Microsoft Windows Server 2016 (64-bit),172.20.41.7,ecbrtsw113clon.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw114,poweredOn,2,8.0,Microsoft Windows Server 2019 (64-bit),172.20.41.234,ecbrtsw114.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw115,poweredOn,4,14.0,Microsoft Windows Server 2016 (64-bit),172.20.41.236,ecbrtsw115.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw116,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.41.238,ecbrtsw116.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw117,poweredOn,4,10.0,Microsoft Windows Server 2019 (64-bit),172.20.41.251,ECBRTSW117.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ECBRTSW118,poweredOn,4,6.0,Microsoft Windows Server 2022 (64-bit),172.20.41.89,ECBRTSW118.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ECBRTSW119,poweredOn,2,8.0,Microsoft Windows Server 2022 (64-bit),172.20.41.183,ECBRTSW119.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw12,poweredOn,2,4.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.41.78,ECBRTSW12.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw12poc,poweredOn,2,4.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.41.190,ECBRTSW12POC.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw14,poweredOn,4,4.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.41.77,ECBRTSW14.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw15,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.41.21,ecbrtsw15.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw16,poweredOn,2,4.0,Microsoft Windows Server 2008 R2 (64-bit),192.168.100.3,ECBRTSW16.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw17,poweredOn,2,4.0,Microsoft Windows Server 2012 (64-bit),172.20.41.39,ecbrtsw17.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw18,poweredOn,1,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.42,ecbrtsw18.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw19,poweredOn,1,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.43,ecbrtsw19.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw21,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.41.46,ecbrtsw21.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw22,poweredOn,1,3.0,Microsoft Windows Server 2012 (64-bit),172.20.41.80,ecbrtsw22.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw25,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.84,ecbrtsw25.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw26,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.85,ecbrtsw26.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw28,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.92,ecbrtsw28.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw29,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.93,ecbrtsw29.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw30,poweredOn,4,18.0,Microsoft Windows Server 2016 (64-bit),172.20.41.59,ecbrtsw30.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw31,poweredOn,2,4.0,Microsoft Windows Server 2016 (64-bit),172.20.41.99,ecbrtsw31.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw32,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.101,ecbrtsw32.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw33,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.128,ecbrtsw33.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw34,poweredOn,4,6.0,Microsoft Windows Server 2016 (64-bit),193.168.30.10,ecbrtsw34.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw35,poweredOn,4,6.0,Microsoft Windows Server 2016 (64-bit),193.168.30.11,ecbrtsw35.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ECBRTSW37,poweredOn,2,10.0,Microsoft Windows Server 2022 (64-bit),172.20.41.249,ECBRTSW37.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw90,poweredOn,2,4.0,Microsoft Windows Server 2008 (64-bit),172.20.41.76,ECBRTSW90.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw91,poweredOn,6,12.0,Microsoft Windows Server 2019 (64-bit),172.20.41.52,ecbrtsw91.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw92,poweredOn,10,16.0,Microsoft Windows Server 2019 (64-bit),172.20.41.53,ecbrtsw92.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw93,poweredOn,2,4.0,Microsoft Windows Server 2016 (64-bit),172.20.41.123,ecbrtsw93.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw94,poweredOn,4,4.0,Microsoft Windows Server 2016 (64-bit),172.20.41.150,ecbrtsw94.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtsw95,poweredOn,4,8.0,Microsoft Windows Server 2016 (64-bit),172.20.41.152,ecbrtsw95.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw96,poweredOn,4,6.0,Microsoft Windows Server 2016 (64-bit),172.20.41.153,ecbrtsw96.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+ecbrtsw97,poweredOn,4,10.0,Microsoft Windows Server 2019 (64-bit),172.20.41.166,ecbrtsw97.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtsw98,poweredOn,4,8.0,Microsoft Windows Server 2019 (64-bit),172.20.41.173,ecbrtsw98.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtswe02,poweredOn,6,16.0,Microsoft Windows Server 2016 (64-bit),172.20.41.57,ecbrtswe02,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtswe03,poweredOn,4,8.0,Microsoft Windows Server 2016 or later (64-bit),192.20.41.144,ecbrtswe03,Cluster_Test,ecbrtssx04.bgr.com
+ecbrtswe04,poweredOn,4,6.0,Microsoft Windows Server 2019 (64-bit),172.20.41.165,ecbrtswe04,Cluster_Test,ecbrtssx05.bgr.com
+ecbrtswe05,poweredOn,4,12.0,Microsoft Windows Server 2016 (64-bit),172.20.41.192,ecbrtswe05,Cluster_Test,ecbrtssx06.bgr.com
+ECBRTSWE07,poweredOn,2,5.0,Microsoft Windows Server 2022 (64-bit),172.20.41.247,ECBRTSWE07,Cluster_Test,ecbrtssx06.bgr.com
+OmniStackVC-172-20-45-216,poweredOn,6,108.0,Ubuntu Linux (64-bit),172.20.45.216,omnicube-ip45-216.bgr.com,Cluster_Quito,ecbrprsx13.bgr.com
+OmniStackVC-172-20-45-218,poweredOn,6,108.0,Ubuntu Linux (64-bit),172.20.45.218,omnicube-ip45-218.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+OmniStackVC-172-20-45-220,poweredOn,6,108.0,Ubuntu Linux (64-bit),172.20.45.220,omnicube-ip45-220.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+OmniStackVC-172-20-45-222,poweredOn,6,108.0,Ubuntu Linux (64-bit),172.20.45.222,omnicube-ip45-222.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+OmniStackVC-172-20-45-224,poweredOn,6,108.0,Ubuntu Linux (64-bit),172.20.45.224,omnicube-ip45-224.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+OmniStackVC-172-20-45-226,poweredOn,6,108.0,Ubuntu Linux (64-bit),172.20.45.226,omnicube-ip45-226.bgr.com,Cluster_Quito,ecbrprsx18.bgr.com
+OmniStackVC-172-20-45-250,poweredOn,8,92.0,Ubuntu Linux (64-bit),172.20.45.250,omnicube-ip45-250.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+OmniStackVC-172-20-45-48,poweredOn,8,68.0,Ubuntu Linux (64-bit),172.20.45.48,omnicube-ip45-48.bgr.com,Cluster_Quito,ecbrprsx20.bgr.com
+OmniStackVC-172-20-45-66,poweredOn,8,68.0,Ubuntu Linux (64-bit),172.20.45.66,omnicube-ip45-66.bgr.com,Cluster_Quito,ecbrprsx21.bgr.com
+OmniStackVC-172-20-45-69,poweredOn,8,68.0,Ubuntu Linux (64-bit),172.20.45.69,omnicube-ip45-69.bgr.com,Cluster_Quito,ecbrprsx22.bgr.com
+poc_certificadora,poweredOn,6,10.0,Microsoft Windows Server 2022 (64-bit),172.20.55.250,poc_certificadora.bgr.com,Cluster_Quito,ecbrprsx15.bgr.com
+puio186f00,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.1.6,PUIO186F00.bgr.com,Cluster_Quito,ecbrprsx19.bgr.com
+srvpro01,poweredOn,4,10.0,Microsoft Windows Server 2003 (32-bit),172.20.1.7,srvpro01.bgr.com,Cluster_Quito,ecbrprsx14.bgr.com
+Template Server 2022 v21H2-BASE,poweredOff,2,4.0,,,,Cluster_Quito,ecbrprsx18.bgr.com
+Template Server 2022 v21H2-IIS,poweredOff,2,4.0,,,,Cluster_Quito,ecbrprsx15.bgr.com
+Template_RedHat_8.9_no_hard,poweredOff,2,4.0,Red Hat Enterprise Linux 8 (64-bit),,ecbrprmd1,Cluster_Quito,ecbrprsx16.bgr.com
+Template_server2016_Base,poweredOff,2,4.0,,,,Cluster_Quito,ecbrprsx18.bgr.com
+Template_W2008R2_Entx64,poweredOff,2,4.0,Microsoft Windows Server 2008 R2 (64-bit),,POC_ECBRPRQ23.bgr.com,Cluster_Quito,ecbrprsx13.bgr.com
+Template_W2016__BDD_sysprep,poweredOff,2,4.0,Microsoft Windows Server 2016 (64-bit),,WIN-F4RNGT8T2MT,Cluster_Quito,ecbrprsx19.bgr.com
+Template_W2016_BDD_SQL2016ENT_DOMINIO,poweredOff,2,6.0,Microsoft Windows Server 2012 (64-bit),,TemplateBDD2021.bgr.com,Cluster_Quito,ecbrprsx16.bgr.com
+Template_W2016_IIS_DMZ_PD,poweredOff,2,6.0,Microsoft Windows Server 2012 (64-bit),,TemplateIIS,Cluster_Quito,ecbrprsx16.bgr.com
+Template_W2016_IIS_DOMINIO,poweredOff,2,6.0,Microsoft Windows Server 2012 (64-bit),,TemplateIIS.bgr.com,Cluster_Quito,ecbrprsx13.bgr.com
+Template_W2016_SinHardening,poweredOff,2,6.0,Microsoft Windows Server 2016 or later (64-bit),,TEMP,Cluster_Quito,ecbrprsx22.bgr.com
+Template_W2016_SO_DMZ,poweredOff,4,8.0,Microsoft Windows Server 2016 (64-bit),,,Cluster_Test,ecbrtssx06.bgr.com
+Template_W2016_SO_DOMINIO_APP,poweredOff,6,10.0,Microsoft Windows Server 2012 (64-bit),,Template2023,Cluster_Quito,ecbrprsx13.bgr.com
+Template_W2016BDD,poweredOff,4,16.0,Microsoft Windows Server 2016 (64-bit),,,Cluster_Quito,ecbrprsx17.bgr.com
+Template_W2019_Hardening_Base_Dominio,poweredOff,2,6.0,Microsoft Windows Server 2016 (64-bit),,templatebase_2019.bgr.com,Cluster_Quito,ecbrprsx17.bgr.com
+Template_W2019_Hardening_Base_NoDominio,poweredOff,2,6.0,Microsoft Windows Server 2016 (64-bit),,templatebase,Cluster_Quito,ecbrprsx16.bgr.com
+Template_w2019_Hardening_IIS_DMZ_Dotnet6_D,poweredOff,2,6.0,Microsoft Windows Server 2016 (64-bit),,templatebase_2019,Cluster_Quito,ecbrprsx13.bgr.com
+Template_w2019_Hardening_IIS_DMZ_Dotnet6_p,poweredOff,2,6.0,Microsoft Windows Server 2016 (64-bit),,templatebase_2019,Cluster_Quito,ecbrprsx18.bgr.com
+Template_w2019_Hardening_IIS_Dominio_Dotnet6_p,poweredOff,2,6.0,Microsoft Windows Server 2016 (64-bit),,templatebase_2019,Cluster_Quito,ecbrprsx13.bgr.com
+Template_W2019_Hardening_SQL2019STD_Dominio,poweredOff,2,6.0,,,,Cluster_Quito,ecbrprsx18.bgr.com
+Template_W2019_SinHardening_Base,poweredOff,2,4.0,Microsoft Windows Server 2016 (64-bit),,template2019,Cluster_Quito,ecbrprsx13.bgr.com
+Template_Win2025-Base,poweredOff,2,4.0,,,,Cluster_Quito,ecbrprsx20.bgr.com
+Template_Windows2003Standard64bit,poweredOff,2,4.0,Microsoft Windows Server 2003 (64-bit),,,Cluster_Quito,ecbrprsx18.bgr.com
+Template_WindowsServer2003_BDD2000,poweredOff,2,4.0,Microsoft Windows Server 2003 (64-bit),,,Cluster_Quito,ecbrprsx17.bgr.com
+test186com1,poweredOn,2,3.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.125,TEST186COM1.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+test186cw1,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.11,TEST186CW1.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+test186h01,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.33,test186h01.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+test186h01clon,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.47.92,test186h01clon.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+test186h02,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.34,test186h02.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+test186h02clon,poweredOn,2,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.47.93,test186h02clon.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+test186q01,poweredOn,2,4.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.35,test186q01.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+test186q02,poweredOn,1,3.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.121,TEST186Q02.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+test186q03,poweredOn,2,1.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.16,TEST186Q03.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+test186q04,poweredOn,4,10.0,Microsoft Windows Server 2008 (64-bit),172.20.41.50,TEST186q04.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+test186w01,poweredOn,1,0.68,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.31,TEST186W01.bgr.com,Cluster_Test,ecbrtssx04.bgr.com
+test186w05,poweredOn,2,1.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.13,test186w05.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+test186w06,poweredOn,1,2.0,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.120,TEST186W06.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+test186w07,poweredOn,2,0.75,Microsoft Windows Server 2003 Standard (32-bit),172.20.41.15,TEST186W07.bgr.com,Cluster_Test,ecbrtssx05.bgr.com
+test186w09,poweredOn,2,4.0,Microsoft Windows Server 2008 R2 (64-bit),172.20.41.17,TEST186W09.bgr.com,Cluster_Test,ecbrtssx06.bgr.com
+vCLS-38443851-4131-4d32-3239-34303036374c,poweredOn,1,0.16,VMware Photon CRX (64-bit),,vcls-38443851-4131-4d32-3239-34303036374c,Cluster_Quito,ecbrprsx18.bgr.com
+vCLS-394a3153-4138-4d32-3244-314d3031464e,poweredOn,1,0.16,VMware Photon CRX (64-bit),,vcls-394a3153-4138-4d32-3244-314d3031464e,Cluster_Quito,ecbrprsx21.bgr.com
+vCLS-7ee39516-b2fc-442c-b439-bcd5a1fb20ec,poweredOn,1,0.12,VMware Photon OS (64-bit),,,Cluster_Test,ecbrtssx05.bgr.com
+vCLS-824960f0-1889-4a7e-9751-667f0d6bcd6b,poweredOn,1,0.12,VMware Photon OS (64-bit),,,Cluster_Test,ecbrtssx06.bgr.com
+vCLS-96f9b1cb-1265-4fc6-9b2c-8ccb96119600,poweredOn,1,0.12,VMware Photon OS (64-bit),,,Cluster_BI,ecbrprsx31.bgr.com
+vCLS-d3221465-9cf2-42fc-8499-543d7d1670f2,poweredOn,1,0.12,VMware Photon OS (64-bit),,,Cluster_Test,ecbrtssx04.bgr.com
