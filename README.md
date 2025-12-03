@@ -46,24 +46,77 @@ stack-sense/
 
 ## ⚙️ Requisitos
 
-- ✅ uv (instalado)
-- ✅ GraphViz (instalado)
-- ✅ Credenciales AWS (configuradas - perfil default)
-- Python 3.10+
+- Python 3.9+
+- Homebrew (gestor de paquetes para macOS)
+- Node.js y npm
+- uv (gestor de paquetes Python para servidores MCP)
+- Amazon Q CLI (Kiro CLI)
+- Credenciales AWS (configuradas - perfil default)
 
 ## 🚀 Instalación
 
-1. Instalar dependencias:
+### 1. Instalar Homebrew (si no está instalado)
 ```bash
-pip install -r requirements.txt
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Configurar Homebrew en tu PATH
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-2. Usar con Kiro CLI:
+### 2. Instalar Node.js
 ```bash
-kiro-cli chat --mcp-config ./mcp.json
+brew install node
+```
+
+### 3. Instalar uv (para servidores MCP)
+```bash
+brew install uv
+```
+
+### 4. Instalar Amazon Q CLI (Kiro CLI)
+```bash
+brew install --cask amazon-q
+
+# Crear enlaces simbólicos para acceso global
+sudo ln -sf "/Applications/Kiro CLI.app/Contents/MacOS/kiro-cli" /usr/local/bin/kiro-cli
+sudo ln -sf "/Applications/Kiro CLI.app/Contents/MacOS/kiro-cli-chat" /usr/local/bin/kiro-cli-chat
+sudo ln -sf "/Applications/Kiro CLI.app/Contents/MacOS/kiro-cli-term" /usr/local/bin/kiro-cli-term
+
+# Verificar instalación
+kiro-cli --version
+```
+
+### 5. Instalar dependencias Python del proyecto
+```bash
+pip3 install -r requirements.txt
+```
+
+### 6. Configurar servidores MCP
+```bash
+# Importar configuración MCP del proyecto
+kiro-cli-chat mcp import --file ./mcp.json workspace
+
+# Verificar servidores configurados
+kiro-cli-chat mcp list
+```
+
+### 7. Configurar PATH (agregar a ~/.zshrc)
+```bash
+echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 ```
 
 ## 💡 Uso
+
+### Iniciar chat con Kiro CLI
+```bash
+# Iniciar sesión interactiva con servidores MCP
+kiro-cli-chat chat
+
+# O hacer una pregunta directa
+kiro-cli-chat chat "Analiza este export de RVTools y dame recomendaciones de instancias EC2"
+```
 
 ### Convertir RVTools a CSV
 ```bash
@@ -77,10 +130,10 @@ python3 tools/cloudamize_to_csv.py data/Observed-Infrastructure.xlsx
 
 ### Analizar export de RVTools
 ```bash
-python examples/analyze_rvtools.py data/rvtools_export.xlsx
+python3 examples/analyze_rvtools.py data/rvtools_export.xlsx
 ```
 
-### Con Kiro CLI
+### Ejemplos de prompts con Kiro CLI
 ```
 Analiza este export de RVTools y dame recomendaciones de instancias EC2
 ```
@@ -91,6 +144,21 @@ Genera un diagrama de arquitectura para migrar estos 50 servidores a AWS
 
 ```
 ¿Cuánto costaría mensualmente esta migración en us-east-1?
+```
+
+### Gestionar servidores MCP
+```bash
+# Listar servidores configurados
+kiro-cli-chat mcp list
+
+# Ver estado de un servidor
+kiro-cli-chat mcp status <nombre-servidor>
+
+# Agregar un nuevo servidor
+kiro-cli-chat mcp add <nombre-servidor>
+
+# Eliminar un servidor
+kiro-cli-chat mcp remove <nombre-servidor>
 ```
 
 ## 📊 Capacidades
@@ -113,3 +181,55 @@ Genera un diagrama de arquitectura para migrar estos 50 servidores a AWS
 - [ ] Recomendaciones de servicios managed (RDS, ECS, Lambda)
 - [ ] Análisis de costos comparativo on-prem vs AWS
 - [ ] Generación de propuestas comerciales
+
+## 🔧 Troubleshooting
+
+### Los servidores MCP no se cargan
+Si ves errores como "No such file or directory" al iniciar el chat:
+```bash
+# Verificar que uv/uvx esté instalado
+uvx --version
+
+# Si no está en el PATH, agregar a ~/.zshrc
+echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+### Error al importar configuración MCP
+```bash
+# Asegurarse de estar en el directorio del proyecto
+cd /Users/migueviana/Documents/Stack-Sense
+
+# Reimportar configuración
+kiro-cli-chat mcp import --file ./mcp.json workspace --force
+```
+
+### Verificar instalación completa
+```bash
+# Python
+python3 --version  # Debe ser 3.9+
+
+# Node.js
+node --version     # Debe ser v25+
+
+# npm
+npm --version      # Debe ser 11+
+
+# uv
+uv --version       # Debe estar instalado
+
+# Kiro CLI
+kiro-cli --version # Debe ser 1.21+
+
+# Dependencias Python
+python3 -c "import pandas; import openpyxl; import boto3; print('✅ OK')"
+```
+
+### Logs de depuración
+```bash
+# Ver logs detallados de Kiro CLI
+KIRO_LOG_LEVEL=trace kiro-cli-chat chat
+
+# Ubicación de logs
+cat $TMPDIR/kiro-log/kiro-chat.log
+```
