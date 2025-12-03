@@ -1,0 +1,136 @@
+[
+  {
+    "archivo": "G.I-PortalAdmBGR.html",
+    "nombre": "PortalAdministrativoBGR",
+    "descripcion": "Permite realizar tareas de desbloqueo y deslogueo de usuarios de siglo 21",
+    "frontend": "ASP.NET C#",
+    "frontend_version": ".NET Framework 4.7.1",
+    "backend": "C#",
+    "backend_version": ".NET Framework 4.7.1",
+    "database": "Microsoft SQL Server",
+    "database_version": "2016 ENTERPRISE EDITION",
+    "so_version": "Windows Server 2016 STANDARD EDITION",
+    "backend_obsoleto": "Si",
+    "db_obsoleto": "Si (2016 - Soporte extendido hasta 2026)"
+  },
+  {
+    "archivo": "G.I-PortalGuiaBGR.html",
+    "nombre": "PortalGuiaBGR",
+    "descripcion": "Es la guía telefónica del banco",
+    "arquitectura": "Capas",
+    "fabricante": "BGR",
+    "dependencias": "Base de datos: PORTAL_ADMINISTRATIVO_BGR\nMicroservicio: BGRCELULAR (Antiguo Notificador)\nIdentidades: Active Directory\nConfiguración centralizada: Tcs.ServicioConfiguracionBGR.WS",
+    "frontend": "ASP.NET C#",
+    "frontend_version": ".NET Framework 4.7.1",
+    "backend": "C#",
+    "backend_version": ".NET Framework 4.7.1",
+    "database": "Microsoft SQL Server",
+    "database_version": "2016 ENTERPRISE EDITION",
+    "so_version": "Windows Server 2016 STANDARD EDITION",
+    "servidores": [
+      "ECBRTSW21"
+    ],
+    "backend_obsoleto": "Si",
+    "db_obsoleto": "Si (2016 - Soporte extendido hasta 2026)"
+  },
+  {
+    "archivo": "G.I.-Api Portal.html",
+    "nombre": "Api Portal",
+    "descripcion": "Portal estatico de apis que define la entrada y salida de peticiones",
+    "arquitectura": "Capas",
+    "fabricante": "BGR",
+    "dependencias": "Base de datos: PORTAL_ADMINISTRATIVO_BGR\nMicroservicio: BGRCELULAR (Antiguo Notificador)\nIdentidades: Active Directory\nConfiguración centralizada: Tcs.ServicioConfiguracionBGR.WS",
+    "frontend": "ASP.NET C#",
+    "frontend_version": ".NET Framework 4.7.1",
+    "backend": "C#",
+    "backend_version": ".NET Framework 4.7.1",
+    "database": "Microsoft SQL Server",
+    "database_version": "2016 ENTERPRISE EDITION",
+    "so_version": "Windows Server 2016 STANDARD EDITION",
+    "servidores": [
+      "ECBRTSW21"
+    ],
+    "backend_obsoleto": "Si",
+    "db_obsoleto": "Si (2016 - Soporte extendido hasta 2026)"
+  },
+  {
+    "archivo": "G.I.-Backoffice Banca Digital.html",
+    "nombre": "Backoffice Banca Digital",
+    "descripcion": "Aplicación parametrizadora para Banca Digital",
+    "frontend": "ASP.NET C#",
+    "frontend_version": ".NET Core 8",
+    "database": "Microsoft SQL Server",
+    "database_version": "2019 ENTERPRISE EDITION",
+    "so_version": "Windows Server 2019 STANDARD EDITION"
+  },
+  {
+    "archivo": "G.I.-Backoffice Sistemas.html",
+    "nombre": "Backoffice Sistemas BGR",
+    "descripcion": "Aplicación parametrizadora para diversos sistemas del banco",
+    "arquitectura": "Capas",
+    "fabricante": "BGR",
+    "dependencias": "Base de datos: PORTAL_ADMINISTRATIVO_BGR\nMicroservicio: BGRCELULAR (Antiguo Notificador)\nIdentidades: Active Directory\nConfiguración centralizada: Tcs.ServicioConfiguracionBGR.WS",
+    "frontend": "ASP.NET C#",
+    "frontend_version": ".NET Framework 4.7.1",
+    "backend": "C#",
+    "backend_version": ".NET Framework 4.7.1",
+    "database": "Microsoft SQL Server",
+    "database_version": "2016 ENTERPRISE EDITION",
+    "so_version": "Windows Server 2016 STANDARD EDITION",
+    "servidores": [
+      "ECBRTSW21"
+    ],
+    "backend_obsoleto": "Si",
+    "db_obsoleto": "Si (2016 - Soporte extendido hasta 2026)"
+  },
+  {
+    "archivo": "G.I.-Saras.html",
+    "nombre": "Saras",
+    "descripcion": "Aplicación para analisis de riesgo ambiental y social",
+    "frontend": "ASP.NET C#",
+    "frontend_version": ".NET Core 8",
+    "database": "Microsoft SQL Server",
+    "database_version": "2019 ENTERPRISE EDITION",
+    "so_version": "Windows Server 2019 STANDARD EDITION"
+  },
+  {
+    "archivo": "G.I.-Seq.html",
+    "nombre": "Seq",
+    "descripcion": "Plataforma autohosteable que funciona como servidor de logs",
+    "arquitectura": "Capas",
+    "fabricante": "BGR",
+    "dependencias": "Base de datos: PORTAL_ADMINISTRATIVO_BGR\nMicroservicio: BGRCELULAR (Antiguo Notificador)\nIdentidades: Active Directory\nConfiguración centralizada: Tcs.ServicioConfiguracionBGR.WS",
+    "frontend": "ASP.NET C#",
+    "frontend_version": ".NET Framework 4.7.1",
+    "backend": "C#",
+    "backend_version": ".NET Framework 4.7.1",
+    "database": "Microsoft SQL Server",
+    "database_version": "2016 ENTERPRISE EDITION",
+    "so_version": "Windows Server 2016 STANDARD EDITION",
+    "servidores": [
+      "ECBRTSW21"
+    ],
+    "backend_obsoleto": "Si",
+    "db_obsoleto": "Si (2016 - Soporte extendido hasta 2026)"
+  },
+  {
+    "archivo": "G.I.-Sonar Qube.html",
+    "nombre": "Sonar Qube",
+    "descripcion": "Plataforma diseñada para realizar analisis estatico de código fuente",
+    "arquitectura": "Capas",
+    "fabricante": "BGR",
+    "dependencias": "Base de datos: PORTAL_ADMINISTRATIVO_BGR\nMicroservicio: BGRCELULAR (Antiguo Notificador)\nIdentidades: Active Directory\nConfiguración centralizada: Tcs.ServicioConfiguracionBGR.WS",
+    "frontend": "ASP.NET C#",
+    "frontend_version": ".NET Framework 4.7.1",
+    "backend": "C#",
+    "backend_version": ".NET Framework 4.7.1",
+    "database": "Microsoft SQL Server",
+    "database_version": "2016 ENTERPRISE EDITION",
+    "so_version": "Windows Server 2016 STANDARD EDITION",
+    "servidores": [
+      "ECBRTSW21"
+    ],
+    "backend_obsoleto": "Si",
+    "db_obsoleto": "Si (2016 - Soporte extendido hasta 2026)"
+  }
+]
