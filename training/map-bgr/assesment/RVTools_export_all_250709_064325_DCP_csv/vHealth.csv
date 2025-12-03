@@ -1,0 +1,429 @@
+Name,Message,Message type,VI SDK Server,VI SDK UUID
+[DataStore_Aplicacion_1_UIO] ecbrprap15/ecbrprap15.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] ecbrprlx02/ecbrprlx02.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] ecbrprlx02/ecbrprlx02.vmx,Possibly a Zombie VM! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] ecbrprsp01-2020-13-09-22h38m28s/ecbrprsp01.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] ecbrprsp01-2020-13-09-22h38m28s/ecbrprsp01.vmx,Possibly a Zombie VM! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] ecbrprsp01-2020-13-09-22h38m28s/ecbrprsp01_1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] ecbrprsp01-2020-13-09-22h38m28s/ecbrprsp01_2.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] ecbrprw75/ecbrprw75_4.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] ecbrprw75/ecbrprw75_6.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] zabbixproxy/zabbixproxy.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] zabbixproxy/zabbixproxy.vmx,Possibly a Zombie VM! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] zabbixproxy_1/zabbixproxy.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_1_UIO] zabbixproxy_1/zabbixproxy.vmx,Possibly a Zombie VM! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_2_UIO] ecbrprsp01/ecbrprsp01.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_2_UIO] ECBRPRVM01/ECBRPRVM01_1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_2_UIO] ecbrprw71/ecbrprw71_7.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_2_UIO] ecbrprw71/ecbrprw71_9.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_2_UIO] ECBRTSLX08_POC/ECBRTSLX08_POC.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_2_UIO] ECBRTSLX08_POC/ECBRTSLX08_POC.vmx,Possibly a Zombie VM! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_2_UIO] ISO/Lumu2/Lumus2-disk1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_Aplicacion_2_UIO] UNIX/OVA_HPE_SSMC_3.8.0.0/HPE_SSMC_Appliance-3.8.0.0.330-disk1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_BDD_Ent_UIO] ecbrprcl12_BORRAR/ecbrprcl12_2.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_BDD_Ent_UIO] ecbrprcl1-2024-23-02-16h40m46s/ecbrprcl1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_BDD_Ent_UIO] ecbrprq69/ecbrprq69_11.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_BDD_Ent_UIO] poc_BGR186B01/poc_BGR186B01-000001.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_BDD_Std_UIO] ecbrprlx07/ecbrprlx07.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_BDD_Std_UIO] ECBRPRQ71/ECBRPRQ71_8.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DataStore_BDD_Std_UIO] ecbrprq72_1/ecbrprq72_1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_2.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_2.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_3.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_3.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_4.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_4-rdm.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_5.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_5-rdm.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_6.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_6-rdm.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_9.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_ecbrdsq04_3par10400] ecbrdsq04/ecbrdsq04_9.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_1] ecbrtsw115/ecbrtsw115_10.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_1] ecbrtsw115/ecbrtsw115_12.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_1] ecbrtsw115/ecbrtsw115_8.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_2] VM_Pruebas/VM_Pruebas.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_2] VM_Pruebas/VM_Pruebas.vmx,Possibly a Zombie VM! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_2] VM_Pruebas/VM_Pruebas_1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_3] ecbrtscl03/ecbrtscl03.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_3] ecbrtsti01/ecbrtsti01_1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_3] ecbrtsti01/ecbrtsti01_1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtscl03/ecbrtscl03.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtscl03/ecbrtscl03_2.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtscl03_1/ecbrtscl03_1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtscl03_1/ecbrtscl03_2.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtscl03_1/ecbrtscl03_3.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtscl04/ecbrtscl04.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtscl04/ecbrtscl04_1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtscl04/ecbrtscl04_2.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtscl04/ecbrtscl04_3.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtsq11_old/ecbrtsq11_1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ECBRTSQ27/ECBRTSQ27_1.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ECBRTSQ27/ECBRTSQ27_2.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtss01/ecbrtss01_1-000001.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtss01/ecbrtss01-000001.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtsw115/ecbrtsw115_10.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtsw115/ecbrtsw115_12.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] ecbrtsw115/ecbrtsw115_8.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] test186w04_tshoot/test186w04_tshoot_3.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[DiskLun_Servidores_Test_Nimble_4] test186w04_tshoot/test186w04_tshoot_5.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[Local_Test_ecbrtssx04] BGR186A05/ECBRPRPOC01_3.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[Local_Test_ecbrtssx04] BGR186A05/ECBRPRPOC01_3.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[Local_Test_ecbrtssx04] BGR186A05/ECBRPRPOC01_4.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+[Local_Test_ecbrtssx04] BGR186A05/ECBRPRPOC01_4.vmdk,Possibly a Zombie vmdk file! Please check.,Zombie,172.20.1.174,172.20.1.174
+bgr186a05clon,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+bgr186d01,"VM has an active snapshot! VM Snapshot 20/6/2025, 12:09:48 p. m. created on 2025/06/20 12:10:05",Snapshot,172.20.1.174,172.20.1.174
+bgr186d01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+bgr186d03,Inconsistent Foldername! VMname = bgr186d03 Foldername = poc_bgr186d03,Foldername,172.20.1.174,172.20.1.174
+bgr186d03,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+bgr186h01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+bgr186h02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+bgr186pr1,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+bgr186q01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+bgr186q02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+bgr186q05,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+bgr186qv1,VM has an active snapshot! RFC 1272 - Remediación de vulnerabilidades created on 2025/06/24 20:00:09,Snapshot,172.20.1.174,172.20.1.174
+bgr186qv1,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+bgr186qv1,Inconsistent Foldername! VMname = bgr186qv1 Foldername = bgr186qv1_1,Foldername,172.20.1.174,172.20.1.174
+bgr186vm1,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+componentbgr3,Inconsistent Foldername! VMname = componentbgr3 Foldername = drcomponentbgr3,Foldername,172.20.1.174,172.20.1.174
+componentbgr3,VM has an active snapshot! Soporte RFC 2025-000990 created on 2025/06/21 17:41:08,Snapshot,172.20.1.174,172.20.1.174
+DataStore_Aplicacion_1_UIO,There are 109 VMs active on this datastore. The threshold value is 16,Storage,172.20.1.174,172.20.1.174
+DataStore_Aplicacion_2_UIO,There are 82 VMs active on this datastore. The threshold value is 16,Storage,172.20.1.174,172.20.1.174
+DataStore_BDD_Ent_UIO,There are 31 VMs active on this datastore. The threshold value is 16,Storage,172.20.1.174,172.20.1.174
+DiskLun_Servidores_Test_Nimble_1,There are 40 VMs active on this datastore. The threshold value is 16,Storage,172.20.1.174,172.20.1.174
+DiskLun_Servidores_Test_Nimble_2,"On DiskLun_Servidores_Test_Nimble_2 is 5% disk space available! The threshold value is 10%. Free MB = 378,912",Storage,172.20.1.174,172.20.1.174
+DiskLun_Servidores_Test_Nimble_3,There are 23 VMs active on this datastore. The threshold value is 16,Storage,172.20.1.174,172.20.1.174
+DiskLun_Servidores_Test_Nimble_4,There are 39 VMs active on this datastore. The threshold value is 16,Storage,172.20.1.174,172.20.1.174
+DiskLun_Servidores_Test_Nimble_4,"On DiskLun_Servidores_Test_Nimble_4 is 5% disk space available! The threshold value is 10%. Free MB = 467,337",Storage,172.20.1.174,172.20.1.174
+ecbgr012002,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrdsq04,"On E:\ is 6% disk space available! The threshold value is 10%. Free MB = 126,101",Storage,172.20.1.174,172.20.1.174
+ecbrdsq04,"On G:\ is 8% disk space available! The threshold value is 10%. Free MB = 164,843",Storage,172.20.1.174,172.20.1.174
+ecbrdsq04,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrlx01,Inconsistent Foldername! VMname = ecbrlx01 Foldername = ecbrprlx01,Foldername,172.20.1.174,172.20.1.174
+ecbrpra03,Inconsistent Foldername! VMname = ecbrpra03 Foldername = ecbrprtemp1,Foldername,172.20.1.174,172.20.1.174
+ecbrpra03,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap1,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap1,Inconsistent Foldername! VMname = ecbrprap1 Foldername = ECBRPRAP1 _W2016,Foldername,172.20.1.174,172.20.1.174
+ecbrprap10,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap10,Inconsistent Foldername! VMname = ecbrprap10 Foldername = ecbrprap10_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprap12,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap12,Inconsistent Foldername! VMname = ecbrprap12 Foldername = ecbrprap12_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprap13,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap13,Inconsistent Foldername! VMname = ecbrprap13 Foldername = ecbrprap13_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprap14,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap15,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap16,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap16,VM has an active snapshot! RFC 2025-001384 - Remediación de Vulnerabilidades created on 2025/07/07 16:41:09,Snapshot,172.20.1.174,172.20.1.174
+ecbrprap16,Inconsistent Foldername! VMname = ecbrprap16 Foldername = ecbrprap16_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprap17,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap17,VM has an active snapshot! RFC 2025-001384 - Remediación de Vulnerabilidades created on 2025/07/07 16:42:15,Snapshot,172.20.1.174,172.20.1.174
+ecbrprap17,Inconsistent Foldername! VMname = ecbrprap17 Foldername = ecbrprap17_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprap2,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap2,Inconsistent Foldername! VMname = ecbrprap2 Foldername = ecbrprap2_new,Foldername,172.20.1.174,172.20.1.174
+ecbrprap21,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap23,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap3,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap5,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap6,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprap7,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprarb01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprbi01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcas02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcc01,Inconsistent Foldername! VMname = ecbrprcc01 Foldername = ecbrprcc01_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprcc01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcert01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcf01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcf01,Inconsistent Foldername! VMname = ecbrprcf01 Foldername = ecbrprcf01_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprci1,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl1,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl1,Inconsistent Foldername! VMname = ecbrprcl1 Foldername = ecbrprcl1-2024-23-02-16h40m46s,Foldername,172.20.1.174,172.20.1.174
+ecbrprcl10,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl11,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl12,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl12,Inconsistent Foldername! VMname = ecbrprcl12 Foldername = ecbrprcl12_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprcl13,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl14,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl2,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl5,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl6,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl7,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl8,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprcl9,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprct2,On / is 0% disk space available! The threshold value is 10%. Free MB = 0,Storage,172.20.1.174,172.20.1.174
+ecbrprct3,Inconsistent Foldername! VMname = ecbrprct3 Foldername = ecbrprct3_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprct4,Inconsistent Foldername! VMname = ecbrprct4 Foldername = ecbrprct4_1,Foldername,172.20.1.174,172.20.1.174
+ECBRPRE01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrpre02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprexc01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprexc02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprf02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprf03,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprf03,Inconsistent Foldername! VMname = ecbrprf03 Foldername = ECBRPRF03,Foldername,172.20.1.174,172.20.1.174
+ecbrprf05,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprf06,Inconsistent Foldername! VMname = ecbrprf06 Foldername = ecbrprf06_old,Foldername,172.20.1.174,172.20.1.174
+ecbrprf06,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprg1,"On / is 3% disk space available! The threshold value is 10%. Free MB = 3,828",Storage,172.20.1.174,172.20.1.174
+ecbrprg1,Inconsistent Foldername! VMname = ecbrprg1 Foldername = ecbrprgr1,Foldername,172.20.1.174,172.20.1.174
+ecbrprgmi,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprh01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprh02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprh03,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprhmb01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprkc01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprkc02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprkf01,Inconsistent Foldername! VMname = ecbrprkf01 Foldername = ecbrprkf01_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprkf01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprkw01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprkw01,Inconsistent Foldername! VMname = ecbrprkw01 Foldername = ecbrprkw01_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprlx02,Inconsistent Foldername! VMname = ecbrprlx02 Foldername = zabbixproxy_2,Foldername,172.20.1.174,172.20.1.174
+ecbrprlx04,Inconsistent Foldername! VMname = ecbrprlx04 Foldername = LUMU_DCP,Foldername,172.20.1.174,172.20.1.174
+ecbrprlx04,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprlx08,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprlx12,Consolidation needed,Snapshot,172.20.1.174,172.20.1.174
+ecbrprlx14,Inconsistent Foldername! VMname = ecbrprlx14 Foldername = Nueva máquina virtual,Foldername,172.20.1.174,172.20.1.174
+ecbrprlx17,Inconsistent Foldername! VMname = ecbrprlx17 Foldername = ecbrprlx17_new,Foldername,172.20.1.174,172.20.1.174
+ecbrprlxcc,VM has an active snapshot! LMRV_INI created on 2025/06/20 15:50:59,Snapshot,172.20.1.174,172.20.1.174
+ecbrprnbk03,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprpocq03,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq21,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq23,Inconsistent Foldername! VMname = ecbrprq23 Foldername = poc_ecbrprq23,Foldername,172.20.1.174,172.20.1.174
+ecbrprq24,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq30,"On D:\ is 7% disk space available! The threshold value is 10%. Free MB = 160,199",Storage,172.20.1.174,172.20.1.174
+ecbrprq30,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq38,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq38,Inconsistent Foldername! VMname = ecbrprq38 Foldername = POC_ECBRPRQ38_IDERA,Foldername,172.20.1.174,172.20.1.174
+ecbrprq44,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq45,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq46,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq46,VM has an active snapshot! RFC 2025-001384 - Remediación de Vulnerabilidades created on 2025/07/07 16:44:41,Snapshot,172.20.1.174,172.20.1.174
+ecbrprq48,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq49,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq50,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq52,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq55,Inconsistent Foldername! VMname = ecbrprq55 Foldername = ecbrprtempbdd01,Foldername,172.20.1.174,172.20.1.174
+ecbrprq55,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq58,VM has an active snapshot! RFC 2025-001375 - Vulnerabilidades created on 2025/07/08 21:19:23,Snapshot,172.20.1.174,172.20.1.174
+ecbrprq59,Inconsistent Foldername! VMname = ecbrprq59 Foldername = ecbrprq59_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprq59,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq62,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq62,Inconsistent Foldername! VMname = ecbrprq62 Foldername = ecbrprq62-New,Foldername,172.20.1.174,172.20.1.174
+ecbrprq64,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq68,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq69,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq70,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq71,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprq71,Inconsistent Foldername! VMname = ecbrprq71 Foldername = ECBRPRQ71,Foldername,172.20.1.174,172.20.1.174
+ecbrprq72,Inconsistent Foldername! VMname = ecbrprq72 Foldername = ecbrprq72_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprq72,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprs01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprs02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprsi11,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprsi12,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ECBRPRSI13,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ECBRPRSI14,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprsm1,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprsm4,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprsp01,VM has an active snapshot! RFC 2025-001375 - Vulnerabilidades created on 2025/07/08 21:30:02,Snapshot,172.20.1.174,172.20.1.174
+ecbrprsr1,Inconsistent Foldername! VMname = ecbrprsr1 Foldername = ecbrprsr1_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprsrm1,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,SSH service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,ESXi Shell service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,ESXi Shell service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,There are 6.00 virtual CPUs active per core on this host. The threshold value is 4,CPU,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,SSH service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,There are 4.63 virtual CPUs active per core on this host. The threshold value is 4,CPU,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,SSH service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,ESXi Shell service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,SSH service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,ESXi Shell service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,There are 5.33 virtual CPUs active per core on this host. The threshold value is 4,CPU,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,SSH service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,There are 5.79 virtual CPUs active per core on this host. The threshold value is 4,CPU,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,ESXi Shell service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,There are 4.46 virtual CPUs active per core on this host. The threshold value is 4,CPU,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,SSH service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,ESXi Shell service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,ESXi Shell service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,SSH service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,SSH service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,There are 5.75 virtual CPUs active per core on this host. The threshold value is 4,CPU,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,ESXi Shell service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,There are 7.21 virtual CPUs active per core on this host. The threshold value is 4,CPU,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,SSH service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,ESXi Shell service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,ESXi Shell service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,There are 8.29 virtual CPUs active per core on this host. The threshold value is 4,CPU,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,SSH service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,ESXi Shell service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,SSH service is running!,Security,172.20.1.174,172.20.1.174
+ecbrprti01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprti01,Inconsistent Foldername! VMname = ecbrprti01 Foldername = ecbrprti01-backup,Foldername,172.20.1.174,172.20.1.174
+ecbrprti01,VM has an active snapshot! RFC 1272 - Remediación de vulnerabilidades created on 2025/06/24 20:00:41,Snapshot,172.20.1.174,172.20.1.174
+ecbrprti02,Inconsistent Foldername! VMname = ecbrprti02 Foldername = ecbrprti02-2023-21-03-12h57m31s,Foldername,172.20.1.174,172.20.1.174
+ecbrprti02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprti03,Inconsistent Foldername! VMname = ecbrprti03 Foldername = ecbrprti03_restore,Foldername,172.20.1.174,172.20.1.174
+ecbrprti03,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprti05,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprti06,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprti08,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprti09,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprvc3,Inconsistent Foldername! VMname = ecbrprvc3 Foldername = VMware vCenter Server,Foldername,172.20.1.174,172.20.1.174
+ecbrprvc3,"On /storage/archive is 4% disk space available! The threshold value is 10%. Free MB = 2,432",Storage,172.20.1.174,172.20.1.174
+ECBRPRVM01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw01,Inconsistent Foldername! VMname = ecbrprw01 Foldername = ecbrprw01_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw03,Inconsistent Foldername! VMname = ecbrprw03 Foldername = ecbrprw03_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw04,Inconsistent Foldername! VMname = ecbrprw04 Foldername = ecbrprw04-2024-13-08-14h58m35s,Foldername,172.20.1.174,172.20.1.174
+ecbrprw06,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw07,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw07,Inconsistent Foldername! VMname = ecbrprw07 Foldername = ecbrprw07_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw08,Inconsistent Foldername! VMname = ecbrprw08 Foldername = ecbrprw08_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw15,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw15,Inconsistent Foldername! VMname = ecbrprw15 Foldername = ecbrprw15_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw16,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw17,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw19,Inconsistent Foldername! VMname = ecbrprw19 Foldername = ecbrprw19_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw19,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw20,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw25,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw25,Inconsistent Foldername! VMname = ecbrprw25 Foldername = ecbrprw25_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw27,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw31,Inconsistent Foldername! VMname = ecbrprw31 Foldername = ecbrprw31_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw32,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw33,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw33,VM has an active snapshot! Actualización de Listas de Observados created on 2025/07/04 18:00:02,Snapshot,172.20.1.174,172.20.1.174
+ecbrprw33,Inconsistent Foldername! VMname = ecbrprw33 Foldername = ecbrprw33_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw38,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ECBRPRW38_RFC1335,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw39,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw43,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw44,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw45,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw47,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw48,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw49,Inconsistent Foldername! VMname = ecbrprw49 Foldername = ecbrprw49_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw49,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ECBRPRW49_RFC1335,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw50,Inconsistent Foldername! VMname = ecbrprw50 Foldername = ecbrprw50_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw50,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw51,Inconsistent Foldername! VMname = ecbrprw51 Foldername = ecbrprw51_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw51,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw52,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw52,Inconsistent Foldername! VMname = ecbrprw52 Foldername = ecbrprw52_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw53,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw56,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw57,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw58,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ECBRPRW58_RFC1335,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw59,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw60,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw60,"VM has an active snapshot! VM Snapshot 4/7/2025, 12:13:56 created on 2025/07/04 12:13:59",Snapshot,172.20.1.174,172.20.1.174
+ecbrprw62,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw63,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw64,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw65,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw68,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw69,VM has an active snapshot! RFC 2025-001384 - Remediación de Vulnerabilidades created on 2025/07/07 16:42:57,Snapshot,172.20.1.174,172.20.1.174
+ecbrprw69,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw70,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw70,VM has an active snapshot! RFC 2025-001384 - Remediación de Vulnerabilidades created on 2025/07/07 16:43:41,Snapshot,172.20.1.174,172.20.1.174
+ecbrprw71,Inconsistent Foldername! VMname = ecbrprw71 Foldername = ecbrprw71_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw71,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw72,Inconsistent Foldername! VMname = ecbrprw72 Foldername = ecbrprw72_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprw72,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw73,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw74,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw76,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw77,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ECBRPRW77_RFC1335,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw83,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw85,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ECBRPRW85_RFC1335,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw86,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw87,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw89,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw90,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprw91,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprwe25,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprwe26,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprwe27,Inconsistent Foldername! VMname = ecbrprwe27 Foldername = ecbrprwe27_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprwe27,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprwe31,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprwe32,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprwe33,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprwe34,Inconsistent Foldername! VMname = ecbrprwe34 Foldername = ecbrprwe34_1,Foldername,172.20.1.174,172.20.1.174
+ecbrprwe34,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprwe35,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrprwe36,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsap5,VM has an active snapshot! Remediación de vulnerabilidades RFC 2025-001396 created on 2025/07/02 16:40:57,Snapshot,172.20.1.174,172.20.1.174
+ecbrtscl03,Inconsistent Foldername! VMname = ecbrtscl03 Foldername = ecbrtscl03_1,Foldername,172.20.1.174,172.20.1.174
+ecbrtsh03,"On D:\ is 6% disk space available! The threshold value is 10%. Free MB = 6,994",Storage,172.20.1.174,172.20.1.174
+ecbrtspocAD_client,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtss01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtss01clon,Inconsistent Foldername! VMname = ecbrtss01clon Foldername = ecbrtss01_clon,Foldername,172.20.1.174,172.20.1.174
+ecbrtss01clon,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw02_clon,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw03,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw04,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw07,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw08,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw102,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw110,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw111,VM has an active snapshot! Remediación de vulnerabilidades RFC 2025-001396 created on 2025/07/02 16:42:00,Snapshot,172.20.1.174,172.20.1.174
+ecbrtsw112,VM has an active snapshot! Remediación de vulnerabilidades RFC 2025-001396 created on 2025/07/02 16:42:31,Snapshot,172.20.1.174,172.20.1.174
+ecbrtsw113,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw113clon,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw115,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw116,Inconsistent Foldername! VMname = ecbrtsw116 Foldername = ECBRTSW116,Foldername,172.20.1.174,172.20.1.174
+ECBRTSW118,Inconsistent Foldername! VMname = ECBRTSW118 Foldername = ECBRTSW12TMP,Foldername,172.20.1.174,172.20.1.174
+ECBRTSW119,"VM has an active snapshot! VM Snapshot 20/6/2025, 10:17:51 created on 2025/06/20 10:18:00",Snapshot,172.20.1.174,172.20.1.174
+ECBRTSW119,VM has a CDROM device connected! CD/DVD drive 1,CDROM,172.20.1.174,172.20.1.174
+ecbrtsw18,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw19,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw30,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw34,Inconsistent Foldername! VMname = ecbrtsw34 Foldername = ECBRTSW34,Foldername,172.20.1.174,172.20.1.174
+ecbrtsw35,Inconsistent Foldername! VMname = ecbrtsw35 Foldername = ECBRTSW35,Foldername,172.20.1.174,172.20.1.174
+ECBRTSW37,"VM has an active snapshot! VM Snapshot 30/6/2025, 1:16:10 p. m. created on 2025/06/30 13:16:14",Snapshot,172.20.1.174,172.20.1.174
+ecbrtsw90,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ecbrtsw94,VM has an active snapshot! Remediación de vulnerabilidades RFC 2025-001396 created on 2025/07/02 16:41:29,Snapshot,172.20.1.174,172.20.1.174
+ecbrtsw98,"VM has an active snapshot! VM Snapshot 1/7/2025, 11:50:14 a. m. created on 2025/07/01 11:50:26",Snapshot,172.20.1.174,172.20.1.174
+ecbrtswe02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+ECBRTSWE07,"VM has an active snapshot! VM Snapshot 30/6/2025, 1:15:38 p. m. created on 2025/06/30 13:16:01",Snapshot,172.20.1.174,172.20.1.174
+OmniStackVC-172-20-45-216,Inconsistent Foldername! VMname = OmniStackVC-172-20-45-216 Foldername = sva,Foldername,172.20.1.174,172.20.1.174
+OmniStackVC-172-20-45-218,Inconsistent Foldername! VMname = OmniStackVC-172-20-45-218 Foldername = sva,Foldername,172.20.1.174,172.20.1.174
+OmniStackVC-172-20-45-220,Inconsistent Foldername! VMname = OmniStackVC-172-20-45-220 Foldername = sva,Foldername,172.20.1.174,172.20.1.174
+OmniStackVC-172-20-45-222,Inconsistent Foldername! VMname = OmniStackVC-172-20-45-222 Foldername = sva,Foldername,172.20.1.174,172.20.1.174
+OmniStackVC-172-20-45-224,Inconsistent Foldername! VMname = OmniStackVC-172-20-45-224 Foldername = sva,Foldername,172.20.1.174,172.20.1.174
+OmniStackVC-172-20-45-226,Inconsistent Foldername! VMname = OmniStackVC-172-20-45-226 Foldername = sva,Foldername,172.20.1.174,172.20.1.174
+OmniStackVC-172-20-45-250,Inconsistent Foldername! VMname = OmniStackVC-172-20-45-250 Foldername = sva,Foldername,172.20.1.174,172.20.1.174
+OmniStackVC-172-20-45-48,Inconsistent Foldername! VMname = OmniStackVC-172-20-45-48 Foldername = sva,Foldername,172.20.1.174,172.20.1.174
+OmniStackVC-172-20-45-66,Inconsistent Foldername! VMname = OmniStackVC-172-20-45-66 Foldername = sva,Foldername,172.20.1.174,172.20.1.174
+OmniStackVC-172-20-45-69,Inconsistent Foldername! VMname = OmniStackVC-172-20-45-69 Foldername = sva,Foldername,172.20.1.174,172.20.1.174
+poc_certificadora,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+puio186f00,Inconsistent Foldername! VMname = puio186f00 Foldername = puio186f00_1,Foldername,172.20.1.174,172.20.1.174
+srvpro01,Inconsistent Foldername! VMname = srvpro01 Foldername = srvpro01_new,Foldername,172.20.1.174,172.20.1.174
+Template_RedHat_8.9_no_hard,Inconsistent Foldername! VMname = Template_RedHat_8.9_no_hard Foldername = ecbrprmd1,Foldername,172.20.1.174,172.20.1.174
+Template_W2016__BDD_sysprep,Inconsistent Foldername! VMname = Template_W2016__BDD_sysprep Foldername = Windows_Servers2016_sysprep,Foldername,172.20.1.174,172.20.1.174
+Template_W2019_Hardening_Base_NoDominio,Inconsistent Foldername! VMname = Template_W2019_Hardening_Base_NoDominio Foldername = Template_W2019_Base_SinHardening,Foldername,172.20.1.174,172.20.1.174
+Template_W2019_Hardening_SQL2019STD_Dominio,Inconsistent Foldername! VMname = Template_W2019_Hardening_SQL2019STD_Dominio Foldername = Template_W2019_SQL2019STD_Dominio,Foldername,172.20.1.174,172.20.1.174
+Template_Win2025-Base,Inconsistent Foldername! VMname = Template_Win2025-Base Foldername = Template_Win2025-Base-,Foldername,172.20.1.174,172.20.1.174
+test186com1,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186cw1,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186h01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186h01clon,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186h01clon,Inconsistent Foldername! VMname = test186h01clon Foldername = test186h01_clon,Foldername,172.20.1.174,172.20.1.174
+test186h02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186h02clon,Inconsistent Foldername! VMname = test186h02clon Foldername = test186h02_clon,Foldername,172.20.1.174,172.20.1.174
+test186h02clon,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186q01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186q02,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186q03,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186q04,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186w01,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186w05,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186w06,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+test186w07,"VMware tools are out of date, not running or not installed!",VM Tools,172.20.1.174,172.20.1.174
+vCLS-38443851-4131-4d32-3239-34303036374c,Inconsistent Foldername! VMname = vCLS-38443851-4131-4d32-3239-34303036374c Foldername = ,Foldername,172.20.1.174,172.20.1.174
+vCLS-394a3153-4138-4d32-3244-314d3031464e,Inconsistent Foldername! VMname = vCLS-394a3153-4138-4d32-3244-314d3031464e Foldername = ,Foldername,172.20.1.174,172.20.1.174

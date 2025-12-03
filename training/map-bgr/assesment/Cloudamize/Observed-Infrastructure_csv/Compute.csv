@@ -1,0 +1,124 @@
+Hierarchy,,Instance Type,,,,,,On Time,CPU Threads,CPU Utilization,Observed Memory,,
+Group Name,Asset,Server Name,IP Address,OS,OS Version,MS SQL Edition,SQL Version,On Time (%),Observed vCPU,Current CPU Utilization (%),Observed Memory Provisioned (GB),Peak Memory Used (GB),ID (server name + uid)
+Physical Infrastructure,Default,BGR186Q05,172.20.1.64,Windows (MS SQL Standard),Microsoft® Windows Server® 2008 Standard  6.0.6001,SQL Server 2005 9.4.5000.00 (SP4) Standard Edition (64-bit),-,100,4,55,10.7353,4.5529,BGR186Q05.v_0h8sbl1L
+Physical Infrastructure,Default,ECBRPRW20,172.20.1.11,Windows,Microsoft Windows Server 2008 R2 Enterprise  6.1.7601,-,-,100,4,90,19.3263,6.2133,ECBRPRW20.v_10HOpMk7
+Physical Infrastructure,Default,ECBRPRAP28,172.20.1.68,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,2,93.6667,12.8839,4.9615,ECBRPRAP28.v_1FTvlnQU
+Physical Infrastructure,Default,ECBRPRB01,172.20.1.252,Windows (MS SQL Enterprise),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2022 16.0.1000.6 (RTM) Enterprise Edition: Core-based Licensing;SQL Server 2016 13.2.5026.0 (SP2) Enterprise Edition: Core-based Licensing;SQL Server 2008 R2 10.53.6000.34 (SP3) Standard Edition;,-;-;-;,100,32,17,33.9927,16.9124,ECBRPRB01.v_1tbDCZ9O
+Physical Infrastructure,Default,ecbrprq58,172.20.1.89,Windows (MS SQL Standard),Microsoft Windows Server 2019 Standard 10.0.17763,SQL Server 2019 15.0.2000.5 (RTM) Standard Edition,-,100,12,14,68.7184,46.73,ecbrprq58.v_214lBYh3
+Physical Infrastructure,Default,ECBRPRW56,172.20.1.243,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,50.1769,8.5889,4.9443,ECBRPRW56.v_2AjC20ut
+Physical Infrastructure,Default,ECBRPRW68,172.20.1.132,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,60,6.4414,4.3693,ECBRPRW68.v_2VPOZwPy
+Physical Infrastructure,Default,ECBRPRAP21,172.20.1.21,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,4,71,8.5889,5.2217,ECBRPRAP21.v_2yJ9sCo5
+Physical Infrastructure,Default,ECBRPRW25,172.20.1.35,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,4,34,8.5889,4.5807,ECBRPRW25.v_3IA3B29F
+Physical Infrastructure,Default,ecbrprcl1,172.20.1.212,Windows (MS SQL Enterprise),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Enterprise Edition: Core-based Licensing,-,100,10,53.8709,34.3587,13.8907,ecbrprcl1.v_3ISTve6t
+Physical Infrastructure,Default,ecbrprci1,172.20.1.102,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,4,97,17.1788,10.8325,ecbrprci1.v_49sfeILi
+Physical Infrastructure,Default,ECBRPRW49,172.20.1.133,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,14,34,75.1609,32.4958,ECBRPRW49.v_4Xly8uQf
+Physical Infrastructure,Default,ECBRPRCF01,172.20.1.110,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,2,75,4.2939,3.0523,ECBRPRCF01.v_5AHC6xDI
+Physical Infrastructure,Default,ECBRPRH04,172.20.1.71,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,2,83.6687,12.8839,5.8843,ECBRPRH04.v_5BJFAv4M
+Physical Infrastructure,Default,ecbrprarb01,172.20.1.177,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,100,6.4414,5.0856,ecbrprarb01.v_5OmHSFGQ
+Physical Infrastructure,Default,ecbrprq52,172.20.1.237,Windows (MS SQL Enterprise),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Enterprise Edition: Core-based Licensing,-,100,2,96,12.8839,7.0908,ecbrprq52.v_5g0Fp954
+Physical Infrastructure,Default,ECBRPRQ68,172.20.1.165,Windows (MS SQL Standard),Microsoft Windows Server 2022 Standard 10.0.20348,SQL Server 2022 16.0.1000.6 (RTM) Standard Edition,-,100,4,67,17.1788,9.1103,ECBRPRQ68.v_637uUrcF
+Physical Infrastructure,Default,ECBRPRW74,172.20.1.100,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,8,93,10.7364,6.126,ECBRPRW74.v_69xe8EMB
+Physical Infrastructure,Default,ECBRPRW71,172.20.1.180,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,48,8.5889,3.3703,ECBRPRW71.v_6o98zqWT
+Physical Infrastructure,Default,ECBRPRAP14,172.20.1.204,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,46,17.1788,4.4496,ECBRPRAP14.v_70uSgW4o
+Physical Infrastructure,Default,ecbrprq74,172.20.1.75,Windows (MS SQL Enterprise),Microsoft Windows Server 2022 Standard 10.0.20348,SQL Server 2022 16.0.1000.6 (RTM) Enterprise Edition: Core-based Licensing,-,100,12,47.6761,64.4235,56.8127,ecbrprq74.v_7eCKseXC
+Physical Infrastructure,Default,ECBRPRW48,172.20.1.115,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,44.0192,8.5889,6.4186,ECBRPRW48.v_7pTtLFWv
+Physical Infrastructure,Default,ECBRPRW43,172.20.1.56,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,2,90.2544,12.8839,5.5984,ECBRPRW43.v_9G7uiVSm
+Physical Infrastructure,Default,ECBRPRQ69,172.20.1.233,Windows (MS SQL Enterprise),Microsoft Windows Server 2019 Standard 10.0.17763,SQL Server 2019 15.0.2000.5 (RTM) Enterprise Edition: Core-based Licensing,-,100,12,42.1215,128.848,85.052,ECBRPRQ69.v_9UxDKEPC
+Physical Infrastructure,Default,ECBRPRAP7,172.20.1.241,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,2,71,8.5889,4.4738,ECBRPRAP7.v_9z6V9jfj
+Physical Infrastructure,Default,ECBRPRW62,172.20.1.222,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,2,85,6.4414,3.3899,ECBRPRW62.v_AjNxO11Y
+Physical Infrastructure,Default,ECBRPRCL13,172.20.1.213,Windows (MS SQL Enterprise),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Enterprise Edition: Core-based Licensing,-,100,16,63,85.8972,50.9993,ECBRPRCL13.v_BT6ptkg5
+Physical Infrastructure,Default,ecbrprw60,172.20.1.208,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,6,69,25.7688,9.9495,ecbrprw60.v_BajS5Ndo
+Physical Infrastructure,Default,ECBRPRAP13,172.20.1.203,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,87.4834,17.1788,5.5493,ECBRPRAP13.v_Bi87uVK4
+Physical Infrastructure,Default,ECBRPRQ73,172.20.1.72,Windows (MS SQL Standard),Microsoft Windows Server 2022 Standard 10.0.20348,SQL Server 2022 16.0.1000.6 (RTM) Standard Edition,-,100,4,67.1076,25.7688,13.3759,ECBRPRQ73.v_CLNn9fxL
+Physical Infrastructure,Default,ECBRPRW47,172.20.1.114,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,42,8.5889,6.123,ECBRPRW47.v_COjsdds0
+Physical Infrastructure,Default,ECBRPRAP26,172.20.1.210,Windows,Microsoft Windows Server 2025 Standard 10.0.26100,-,-,100,8,47,17.1788,16.2312,ECBRPRAP26.v_DcUT7enV
+Physical Infrastructure,Default,ecbrprq45,172.20.1.96,Windows (MS SQL Standard),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Standard Edition,-,100,16,33,25.7688,8.0339,ecbrprq45.v_EHimapnq
+Physical Infrastructure,Default,ECBRPRTI08,172.20.1.108,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,4,99,17.1788,8.9901,ECBRPRTI08.v_EQrW1cgx
+Physical Infrastructure,Default,ecbrprq50,172.20.1.163,Windows (MS SQL Standard),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Standard Edition,-,100,8,25,19.3263,14.4237,ecbrprq50.v_FPELBdLd
+Physical Infrastructure,Default,ECBRPRF02,172.20.1.90,Windows,Microsoft Windows Server 2012 R2 Standard 6.3.9600,SQL Server 2008 R2 10.50.1600.1 (RTM) Express Edition,-,100,2,96,6.4414,5.1056,ECBRPRF02.v_Fk5YWKC9
+Physical Infrastructure,Default,ECBRPRW33,172.20.1.81,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,8,36.3183,17.1788,12.6281,ECBRPRW33.v_GEGMyiUx
+Physical Infrastructure,Default,ECBRPRW53,172.20.1.147,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,69,12.8839,9.5398,ECBRPRW53.v_GUFidQtd
+Physical Infrastructure,Default,ecbrprw89,172.20.1.173,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,8,72.5461,34.3587,13.0716,ecbrprw89.v_GrtOI4N7
+Physical Infrastructure,Default,ECBRPRW52,172.20.1.145,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,49,12.8839,3.9514,ECBRPRW52.v_HBaCW0hl
+Physical Infrastructure,Default,ecbrprq48,172.20.1.153,Windows (MS SQL Enterprise),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Enterprise Edition: Core-based Licensing,-,100,2,91.6091,12.8839,8.7633,ecbrprq48.v_HC9bTbiq
+Physical Infrastructure,Default,ECBRPRH02,172.20.1.238,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,2,79,10.7364,3.8792,ECBRPRH02.v_HCYoKZ00
+Physical Infrastructure,Default,ECBRPRQ71,172.20.1.2,Windows (MS SQL Standard),Microsoft Windows Server 2022 Standard 10.0.20348,SQL Server 2022 16.0.1000.6 (RTM) Standard Edition,-,100,6,78,42.9486,33.2416,ECBRPRQ71.v_HRiwTW6G
+Physical Infrastructure,Default,ECBRPRH03,172.20.1.236,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,4,71,8.5889,5.0495,ECBRPRH03.v_IkigKg2p
+Physical Infrastructure,Default,ecbrprq44,172.20.1.121,Windows (MS SQL Standard),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Standard Edition,-,100,8,96,32.2112,24.8431,ecbrprq44.v_JcEUDREN
+Physical Infrastructure,Default,ECBRPRW86,172.20.1.250,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,4,37,12.8839,5.2365,ECBRPRW86.v_Km5HtTf9
+Physical Infrastructure,Default,ECBRPRW70,172.20.1.230,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,49,8.5889,3.7864,ECBRPRW70.v_L4zaEZGj
+Physical Infrastructure,Default,ecbrprq64,172.20.1.23,Windows (MS SQL Enterprise),Microsoft Windows Server 2019 Standard 10.0.17763,SQL Server 2019 15.0.2000.5 (RTM) Enterprise Edition: Core-based Licensing,-,100,16,93,19.3263,15.0828,ecbrprq64.v_LD9sLYsn
+Physical Infrastructure,Default,ECBRPRW83,172.20.1.76,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,8,41.4513,10.7364,8.5247,ECBRPRW83.v_LNlcbOyg
+Physical Infrastructure,Default,ecbrprti05,172.20.1.161,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,8,24,25.7688,4.033,ecbrprti05.v_LSb1ftN3
+Physical Infrastructure,Default,ecbrprbi01,172.20.1.216,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,80.9921,68.7184,4.6428,ecbrprbi01.v_MI8qRg0M
+Physical Infrastructure,Default,ECBRPRCL14,172.20.1.214,Windows (MS SQL Enterprise),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Enterprise Edition: Core-based Licensing,-,100,16,69.8985,85.8972,63.3548,ECBRPRCL14.v_NcSxSEdL
+Physical Infrastructure,Default,ecbrprw72,172.20.1.247,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,4,41,12.8839,5.9633,ecbrprw72.v_Nq4TxHGi
+Physical Infrastructure,Default,ECBRPRW27,172.20.1.30,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,49,8.5889,4.4131,ECBRPRW27.v_NtooIVBM
+Physical Infrastructure,Default,ecbrprcl10,172.20.1.201,Windows (MS SQL Enterprise),Microsoft Windows Server 2019 Standard 10.0.17763,SQL Server 2019 15.0.2000.5 (RTM) Enterprise Edition: Core-based Licensing,-,100,12,48.9996,42.9486,33.3474,ecbrprcl10.v_OhdHSgPq
+Physical Infrastructure,Default,ECBRPRW39,172.20.1.58,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,10,34.7405,17.1788,10.092,ECBRPRW39.v_Om3QewoD
+Physical Infrastructure,Default,ecbrprcl6,172.20.1.223,Windows (MS SQL Enterprise),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Enterprise Edition: Core-based Licensing,-,100,10,81,38.6537,25.0035,ecbrprcl6.v_OneYdu4G
+Physical Infrastructure,Default,ECBRPRQ38,172.20.1.45,Windows (MS SQL Standard),Microsoft Windows Server 2019 Standard 10.0.17763,SQL Server 2022 16.0.1000.6 (RTM) Standard Edition,-,100,4,95,32.2112,24.8586,ECBRPRQ38.v_Q6PwgK7F
+Physical Infrastructure,Default,ecbrprcl9,172.20.1.205,Windows (MS SQL Enterprise),Microsoft Windows Server 2019 Standard 10.0.17763,SQL Server 2019 15.0.2000.5 (RTM) Enterprise Edition: Core-based Licensing,-,100,12,57,42.9486,27.2077,ecbrprcl9.v_QcgTUIE7
+Physical Infrastructure,Default,ecbrprti03,172.20.1.157,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,88,21.4738,11.319,ecbrprti03.v_Qynj84tB
+Physical Infrastructure,Default,ecbrpra03,172.20.1.106,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,71,12.8839,8.7733,ecbrpra03.v_RKpJX3Ss
+Physical Infrastructure,Default,ECBRPRQ30,172.20.1.12,Windows (MS SQL Standard),Microsoft Windows Server 2008 R2 Enterprise  6.1.7601,SQL Server 2008 R2 10.53.6000.34 (SP3) Standard Edition,-,100,8,94,60.1285,49.2115,ECBRPRQ30.v_RUN0Ppj8
+Physical Infrastructure,Default,ecbrprti02,172.20.1.156,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,8,24,30.0637,17.704,ecbrprti02.v_Sz1jDxX5
+Physical Infrastructure,Default,ECBRPRW85,172.20.1.154,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,4,54,12.8839,5.8912,ECBRPRW85.v_TIiCbJpE
+Physical Infrastructure,Default,ecbrprq59,172.20.1.175,Windows (MS SQL Standard),Microsoft Windows Server 2019 Standard 10.0.17763,SQL Server 2019 15.0.2000.5 (RTM) Standard Edition,-,100,8,35.7013,21.4738,16.1411,ecbrprq59.v_TgYcDqh7
+Physical Infrastructure,Default,ECBRPRW92,172.20.1.65,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,4,55,12.8839,9.5639,ECBRPRW92.v_TxDgqM0p
+Physical Infrastructure,Default,ECBRPRW65,172.20.1.225,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,8,26,10.7364,3.8689,ECBRPRW65.v_UXCpWBB3
+Physical Infrastructure,Default,ecbrprq55,172.20.1.107,Windows (MS SQL Standard),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Standard Edition,-,100,4,82.1135,13.9576,9.7695,ecbrprq55.v_VC2nsoWg
+Physical Infrastructure,Default,ECBRPRW64,172.20.1.226,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,8,21,10.7364,5.1341,ECBRPRW64.v_VbpSOjbt
+Physical Infrastructure,Default,ECBRPRQ21,172.20.1.129,Windows (MS SQL Standard),Microsoft Windows Server 2008 R2 Enterprise  6.1.7601,SQL Server 2008 R2 10.53.6000.34 (SP3) Standard Edition,-,100,4,91,11.8101,7.0634,ECBRPRQ21.v_W8lzaLBc
+Physical Infrastructure,Default,ecbrprq49,172.20.1.160,Windows (MS SQL Standard),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Standard Edition,-,100,4,69,17.1788,12.3084,ecbrprq49.v_WBjpB1yF
+Physical Infrastructure,Default,ecbrprw90,172.20.1.191,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,8,37,34.3587,11.7345,ecbrprw90.v_X7lN615B
+Physical Infrastructure,Default,ECBRPRKW01,172.20.1.140,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,52,8.5889,5.1516,ECBRPRKW01.v_X9cZDWi6
+Physical Infrastructure,Default,ECBRPRW87,172.20.1.118,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,20,15.1381,34.3587,12.1302,ECBRPRW87.v_XoF17Gzr
+Physical Infrastructure,Default,ecbrprf03,172.20.1.178,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,4,31,6.4414,3.8239,ecbrprf03.v_ZITYQEBZ
+Physical Infrastructure,Default,ECBRPRAP10,172.20.1.200,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,8,32.3566,21.4738,15.0687,ECBRPRAP10.v_ZPfSsHeE
+Physical Infrastructure,Default,ECBRPRW58,172.20.1.197,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,6,41.1881,10.7364,6.2191,ECBRPRW58.v_aaKqFQgL
+Physical Infrastructure,Default,ecbrprsf1,172.20.55.11,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,32,11,34.0001,8.8363,ecbrprsf1.v_bLaAVocv
+Physical Infrastructure,Default,ECBRPRW44,172.20.1.111,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,79,21.4738,10.282,ECBRPRW44.v_bmoWDpWc
+Physical Infrastructure,Default,ECBRPRW15,172.20.1.234,Windows,Microsoft Windows Server 2008 R2 Enterprise  6.1.7601,-,-,100,4,34,4.2939,3.25,ECBRPRW15.v_bxHT8hmA
+Physical Infrastructure,Default,ECBRPRW38,172.20.1.57,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,10,25,17.1788,10.4778,ECBRPRW38.v_cQywyrJ8
+Physical Infrastructure,Default,ECBRPRAP29,172.20.1.24,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,2,79.497,4.2939,3.8262,ECBRPRAP29.v_cigLj60i
+Physical Infrastructure,Default,ECBRPRAP4,172.20.1.103,Windows (MS SQL Standard),Microsoft Windows Server 2012 R2 Standard 6.3.9600,SQL Server 2012 11.3.6020.0 (SP#) Standard Edition,-,100,32,72,34.0892,21.1263,ECBRPRAP4.v_dH4SLK3k
+Physical Infrastructure,Default,ECBRPRAP12,172.20.1.202,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,80,17.1788,8.3255,ECBRPRAP12.v_dJA6zue9
+Physical Infrastructure,Default,BGR186QV1,172.20.1.85,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,51.574,8.5889,3.3867,BGR186QV1.v_dhWn61DW
+Physical Infrastructure,Default,ECBRPRW59,172.20.1.198,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,6,34,10.7364,6.3115,ECBRPRW59.v_eSCZp6sb
+Physical Infrastructure,Default,ECBRPRWE25,172.20.1.136,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,14,49.6561,75.1609,28.6131,ECBRPRWE25.v_fZTcuQ9H
+Physical Infrastructure,Default,ECBRPRAP27,172.20.1.67,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,2,70,12.8839,5.302,ECBRPRAP27.v_faPLD1sE
+Physical Infrastructure,Default,ecbrprcl5,172.20.1.215,Windows (MS SQL Enterprise),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Enterprise Edition: Core-based Licensing,-,100,10,64,38.6537,17.9964,ecbrprcl5.v_fg8jSsdg
+Physical Infrastructure,Default,ecbrprcl11,172.20.1.227,Windows (MS SQL Enterprise),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Enterprise Edition: Core-based Licensing,-,100,4,98,49.3911,33.0562,ecbrprcl11.v_fqokYMoz
+Physical Infrastructure,Default,ECBRPRSP01,172.20.1.13,Windows,Microsoft Windows Server 2012 R2 Standard 6.3.9600,-,-,100,16,18,34.3587,5.558,ECBRPRSP01.v_g4hRyu74
+Physical Infrastructure,Default,ECBRPRW17,172.20.1.92,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,4,39.517,8.5889,4.6846,ECBRPRW17.v_gjf17W6B
+Physical Infrastructure,Default,ECBRPRE01,172.20.1.41,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,4,89.8898,12.8839,8.7317,ECBRPRE01.v_i6szfKiA
+Physical Infrastructure,Default,ECBRPRW73,172.20.1.248,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,10,33,17.1788,10.634,ECBRPRW73.v_imQYgLtT
+Physical Infrastructure,Default,ECBRPRW93,172.20.1.66,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,4,36,12.8839,9.878,ECBRPRW93.v_iquVSTeU
+Physical Infrastructure,Default,ecbrprti01,172.20.1.155,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,10,39.0932,23.6213,16.1186,ecbrprti01.v_jCdT4f2j
+Physical Infrastructure,Default,ECBRPRDP1,172.20.1.86,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,16,22,34.0001,16.7902,ECBRPRDP1.v_jr5Cn0cS
+Physical Infrastructure,Default,ECBRPRQ72,172.20.1.232,Windows (MS SQL Standard),Microsoft Windows Server 2022 Standard 10.0.20348,SQL Server 2022 16.0.1000.6 (RTM) Standard Edition,-,100,4,90.1605,17.1788,10.9065,ECBRPRQ72.v_kGi5cnFu
+Physical Infrastructure,Default,ECBRPRWE26,172.20.1.137,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,14,29,75.1609,27.77,ECBRPRWE26.v_m0oyGzcX
+Physical Infrastructure,Default,ECBRPRW06,172.20.1.82,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,2,75,6.4414,3.6217,ECBRPRW06.v_mJ7moi7j
+Physical Infrastructure,Default,ecbrprq46,172.20.1.109,Windows (MS SQL Standard),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Standard Edition,-,100,8,38.2765,25.7688,9.0073,ecbrprq46.v_nwz35wMy
+Physical Infrastructure,Default,ECBRPRW63,172.20.1.221,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,2,81,6.4414,3.548,ECBRPRW63.v_p2D2Ocu7
+Physical Infrastructure,Default,ECBRPRW50,172.20.1.134,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,14,29.3517,75.1609,27.055,ECBRPRW50.v_q5yT59Qf
+Physical Infrastructure,Default,ecbrprcl2,172.20.1.209,Windows (MS SQL Enterprise),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Enterprise Edition: Core-based Licensing,-,100,10,50,34.3587,11.7801,ecbrprcl2.v_q91Ey0r5
+Physical Infrastructure,Default,ECBRPRW35,172.20.1.101,Windows,Microsoft Windows Server 2012 R2 Standard 6.3.9600,-,-,100,2,75.4112,8.5889,2.8245,ECBRPRW35.v_qIB1L3Rm
+Physical Infrastructure,Default,ecbrprti06,172.20.1.162,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,100,12.8839,12.4033,ecbrprti06.v_qQSweZbL
+Physical Infrastructure,Default,ECBRPRWE27,172.20.115.13,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,26,8.5889,4.0138,ECBRPRWE27.v_qgfucwRo
+Physical Infrastructure,Default,ECBRPRQ24,172.20.1.93,Windows (MS SQL Standard),Microsoft Windows Server 2008 R2 Enterprise  6.1.7601,SQL Server 2012 11.4.7001.0 (SP4) Standard Edition,-,100,8,87.3781,38.6537,14.9185,ECBRPRQ24.v_qvwVQR5s
+Physical Infrastructure,Default,ECBRPRF05,172.20.1.16,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,4,61,8.5889,7.4609,ECBRPRF05.v_s1Tz8PZV
+Physical Infrastructure,Default,ECBRPRW57,172.20.1.242,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,45,8.5889,3.6233,ECBRPRW57.v_sD08mSc9
+Physical Infrastructure,Default,ECBRPRCL12,172.20.1.219,Windows (MS SQL Enterprise),Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.3.6300.2 (SP3) Enterprise Edition: Core-based Licensing,-,100,4,69,49.3911,17.3792,ECBRPRCL12.v_sMwB0ngY
+Physical Infrastructure,Default,ECBRPRW19,172.20.1.31,Windows,Microsoft Windows Server 2012 R2 Standard 6.3.9600,-,-,100,2,94,6.4414,3.302,ECBRPRW19.v_sX8eCtkP
+Physical Infrastructure,Default,ECBRPRAP6,172.20.1.240,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,2,81.6293,8.5889,3.698,ECBRPRAP6.v_sXupXpP7
+Physical Infrastructure,Default,ECBRPRW07,172.20.1.83,Windows,Microsoft® Windows Server® 2008 Standard  6.0.6003,-,-,100,2,58,3.0681,1.8232,ECBRPRW07.v_uZ4nAGDZ
+Physical Infrastructure,Default,ECBRPRCC01,172.20.1.122,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,2,94.8818,6.4414,4.3836,ECBRPRCC01.v_ubgBpyFm
+Physical Infrastructure,Default,ECBRPRF06,172.20.1.117,Windows,Microsoft Windows Server 2022 Standard 10.0.20348,-,-,100,4,42,8.5889,6.7871,ECBRPRF06.v_vwutBPyT
+Physical Infrastructure,Default,ECBRPRW45,172.20.1.112,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,8,45.3658,21.4738,14.8078,ECBRPRW45.v_wTDQZiUh
+Physical Infrastructure,Default,ECBRPRW69,172.20.1.229,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,4,40,17.1788,5.5181,ECBRPRW69.v_wXkAfTbL
+Physical Infrastructure,Default,ECBRPRW76,172.20.1.143,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,14,47.613,75.1609,32.8866,ECBRPRW76.v_x8SmS63W
+Physical Infrastructure,Default,ECBRPRW77,172.20.1.120,Windows,Microsoft Windows Server 2019 Standard 10.0.17763,-,-,100,14,50.5674,75.1609,32.0151,ECBRPRW77.v_yGLJNJOO
+Physical Infrastructure,Default,ecbrprap15,172.20.1.131,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,-,-,100,8,28.2706,17.1788,8.1795,ecbrprap15.v_yJoohm4A
+Physical Infrastructure,Default,ECBRPRSRM1,172.20.1.94,Windows,Microsoft Windows Server 2016 Standard 10.0.14393,SQL Server 2016 13.2.5026.0 (SP2) Express Edition,-,100,2,97,6.4414,3.8635,ECBRPRSRM1.v_ypZMO0Q5

@@ -1,0 +1,31 @@
+Host,Datacenter,Cluster,Device,Type,Status,Bus,Pci,Driver,Model,WWN,VI SDK Server,VI SDK UUID
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmhba1,,unknown,19,0:13:00,smartpqi,HPE E208i-p SR Gen10,,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmhba1,,unknown,19,0:13:00,smartpqi,HPE E208i-p SR Gen10,,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmhba1,,unknown,19,0:13:00,smartpqi,HPE E208i-p SR Gen10,,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmhba1,,unknown,19,0:13:00,smartpqi,HPE E208i-p SR Gen10,,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmhba1,,unknown,19,0:13:00,smartpqi,HPE E208i-p SR Gen10,,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmhba1,,unknown,19,0:13:00,smartpqi,HPE E208i-p SR Gen10,,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmhba1,,unknown,19,0:13:00,smartpqi,HPE E208i-p SR Gen10,,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmhba1,,unknown,15,0000:0f:00.0,nvme_pcie,Marvell NR2241 NVMe Controller,,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmhba1,,unknown,15,0000:0f:00.0,nvme_pcie,Marvell NR2241 NVMe Controller,,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmhba1,,unknown,15,0000:0f:00.0,nvme_pcie,Marvell NR2241 NVMe Controller,,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmhba65,Fibre Channel,online,135,0000:87:00.1,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D28DFF 5001438024D28DFE,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmhba64,Fibre Channel,online,135,0000:87:00.0,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D28DFD 5001438024D28DFC,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmhba1,Fibre Channel,online,9,0:09:00,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D271CD 5001438024D271CC,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmhba2,Fibre Channel,online,9,0:09:00.100000,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D271CF 5001438024D271CE,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmhba0,,unknown,7,0:07:00,nhpsa,Smart Array P244br,,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmhba1,Fibre Channel,online,9,0:09:00,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D272FD 5001438024D272FC,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmhba65,Fibre Channel,online,135,0000:87:00.1,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D26F6F 5001438024D26F6E,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmhba2,Fibre Channel,online,9,0:09:00.100000,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D272FF 5001438024D272FE,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmhba64,Fibre Channel,online,135,0000:87:00.0,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D26F6D 5001438024D26F6C,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmhba0,,unknown,7,0:07:00,nhpsa,Smart Array P244br,,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmhba64,Fibre Channel,online,135,0000:87:00.0,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D476D9 5001438024D476D8,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmhba1,Fibre Channel,online,9,0:09:00,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D47195 5001438024D47194,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmhba2,Fibre Channel,online,9,0:09:00.100000,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D47197 5001438024D47196,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmhba65,Fibre Channel,online,135,0000:87:00.1,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,5001438024D476DB 5001438024D476DA,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmhba0,,unknown,7,0:07:00,nhpsa,Smart Array P244br,,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmhba0,,unknown,7,0:07:00,nhpsa,Smart Array P244br,,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmhba64,Fibre Channel,online,135,0000:87:00.0,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,51402EC000D31EFD 51402EC000D31EFC,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmhba2,Fibre Channel,online,9,0:09:00.100000,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,51402EC000D31E13 51402EC000D31E12,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmhba1,Fibre Channel,online,9,0:09:00,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,51402EC000D31E11 51402EC000D31E10,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmhba65,Fibre Channel,online,135,0000:87:00.1,qlnativefc,2600 Series 16Gb Fibre Channel to PCI Express HBA,51402EC000D31EFF 51402EC000D31EFE,172.20.1.174,172.20.1.174

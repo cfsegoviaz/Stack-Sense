@@ -1,0 +1,245 @@
+Host,Datacenter,Cluster,Port Group,Switch,VLAN,Promiscuous Mode,Mac Changes,Forged Transmits,Traffic Shaping,Width,Peak,Burst,Policy,Reverse Policy,Notify Switch,Rolling Order,Offload,TSO,Zero Copy Xmit,VI SDK Server,VI SDK UUID
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_Produccion_1876,vSwitch2,1876,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,Management Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,SVT_FedPortGroup,vSwitch1,1895,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,SVT_StoragePortGroup,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_Produccion_0,vSwitch2,1870,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_Produccion_11,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_Produccion_1877,vSwitch2,1877,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_Produccion_1871,vSwitch2,1871,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_Produccion_40,vSwitch2,1874,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,HeartBeat,vSwitch2,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_Produccion_55,vSwitch2,10,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_XL,vSwitch2,120,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_DMZ_1893,vSwitch3,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_DMZ_1881,vSwitch3,1881,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_DMZ_125,vSwitch3,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,VM_DMZ_12,vSwitch3,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_XL,vSwitch2,120,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_Produccion_0,vSwitch2,1870,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,SVT_StoragePortGroup,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,SVT_FedPortGroup,vSwitch1,1895,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,Management Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_Produccion_11,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_Produccion_1871,vSwitch2,1871,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_Produccion_55,vSwitch2,10,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_Produccion_1877,vSwitch2,1877,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,HeartBeat,vSwitch2,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_Produccion_1876,vSwitch2,1876,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_Produccion_40,vSwitch2,1874,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_DMZ_1881,vSwitch3,1881,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_DMZ_125,vSwitch3,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_DMZ_12,vSwitch3,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,VM_DMZ_1893,vSwitch3,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_Produccion_1877,vSwitch2,1877,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,SVT_StoragePortGroup,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,Management Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_XL,vSwitch2,120,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_Produccion_1876,vSwitch2,1876,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_Produccion_0,vSwitch2,1870,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,SVT_FedPortGroup,vSwitch1,1895,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,HeartBeat,vSwitch2,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_Produccion_1871,vSwitch2,1871,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_Produccion_11,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_Produccion_55,vSwitch2,10,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_Produccion_40,vSwitch2,1874,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_DMZ_1893,vSwitch3,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_DMZ_1881,vSwitch3,1881,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_DMZ_125,vSwitch3,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,VM_DMZ_12,vSwitch3,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_DMZ_1881,vSwitch3,1881,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_DMZ_12,vSwitch3,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_Produccion_55,vSwitch2,10,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_Produccion_1876,vSwitch2,1876,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_Produccion_1871,vSwitch2,1871,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,HeartBeat,vSwitch2,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_Produccion_11,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_XL,vSwitch2,120,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_Produccion_1877,vSwitch2,1877,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_Produccion_40,vSwitch2,1874,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_Produccion_0,vSwitch2,1870,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,SVT_StoragePortGroup,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,Management Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,SVT_FedPortGroup,vSwitch1,1895,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_DMZ_125,vSwitch3,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM_DMZ_1893,vSwitch3,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,VM Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,Management Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,SVT_FedPortGroup,vSwitch1,1895,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,SVT_StoragePortGroup,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_Produccion_1876,vSwitch2,1876,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_Produccion_0,vSwitch2,1870,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,HeartBeat,vSwitch2,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_DMZ_1893,vSwitch3,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_Produccion_11,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_Produccion_1877,vSwitch2,1877,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_Produccion_40,vSwitch2,1874,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_XL,vSwitch2,120,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_Produccion_1871,vSwitch2,1871,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_DMZ_12,vSwitch3,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_DMZ_1881,vSwitch3,1881,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_Produccion_55,vSwitch2,10,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,VM_DMZ_125,vSwitch3,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,SVT_StoragePortGroup,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_Produccion_1876,vSwitch2,1876,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_Respaldos_65,vSwitch0,65,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_Produccion_1871,vSwitch2,1871,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,Management Network,vSwitch0,1875,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,SVT_FedPortGroup,vSwitch1,1895,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_Produccion_40,vSwitch2,1874,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_Produccion_55,vSwitch2,10,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_XL,vSwitch2,120,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_DMZ_1893,vSwitch3,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_DMZ_1881,vSwitch3,1881,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_DMZ_125,vSwitch3,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_DMZ_12,vSwitch3,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM Network,vSwitch0,1875,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_Produccion_1877,vSwitch2,1877,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_Produccion_0,vSwitch2,1870,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,VM_Produccion_11,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,HeartBeat,vSwitch2,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_DMZ_12,vSwitch3,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_Respaldos_65,vSwitch0,65,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM Network,vSwitch0,1875,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,Management Network,vSwitch0,1875,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,SVT_FedPortGroup,vSwitch1,1895,False,False,False,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,SVT_StoragePortGroup,vSwitch1,1894,False,False,False,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vSwitch1,1894,False,False,False,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_Produccion_1876,vSwitch2,1876,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_Produccion_1871,vSwitch2,1871,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_Produccion_0,vSwitch2,1870,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_XL,vSwitch2,120,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_Produccion_1877,vSwitch2,1877,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_Produccion_11,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,HeartBeat,vSwitch2,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_Produccion_40,vSwitch2,1874,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_Produccion_55,vSwitch2,10,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_DMZ_1893,vSwitch3,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_DMZ_125,vSwitch3,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,VM_DMZ_1881,vSwitch3,1881,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_DMZ_1893,vSwitch3,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_DMZ_12,vSwitch3,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_DMZ_125,vSwitch3,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_DMZ_1881,vSwitch3,1881,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_Produccion_55,vSwitch2,10,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_Produccion_1871,vSwitch2,1871,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,HeartBeat,vSwitch2,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_Produccion_11,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_Produccion_1877,vSwitch2,1877,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_XL,vSwitch2,120,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_Produccion_0,vSwitch2,1870,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_Produccion_1876,vSwitch2,1876,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM_Produccion_40,vSwitch2,1874,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,SVT_StoragePortGroup,vSwitch1,1894,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,SVT_FedPortGroup,vSwitch1,1895,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,Management Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,VM Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_Produccion_40,vSwitch2,1874,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_XL,vSwitch2,120,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_Produccion_1876,vSwitch2,1876,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,SVT_StoragePortGroup,vSwitch1,1894,False,False,False,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vSwitch1,1894,False,False,False,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_DMZ_12,vSwitch3,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_DMZ_1881,vSwitch3,1881,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_Produccion_55,vSwitch2,10,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,SVT_FedPortGroup,vSwitch1,1895,False,False,False,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_Produccion_11,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_Produccion_0,vSwitch2,1870,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_Produccion_1877,vSwitch2,1877,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,Management Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_DMZ_1893,vSwitch3,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_Produccion_1871,vSwitch2,1871,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,HeartBeat,vSwitch2,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,VM_DMZ_125,vSwitch3,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_Produccion_1876,vSwitch2,1876,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_Produccion_40,vSwitch2,1874,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_Produccion_11,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_XL,vSwitch2,120,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,HeartBeat,vSwitch2,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_Produccion_1877,vSwitch2,1877,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_Produccion_55,vSwitch2,10,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,SVT_StoragePortGroup,vSwitch1,1894,False,False,False,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_Produccion_1871,vSwitch2,1871,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_Produccion_0,vSwitch2,1870,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,Management Network,vSwitch0,0,False,False,False,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vSwitch1,1894,False,False,False,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,SVT_FedPortGroup,vSwitch1,1895,False,False,False,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_DMZ_1881,vSwitch3,1881,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_DMZ_125,vSwitch3,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_DMZ_12,vSwitch3,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM Network,vSwitch0,0,False,False,False,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,VM_DMZ_1893,vSwitch3,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,VM_Produccion_1876,vSwitch2,1876,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vMotion,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,HeartBeat,vSwitch2,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,Management Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,VM_DMZ_1881,vSwitch1,1881,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,VM_DMZ_1893,vSwitch1,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,VM_DMZ_12,vSwitch1,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,VM_DMZ_125,vSwitch1,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,VM_Produccion_1877,vSwitch2,1877,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,VM_Test_41,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,VM_Produccion_55,vSwitch2,10,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,VM_Produccion_40,vSwitch2,1874,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VM_TEST_20,vSwitch2,20,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VM_13,vSwitch2,13,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VM_Test_41,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VM_TEST_1895,vSwitch2,1895,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,Management Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VMkernel,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VM Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VM_DMZ_1893,vSwitch1,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VM_DMZ_12,vSwitch1,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VM_Test_47,vSwitch2,1879,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VM_DMZ_125,vSwitch1,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VM_Test_46,vSwitch2,1878,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM_TEST_20,vSwitch2,20,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM_Test_41,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM_Test_47,vSwitch2,1879,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM_13,vSwitch2,13,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VMkernel,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM_Test_46,vSwitch2,1878,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM_TEST_1895,vSwitch2,1895,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM_Produccion_1878,vSwitch1,1878,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM _DMZ_12,vSwitch1,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM_DMZ_125,vSwitch1,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM_DMZ_1893,vSwitch1,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,Management Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VM_DMZ_1879_VL47,vSwitch1,1879,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VM_Test_41,vSwitch2,11,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VM Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VM_13,vSwitch2,13,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VM_Test_46,vSwitch2,1878,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VM_DMZ_125,vSwitch1,125,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VM_Produccion_01,vSwitch2,1872,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,Management Network,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VM_DMZ_12,vSwitch1,12,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VMkernel,vSwitch0,0,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VM_TEST_20,vSwitch2,20,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VM_Test_47,vSwitch2,1879,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VM_DMZ_1893,vSwitch1,1893,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VM_TEST_1895,vSwitch2,1895,False,True,True,False,0,0,0,loadbalance_srcid,True,True,False,True,True,True,172.20.1.174,172.20.1.174

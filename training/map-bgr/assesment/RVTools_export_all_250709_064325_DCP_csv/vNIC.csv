@@ -1,0 +1,157 @@
+Host,Datacenter,Cluster,Network Device,Driver,Speed,Duplex,MAC,Switch,Uplink port,PCI,WakeOn,VI SDK Server,VI SDK UUID
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic0,ntg3,,Link is down!,,vSwitch0,,0:02:00,False,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic3,ntg3,,Link is down!,,vSwitch2,,0:02:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic1,ntg3,,Link is down!,,vSwitch2,,0:02:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic10,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-0,0000:b0:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic11,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-1,0000:b0:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic2,ntg3,,Link is down!,,vSwitch3,,0:02:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic4,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic6,igbn,,Link is down!,,vSwitch2,,0000:af:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic5,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic9,igbn,,Link is down!,,vSwitch0,,0000:af:00.3,False,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic7,igbn,,Link is down!,,vSwitch3,,0000:af:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vmnic8,igbn,,Link is down!,,vSwitch2,,0000:af:00.2,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic7,igbn,,Link is down!,,vSwitch3,,0000:af:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic2,ntg3,,Link is down!,,vSwitch3,,0:02:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic11,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-1,0000:b0:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic10,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-0,0000:b0:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic1,ntg3,,Link is down!,,vSwitch2,,0:02:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic0,ntg3,,Link is down!,,vSwitch0,,0:02:00,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic3,ntg3,,Link is down!,,vSwitch2,,0:02:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic4,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic5,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic6,igbn,,Link is down!,,vSwitch2,,0000:af:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic8,igbn,,Link is down!,,vSwitch2,,0000:af:00.2,False,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vmnic9,igbn,,Link is down!,,vSwitch0,,0000:af:00.3,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic4,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic0,ntg3,,Link is down!,,vSwitch0,,0:02:00,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic1,ntg3,,Link is down!,,vSwitch2,,0:02:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic9,igbn,,Link is down!,,vSwitch0,,0000:af:00.3,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic11,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-1,0000:b0:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic10,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-0,0000:b0:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic3,ntg3,,Link is down!,,vSwitch2,,0:02:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic2,ntg3,,Link is down!,,vSwitch3,,0:02:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic6,igbn,,Link is down!,,vSwitch2,,0000:af:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic8,igbn,,Link is down!,,vSwitch2,,0000:af:00.2,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic7,igbn,,Link is down!,,vSwitch3,,0000:af:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vmnic5,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic7,igbn,,Link is down!,,vSwitch3,,0000:af:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic5,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic6,igbn,,Link is down!,,vSwitch2,,0000:af:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic3,ntg3,,Link is down!,,vSwitch2,,0:02:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic8,igbn,,Link is down!,,vSwitch2,,0000:af:00.2,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic4,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic0,ntg3,,Link is down!,,vSwitch0,,0:02:00,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic11,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-1,0000:b0:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic2,ntg3,,Link is down!,,vSwitch3,,0:02:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic1,ntg3,,Link is down!,,vSwitch2,,0:02:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic10,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-0,0000:b0:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vmnic9,igbn,,Link is down!,,vSwitch0,,0000:af:00.3,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic0,ntg3,,Link is down!,,vSwitch0,,0:02:00,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic1,ntg3,,Link is down!,,vSwitch2,,0:02:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic10,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-0,0000:b0:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic9,igbn,,Link is down!,,vSwitch0,,0000:af:00.3,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic11,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-1,0000:b0:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic2,ntg3,,Link is down!,,vSwitch3,,0:02:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic3,ntg3,,Link is down!,,vSwitch2,,0:02:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic4,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic8,igbn,,Link is down!,,vSwitch2,,0000:af:00.2,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic6,igbn,,Link is down!,,vSwitch2,,0000:af:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic7,igbn,,Link is down!,,vSwitch3,,0000:af:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vmnic5,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic0,ntg3,,Link is down!,,vSwitch0,,0:02:00,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic3,ntg3,,Link is down!,,vSwitch2,,0:02:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic10,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-0,0000:b0:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic11,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-1,0000:b0:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic6,igbn,,Link is down!,,vSwitch2,,0000:af:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic7,igbn,,Link is down!,,vSwitch3,,0000:af:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic8,igbn,,Link is down!,,vSwitch2,,0000:af:00.2,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic9,igbn,,Link is down!,,vSwitch0,,0000:af:00.3,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic5,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic1,ntg3,,Link is down!,,vSwitch2,,0:02:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic4,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vmnic2,ntg3,,Link is down!,,vSwitch3,,0:02:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic9,ntg3,,Link is down!,,,,0:12:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic8,ntg3,,Link is down!,,,,0:12:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic0,ntg3,,Link is down!,,vSwitch0,,0:02:00,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic7,ntg3,,Link is down!,,,,0:12:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic1,ntg3,,Link is down!,,vSwitch2,,0:02:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic10,ntg3,,Link is down!,,vSwitch0,,0:37:00,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic11,ntg3,,Link is down!,,vSwitch2,,0:37:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic12,ntg3,,Link is down!,,vSwitch3,,0:37:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic13,ntg3,,Link is down!,,vSwitch2,,0:37:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic14,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-0,0000:b0:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic15,i40en,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-1,0000:b0:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic2,ntg3,,Link is down!,,vSwitch3,,0:02:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic3,ntg3,,Link is down!,,vSwitch2,,0:02:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic6,ntg3,,Link is down!,,,,0:12:00,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic4,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vmnic5,qfle3,,Link is down!,,vSwitch1,,0000:5d:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic9,igbn,,Link is down!,,vSwitch2,,0:48:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic5,bnxtnet,,Link is down!,,vSwitch1,,0000:2b:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic4,bnxtnet,,Link is down!,,vSwitch1,,0000:2b:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic6,igbn,,Link is down!,,vSwitch0,,0:48:00,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic3,igbn,,Link is down!,,vSwitch2,,0:10:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic11,bnxtnet,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-1,0000:84:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic10,bnxtnet,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-0,0000:84:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic1,igbn,,Link is down!,,vSwitch2,,0:10:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic0,igbn,,Link is down!,,vSwitch0,,0:10:00,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic8,igbn,,Link is down!,,vSwitch3,,0:48:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic2,igbn,,Link is down!,,vSwitch3,,0:10:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vmnic7,igbn,,Link is down!,,vSwitch2,,0:48:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic8,bnxtnet,,Link is down!,,vSwitch1,,0:48:00,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic5,ntg3,,Link is down!,,vSwitch2,,0000:2b:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic6,ntg3,,Link is down!,,vSwitch3,,0000:2b:00.2,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic2,ntg3,,Link is down!,,vSwitch3,,0:10:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic0,ntg3,,Link is down!,,vSwitch0,,0:10:00,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic1,ntg3,,Link is down!,,vSwitch2,,0:10:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic10,bnxtnet,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-0,0000:84:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic11,bnxtnet,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-1,0000:84:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic3,ntg3,,Link is down!,,vSwitch2,,0:10:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic4,ntg3,,Link is down!,,vSwitch0,,0000:2b:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic9,bnxtnet,,Link is down!,,vSwitch1,,0:48:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vmnic7,ntg3,,Link is down!,,vSwitch2,,0000:2b:00.3,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic1,ntg3,,Link is down!,,vSwitch2,,0:10:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic8,bnxtnet,,Link is down!,,vSwitch1,,0:48:00,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic10,bnxtnet,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-0,0000:84:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic0,ntg3,,Link is down!,,vSwitch0,,0:10:00,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic11,bnxtnet,,Link is down!,,DCP-Cluster_Quito-vDS-Backups,lag1-Backups-1,0000:84:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic2,ntg3,,Link is down!,,vSwitch3,,0:10:00.200000,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic3,ntg3,,Link is down!,,vSwitch2,,0:10:00.300000,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic4,ntg3,,Link is down!,,vSwitch0,,0000:2b:00.0,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic5,ntg3,,Link is down!,,vSwitch2,,0000:2b:00.1,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic6,ntg3,,Link is down!,,vSwitch3,,0000:2b:00.2,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic7,ntg3,,Link is down!,,vSwitch2,,0000:2b:00.3,False,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vmnic9,bnxtnet,,Link is down!,,vSwitch1,,0:48:00.100000,False,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmnic1,qfle3,10000.0,True,00:17:a4:77:00:0e,vSwitch0,,0:06:00.100000,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmnic0,qfle3,10000.0,True,00:17:a4:77:00:00,vSwitch0,,0:06:00,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmnic2,qfle3,10000.0,True,00:17:a4:77:00:10,vSwitch1,,0:06:00.200000,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmnic4,qfle3,10000.0,True,00:17:a4:77:00:14,vSwitch2,,0:06:00.400000,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmnic3,qfle3,10000.0,True,00:17:a4:77:00:12,vSwitch1,,0:06:00.300000,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmnic6,qfle3,10000.0,True,00:17:a4:77:00:5c,,,0:06:00.600000,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmnic5,qfle3,10000.0,True,00:17:a4:77:00:16,vSwitch2,,0:06:00.500000,True,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vmnic7,qfle3,,Link is down!,00:17:a4:77:00:5e,,,0:06:00.700000,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmnic3,qfle3,10000.0,True,00:17:a4:77:00:08,vSwitch1,,0:06:00.300000,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmnic2,qfle3,10000.0,True,00:17:a4:77:00:06,vSwitch1,,0:06:00.200000,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmnic5,qfle3,10000.0,True,00:17:a4:77:00:0c,vSwitch2,,0:06:00.500000,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmnic4,qfle3,10000.0,True,00:17:a4:77:00:0a,vSwitch2,,0:06:00.400000,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmnic1,qfle3,10000.0,True,00:17:a4:77:00:04,,,0:06:00.100000,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmnic0,qfle3,10000.0,True,00:17:a4:77:00:02,vSwitch0,,0:06:00,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmnic6,qfle3,10000.0,True,00:17:a4:77:00:58,,,0:06:00.600000,True,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,vmnic7,qfle3,,Link is down!,00:17:a4:77:00:5a,,,0:06:00.700000,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmnic7,qfle3,,Link is down!,ec:b1:d7:a5:c9:bb,,,0:06:00.700000,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmnic0,qfle3,10000.0,True,00:17:a4:77:00:18,vSwitch0,,0:06:00,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmnic6,qfle3,10000.0,True,00:17:a4:77:00:54,,,0:06:00.600000,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmnic4,qfle3,10000.0,True,00:17:a4:77:00:20,vSwitch2,,0:06:00.400000,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmnic5,qfle3,10000.0,True,00:17:a4:77:00:22,vSwitch2,,0:06:00.500000,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmnic2,qfle3,10000.0,True,00:17:a4:77:00:1c,vSwitch1,,0:06:00.200000,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmnic3,qfle3,10000.0,True,00:17:a4:77:00:1e,vSwitch1,,0:06:00.300000,True,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,vmnic1,qfle3,10000.0,True,00:17:a4:77:00:1a,,,0:06:00.100000,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmnic7,qfle3,,Link is down!,f4:03:43:a2:3a:cb,,,0:06:00.700000,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmnic5,qfle3,10000.0,True,00:17:a4:77:00:46,vSwitch2,,0:06:00.500000,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmnic6,qfle3,,Link is down!,00:17:a4:77:00:56,,,0:06:00.600000,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmnic3,qfle3,10000.0,True,00:17:a4:77:00:42,vSwitch1,,0:06:00.300000,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmnic0,qfle3,10000.0,True,00:17:a4:77:00:3c,vSwitch0,,0:06:00,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmnic4,qfle3,10000.0,True,00:17:a4:77:00:44,vSwitch2,,0:06:00.400000,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmnic2,qfle3,10000.0,True,00:17:a4:77:00:40,vSwitch1,,0:06:00.200000,True,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,vmnic1,qfle3,10000.0,True,00:17:a4:77:00:3e,,,0:06:00.100000,True,172.20.1.174,172.20.1.174

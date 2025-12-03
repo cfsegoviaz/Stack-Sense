@@ -1,0 +1,4 @@
+Name,Config status,OverallStatus,NumHosts,numEffectiveHosts,TotalCpu,NumCpuCores,NumCpuThreads,Effective Cpu,TotalMemory,Effective Memory,Num VMotions,HA enabled,Failover Level,AdmissionControlEnabled,Host monitoring,HB Datastore Candidate Policy,Isolation Response,Restart Priority,Cluster Settings,Max Failures,Max Failure Window,Failure Interval,Min Up Time,VM Monitoring,DRS enabled,DRS default VM behavior,DRS vmotion rate,DPM enabled,DPM default behavior,DPM Host Power Action Rate,Object ID,com.vmware.vcenter.cluster.edrs.upgradeHostAdded,VI SDK Server,VI SDK UUID
+Cluster_BI,green,green,1,1,82692,36,36,74621,262014,248806,20,,,,,,,,,,,,,,,,,,,,domain-c2920,,172.20.1.174,172.20.1.174
+Cluster_Quito,green,green,10,10,640920,224,416,561859,7860189,7651622,46550,,,,,,,,,,,,,,,,,,,,domain-c26,,172.20.1.174,172.20.1.174
+Cluster_Test,green,green,3,3,248076,108,216,223863,1048194,1002070,38792,,,,,,,,,,,,,,,,,,,,domain-c3350,,172.20.1.174,172.20.1.174

@@ -1,0 +1,39 @@
+Host,Datacenter,Cluster,Port Group,Device,Mac Address,DHCP,IP Address,IP 6 Address,Subnet mask,Gateway,IP 6 Gateway,MTU,VI SDK Server,VI SDK UUID
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vmk1,00:50:56:6e:b7:77,False,172.20.81.5,,255.255.255.0,172.20.45.1,,9000,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,Management Network,vmk0,08:f1:ea:f7:39:3c,False,172.20.45.215,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx13.bgr.com,DCP,Cluster_Quito,vDP-Backup-ESXi-VLAN166,vmk2,00:50:56:63:8e:3c,False,172.20.166.51,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vmk1,00:50:56:6d:7f:d2,False,172.20.81.7,,255.255.255.0,172.20.45.1,,9000,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,Management Network,vmk0,08:f1:ea:f7:49:2c,False,172.20.45.217,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx14.bgr.com,DCP,Cluster_Quito,vDP-Backup-ESXi-VLAN166,vmk2,00:50:56:69:3e:a6,False,172.20.166.52,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,vDP-Backup-ESXi-VLAN166,vmk2,00:50:56:6e:62:eb,False,172.20.166.53,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,Management Network,vmk0,08:f1:ea:f7:31:f8,False,172.20.45.219,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx15.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vmk1,00:50:56:63:8e:26,False,172.20.81.9,,255.255.255.0,172.20.45.1,,9000,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vmk1,00:50:56:6b:3d:22,False,172.20.81.11,,255.255.255.0,172.20.45.1,,9000,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,Management Network,vmk0,08:f1:ea:f7:46:1a,False,172.20.45.221,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx16.bgr.com,DCP,Cluster_Quito,vDP-Backup-ESXi-VLAN166,vmk2,00:50:56:69:1e:17,False,172.20.166.54,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,Management Network,vmk0,08:f1:ea:f7:30:1e,False,172.20.45.223,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vmk1,00:50:56:61:17:46,False,172.20.81.13,,255.255.255.0,172.20.45.1,,9000,172.20.1.174,172.20.1.174
+ecbrprsx17.bgr.com,DCP,Cluster_Quito,vDP-Backup-ESXi-VLAN166,vmk2,00:50:56:66:3f:b0,False,172.20.166.55,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vmk1,00:50:56:65:b0:02,False,172.20.81.15,,255.255.255.0,172.20.45.1,,9000,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,vDP-Backup-ESXi-VLAN166,vmk2,00:50:56:60:6b:c3,False,172.20.166.56,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx18.bgr.com,DCP,Cluster_Quito,Management Network,vmk0,08:f1:ea:f7:47:64,False,172.20.45.225,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,vDP-Backup-ESXi-VLAN166,vmk2,00:50:56:62:a4:96,False,172.20.166.57,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,Management Network,vmk0,5c:ed:8c:5f:b0:aa,False,172.20.45.254,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx19.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vmk1,00:50:56:6b:59:8f,False,172.20.81.23,,255.255.255.0,172.20.45.1,,9000,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vmk1,00:50:56:6e:b6:6c,False,172.20.81.50,,255.255.255.0,172.20.45.1,,9000,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,vDP-Backup-ESXi-VLAN166,vmk2,00:50:56:6f:3a:e6,False,172.20.166.58,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx20.bgr.com,DCP,Cluster_Quito,Management Network,vmk0,50:7c:6f:63:56:58,False,172.20.45.47,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,vDP-Backup-ESXi-VLAN166,vmk2,00:50:56:64:4d:31,False,172.20.166.59,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,Management Network,vmk0,d4:04:e6:fd:df:2c,False,172.20.45.65,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx21.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vmk1,00:50:56:62:ea:d7,False,172.20.81.24,,255.255.255.0,172.20.45.1,,9000,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,Management Network,vmk0,d4:04:e6:fd:d9:08,False,172.20.45.68,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,SVT_StorPG,vmk1,00:50:56:68:19:81,False,172.20.81.26,,255.255.255.0,172.20.45.1,,9000,172.20.1.174,172.20.1.174
+ecbrprsx22.bgr.com,DCP,Cluster_Quito,vDP-Backup-ESXi-VLAN166,vmk2,00:50:56:67:79:e4,False,172.20.166.60,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,Management Network,vmk0,00:17:a4:77:00:00,False,172.20.45.177,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrprsx31.bgr.com,DCP,Cluster_BI,vMotion,vmk1,00:50:56:69:ca:c3,False,172.20.45.178,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,VMkernel,vmk1,00:50:56:67:ba:31,False,172.20.45.184,fe80::250:56ff:fe67:ba31,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrtssx04.bgr.com,DCP,Cluster_Test,Management Network,vmk0,00:17:a4:77:00:02,False,172.20.45.183,fe80::217:a4ff:fe77:2,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,Management Network,vmk0,00:17:a4:77:00:18,False,172.20.45.187,fe80::217:a4ff:fe77:18,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrtssx05.bgr.com,DCP,Cluster_Test,VMkernel,vmk1,00:50:56:61:c1:5d,False,172.20.45.188,fe80::250:56ff:fe61:c15d,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,VMkernel,vmk1,00:50:56:6b:5f:c0,False,172.20.45.26,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
+ecbrtssx06.bgr.com,DCP,Cluster_Test,Management Network,vmk0,f4:03:43:a2:3a:c0,False,172.20.45.8,,255.255.255.0,172.20.45.1,,1500,172.20.1.174,172.20.1.174
