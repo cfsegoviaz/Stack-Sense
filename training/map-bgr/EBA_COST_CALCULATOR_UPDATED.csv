@@ -1,0 +1,81 @@
+Categoría,Servicio,Aplicación,Tipo/Tamaño,Cantidad,Precio Unitario (hora),Horas/Mes,Subtotal Mensual,Notas
+Compute,EC2,Seq,t3.medium,2,$0.0416,730,$60.74,App servers
+Compute,EC2,Seq,t3.medium,1,$0.0416,730,$30.37,Database server
+Compute,EC2,SonarQube,t3.medium,2,$0.0416,730,$60.74,SonarQube servers
+Compute,EC2,SonarQube,t3.medium,1,$0.0416,730,$30.37,PostgreSQL server
+Compute,EC2,Saras,t3.medium,3,$0.0416,730,$91.10,App servers
+Compute,EC2,Saras,t3.medium,1,$0.0416,730,$30.37,Database server
+Compute,EC2,Backoffice Sistemas,t3.medium,3,$0.0416,730,$91.10,Web/App servers
+Compute,EC2,Backoffice Sistemas,t3.medium,2,$0.0416,730,$60.74,Services
+Compute,EC2,Portal Guía BGR,t3.large,2,$0.0832,730,$121.47,Web servers
+Compute,EC2,Portal Guía BGR,t3.medium,1,$0.0416,730,$30.37,App server
+Compute,EC2,Portal Adm BGR,t3.large,2,$0.0832,730,$121.47,Web servers
+Compute,EC2,Portal Adm BGR,t3.medium,1,$0.0416,730,$30.37,App server
+Compute,EC2,Backoffice Banca,t3.large,3,$0.0832,730,$182.21,Web servers
+Compute,EC2,Backoffice Banca,t3.large,2,$0.0832,730,$121.47,App servers
+Compute,EC2,Api Portal,t3.large,3,$0.0832,730,$182.21,API servers
+Compute,EC2,Api Portal,t3.large,2,$0.0832,730,$121.47,Services
+,,,,,,TOTAL EC2,$1,578.57,
+Database,RDS,Portal Guía BGR,db.t3.medium SQL Server Web,1,$0.166,730,$121.18,SQL Server Web Single-AZ (License Included)
+Database,RDS,Portal Adm BGR,db.t3.medium SQL Server Web,1,$0.166,730,$121.18,SQL Server Web Single-AZ (License Included)
+Database,RDS,Backoffice Banca,db.m5.large SQL Server Standard,1,$0.544,730,$397.12,SQL Server Standard Multi-AZ (License Included) - Aplicación crítica banca
+Database,RDS,Api Portal,db.m5.xlarge SQL Server Enterprise,1,$1.836,730,$1340.28,SQL Server Enterprise Multi-AZ (License Included) - API crítica con Always On
+,,,,,,TOTAL RDS,$1,979.76,
+Storage,EBS gp3,Seq,100 GB,1,$0.08,1,$8.00,Per GB/month
+Storage,EBS gp3,SonarQube,100 GB,1,$0.08,1,$8.00,Per GB/month
+Storage,EBS gp3,Saras,150 GB,1,$0.08,1,$12.00,Per GB/month
+Storage,EBS gp3,Backoffice Sistemas,200 GB,1,$0.08,1,$16.00,Per GB/month
+Storage,EBS gp3,Portal Guía BGR,250 GB,1,$0.08,1,$20.00,Per GB/month
+Storage,EBS gp3,Portal Adm BGR,250 GB,1,$0.08,1,$20.00,Per GB/month
+Storage,EBS gp3,Backoffice Banca,350 GB,1,$0.08,1,$28.00,Per GB/month
+Storage,EBS gp3,Api Portal,300 GB,1,$0.08,1,$24.00,Per GB/month
+Storage,EBS gp3,Shared,300 GB,1,$0.08,1,$24.00,Additional storage
+Storage,S3 Standard,Backups,500 GB,1,$0.023,1,$11.50,Per GB/month
+Storage,S3 Standard,Logs,100 GB,1,$0.023,1,$2.30,Per GB/month
+,,,,,,TOTAL Storage,$173.80,
+Networking,NAT Gateway,Shared,1 NAT,1,$0.045,730,$32.85,Per hour
+Networking,NAT Gateway,Shared,Data Processing,1000,$0.045,1,$45.00,Per GB processed
+Networking,ALB,Public,1 ALB,1,$0.0225,730,$16.43,Per hour
+Networking,ALB,Internal,1 ALB,1,$0.0225,730,$16.43,Per hour
+Networking,ALB,Public,LCU,100,$0.008,1,$0.80,Load Balancer Capacity Units
+Networking,ALB,Internal,LCU,100,$0.008,1,$0.80,Load Balancer Capacity Units
+Networking,Data Transfer,Out to Internet,1000 GB,1,$0.09,1,$90.00,Per GB
+Networking,Data Transfer,Inter-AZ,500 GB,1,$0.01,1,$5.00,Per GB
+,,,,,,TOTAL Networking,$207.31,
+Monitoring,CloudWatch,Logs Ingestion,50 GB,1,$0.50,1,$25.00,Per GB
+Monitoring,CloudWatch,Logs Storage,100 GB,1,$0.03,1,$3.00,Per GB
+Monitoring,CloudWatch,Metrics,1000 metrics,1,$0.30,1,$30.00,Custom metrics
+Monitoring,CloudWatch,Dashboards,5 dashboards,1,$3.00,1,$15.00,Per dashboard
+Monitoring,CloudWatch,Alarms,100 alarms,1,$0.10,1,$10.00,Per alarm
+Monitoring,CloudWatch,API Requests,1M requests,1,$0.01,1,$1.00,Per 1000 requests
+Monitoring,Secrets Manager,Secrets,10 secrets,1,$0.40,1,$4.00,Per secret/month
+Monitoring,Secrets Manager,API Calls,10000 calls,1,$0.05,1,$0.50,Per 10K calls
+Monitoring,Systems Manager,Session Manager,Included,0,$0.00,1,$0.00,No charge
+Monitoring,Systems Manager,Parameter Store,Included,0,$0.00,1,$0.00,Standard tier free
+,,,,,,TOTAL Monitoring,$88.50,
+Backup,AWS Backup,EBS Snapshots,1000 GB,1,$0.05,1,$50.00,Per GB/month
+Backup,AWS Backup,RDS Snapshots,500 GB,1,$0.095,1,$47.50,Per GB/month
+Backup,S3 Glacier,Long-term,500 GB,1,$0.004,1,$2.00,Per GB/month
+,,,,,,TOTAL Backup,$99.50,
+Security,Security Hub,Findings,10000 findings,1,$0.0010,1,$10.00,Per 10K findings
+Security,GuardDuty,VPC Flow Logs,1000 GB,1,$1.00,1,$10.00,Per GB analyzed (first 500GB)
+Security,GuardDuty,CloudTrail,1M events,1,$4.40,1,$4.40,Per million events
+Security,IAM,Users/Roles,Included,0,$0.00,1,$0.00,No charge
+Security,KMS,Keys,5 keys,1,$1.00,1,$5.00,Per key/month
+Security,KMS,Requests,100000 requests,1,$0.03,1,$3.00,Per 10K requests
+,,,,,,TOTAL Security,$32.40,
+Support,AWS Support,Business,Included,0,$0.00,1,$0.00,Assumed existing
+Migration,Application Migration Service,Replication,36 servers,1,$0.00,730,$0.00,Free for 90 days
+Migration,Database Migration Service,Replication,4 instances,1,$0.00,730,$0.00,Free tier eligible
+,,,,,,TOTAL Migration,$0.00,
+,,,,,,,,
+,,,,,,SUBTOTAL,$4,159.84,
+,,,,,,Contingencia (10%),$415.98,
+,,,,,,TOTAL MENSUAL,$4,575.82,
+,,,,,,MARGEN vs $5000,$424.18,8.5% bajo presupuesto
+,,,,,,,,
+JUSTIFICACIÓN SQL SERVER EDITIONS,,,,,,,
+Portal Guía BGR,SQL Server Web,Aplicación web estándar - No requiere features Enterprise,,,,,
+Portal Adm BGR,SQL Server Web,Aplicación web administrativa - No requiere features Enterprise,,,,,
+Backoffice Banca,SQL Server Standard,Aplicación crítica de banca - Requiere HA con RDS Multi-AZ pero no Always On,,,,,
+Api Portal,SQL Server Enterprise,API crítica - Requiere Always On Availability Groups y compresión de datos,,,,,

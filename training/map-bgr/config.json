@@ -1,0 +1,83 @@
+{
+  "proyecto": {
+    "nombre": "MAP-BGR",
+    "cliente": "BGR",
+    "fecha_inicio": "2025-12-01",
+    "region_aws": "us-east-1",
+    "responsable": "Equipo Stack Sense"
+  },
+  "ambientes": {
+    "produccion": {
+      "vms_reales": 383,
+      "fuente_datos": "RVTools_export_all_250709_064325_DCP.xlsm",
+      "vcpus": 1752,
+      "ram_gb": 5924.8
+    },
+    "desarrollo": {
+      "ratio_vs_prod": 0.30,
+      "vms_estimadas": 115,
+      "descripcion": "Simulado basado en 30% de producción"
+    },
+    "qa": {
+      "ratio_vs_prod": 0.20,
+      "vms_estimadas": 77,
+      "descripcion": "Simulado basado en 20% de producción"
+    }
+  },
+  "aplicaciones": [
+    {
+      "nombre": "Api Portal",
+      "archivo_doc": "G.I.-Api Portal.html",
+      "criticidad": "alta"
+    },
+    {
+      "nombre": "Portal Guía BGR",
+      "archivo_doc": "G.I-PortalGuiaBGR.html",
+      "criticidad": "alta"
+    },
+    {
+      "nombre": "Sonar Qube",
+      "archivo_doc": "G.I.-Sonar Qube.html",
+      "criticidad": "media"
+    },
+    {
+      "nombre": "Backoffice Banca Digital",
+      "archivo_doc": "G.I.-Backoffice Banca Digital.html",
+      "criticidad": "alta"
+    },
+    {
+      "nombre": "Portal Adm BGR",
+      "archivo_doc": "G.I-PortalAdmBGR.html",
+      "criticidad": "alta"
+    },
+    {
+      "nombre": "Backoffice Sistemas",
+      "archivo_doc": "G.I.-Backoffice Sistemas.html",
+      "criticidad": "media"
+    },
+    {
+      "nombre": "Saras",
+      "archivo_doc": "G.I.-Saras.html",
+      "criticidad": "media"
+    },
+    {
+      "nombre": "Seq",
+      "archivo_doc": "G.I.-Seq.html",
+      "criticidad": "baja"
+    }
+  ],
+  "metricas_exito": {
+    "reduccion_costos_objetivo": 0.20,
+    "rto_horas": 4,
+    "rpo_horas": 1,
+    "satisfaccion_cliente_objetivo": 0.90
+  },
+  "cronograma": {
+    "fase_1_semanas": 2,
+    "fase_2_semanas": 2,
+    "fase_3_semanas": 1,
+    "fase_4_semanas": 1,
+    "fase_5_semanas": 1,
+    "total_semanas": 7
+  }
+}
