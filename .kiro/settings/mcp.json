@@ -36,9 +36,9 @@
         "awslabs.aws-well-architected-security-mcp-server@latest"
       ],
       "env": {
-        "AWS_REGION": "us-east-1",
         "FASTMCP_LOG_LEVEL": "ERROR",
-        "AWS_PROFILE": "default"
+        "AWS_PROFILE": "default",
+        "AWS_REGION": "us-east-1"
       },
       "timeout": 120000,
       "disabled": true,
