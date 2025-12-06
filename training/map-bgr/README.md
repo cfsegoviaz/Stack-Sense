@@ -1,40 +1,83 @@
 # Proyecto MAP-BGR
+## Migration Acceleration Program - Banco General de Ruritania
 
-Análisis de migración a AWS para infraestructura BGR.
-
-**Estado**: 🔄 En Progreso - Fase 1 (Discovery)  
-**Progreso**: 8% completado  
+**Cliente**: Banco General de Ruritania  
+**Estado**: 🔄 En Progreso - Fase de Planning  
+**Progreso**: 50% propuestas completadas (4/8 aplicaciones)  
 **Fecha Inicio**: 2025-12-01
 
 ---
 
-## 📋 Documentos Clave
+## 🚀 Acceso Rápido
 
-- 📘 **[PLAN_MIGRACION.md](PLAN_MIGRACION.md)** - Plan completo con checklist
-- 📊 **[PROGRESS.md](PROGRESS.md)** - Tracking de progreso
-- ⚙️ **[config.json](config.json)** - Configuración del proyecto
+### 📋 Índice Maestro
+**[PROJECT_INDEX.md](./PROJECT_INDEX.md)** - Índice completo del proyecto con toda la estructura
+
+### 🎯 Propuestas de Modernización
+**[modernization-proposals/](./modernization-proposals/)** - Propuestas técnicas de las 8 aplicaciones
+- ✅ SARAS (Modernización ECS + Babelfish)
+- ✅ Api Portal (Static Site + Azure DevOps)
+- ✅ Backoffice Sistemas (Lift & Shift Híbrido)
+- ✅ SonarQube (Lift & Shift Optimizado)
+
+### 📊 Gestión del Proyecto
+**[project-management/](./project-management/)** - Planes, progreso y costos
+- [Plan de Migración](./project-management/planning/PLAN_MIGRACION.md)
+- [Progreso](./project-management/progress/PROGRESS.md)
+- [Costos](./project-management/costs/)
+
+### 📱 Información de Aplicaciones
+**[applications/](./applications/)** - Datos originales y análisis
+- [Datos HTML](./applications/raw-data/)
+- [Fichas Técnicas](./docs/)
+
+### 📚 Documentación Técnica
+**[documentation/](./documentation/)** - Planes EBA y análisis SQL
+- [Planes EBA](./documentation/eba-plans/)
+- [Análisis SQL Server](./documentation/sql-analysis/)
 
 ---
 
-## 🏗️ Estructura del Proyecto
+## 🏗️ Estructura Organizada del Proyecto
 
 ```
 map-bgr/
-├── PLAN_MIGRACION.md              # Plan maestro con checklist
-├── PROGRESS.md                     # Tracking de progreso
-├── README.md                       # Este archivo
-├── config.json                     # Configuración
-├── helper.sh                       # Script de utilidades
-├── RVTools_export_*.xlsm          # Datos originales
-├── RVTools_export_*_csv/          # Datos convertidos (26 CSVs)
-├── reports/                        # Reportes generados
-├── diagrams/                       # Diagramas de arquitectura
-├── docs/                           # Documentación técnica
-├── templates/                      # IaC (CDK, Terraform)
-│   ├── cdk/
-│   └── terraform/
-├── scripts/                        # Scripts de automatización
-└── propuesta/                      # Propuesta comercial
+│
+├── 📄 PROJECT_INDEX.md              # Índice maestro (EMPEZAR AQUÍ)
+├── 📄 README.md                     # Este archivo
+├── 📄 config.json                   # Configuración
+│
+├── 📁 project-management/           # Gestión del proyecto
+│   ├── planning/                    # Planes de migración
+│   ├── progress/                    # Seguimiento
+│   └── costs/                       # Calculadoras de costos
+│
+├── 📁 modernization-proposals/      # Propuestas técnicas (4/8)
+│   ├── saras/                       # ✅ Modernización
+│   ├── api-portal/                  # ✅ Static Site
+│   ├── backoffice-sistemas/         # ✅ Lift & Shift
+│   ├── sonarqube/                   # ✅ Lift & Shift
+│   └── templates/                   # Templates reutilizables
+│
+├── 📁 applications/                 # Información de aplicaciones
+│   ├── raw-data/                    # HTML exports (8 apps)
+│   └── analysis/                    # Análisis
+│
+├── 📁 documentation/                # Documentación técnica
+│   ├── eba-plans/                   # Planes EBA
+│   └── sql-analysis/                # Análisis SQL Server
+│
+├── 📁 assesment/                    # Assessment data
+│   ├── Cloudamize/
+│   └── RVTools_export_*.xlsm
+│
+├── 📁 diagrams/                     # Diagramas originales
+├── 📁 generated-diagrams/           # Diagramas generados
+├── 📁 reports/                      # Reportes del proyecto
+├── 📁 scripts/                      # Scripts de automatización
+├── 📁 templates/                    # Templates IaC
+├── 📁 propuesta/                    # Propuesta comercial
+└── 📁 docs/                         # Fichas técnicas apps
 ```
 
 ---

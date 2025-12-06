@@ -1,0 +1,68 @@
+MAP-BGR - Estructura del Proyecto
+==================================
+
+📁 map-bgr/
+│
+├── 🎯 EMPEZAR AQUÍ
+│   ├── PROJECT_INDEX.md          ⭐ Índice maestro del proyecto
+│   └── README.md                 📖 Resumen y acceso rápido
+│
+├── 📊 GESTIÓN DEL PROYECTO
+│   └── project-management/
+│       ├── planning/             📋 Planes de migración
+│       ├── progress/             ✅ Seguimiento de progreso
+│       └── costs/                💰 Calculadoras de costos
+│
+├── 🚀 PROPUESTAS DE MODERNIZACIÓN (4/8 completadas)
+│   └── modernization-proposals/
+│       ├── README.md             📄 Resumen ejecutivo
+│       ├── INDEX.md              🗂️ Índice de navegación
+│       ├── GETTING_STARTED.md    📚 Guía de uso
+│       ├── saras/                ✅ Modernización ECS + Babelfish
+│       ├── api-portal/           ✅ Static Site + Azure DevOps
+│       ├── backoffice-sistemas/  ✅ Lift & Shift Híbrido
+│       ├── sonarqube/            ✅ Lift & Shift Optimizado
+│       └── templates/            📝 Templates reutilizables
+│
+├── 📱 INFORMACIÓN DE APLICACIONES
+│   └── applications/
+│       ├── raw-data/             📄 HTML exports (8 aplicaciones)
+│       └── analysis/             🔍 Análisis detallados
+│
+├── 📚 DOCUMENTACIÓN TÉCNICA
+│   └── documentation/
+│       ├── eba-plans/            🎯 Planes EBA
+│       └── sql-analysis/         🗄️ Análisis SQL Server
+│
+├── 📊 ASSESSMENT Y DATOS
+│   ├── assesment/                📈 Cloudamize + RVTools
+│   └── docs/                     📋 Fichas técnicas apps
+│
+├── 🎨 DIAGRAMAS
+│   ├── diagrams/                 🖼️ Diagramas originales
+│   └── generated-diagrams/       🤖 Diagramas generados
+│
+├── 📑 REPORTES Y PROPUESTAS
+│   ├── reports/                  📊 Reportes del proyecto
+│   └── propuesta/                💼 Propuesta comercial
+│
+└── 🛠️ HERRAMIENTAS
+    ├── scripts/                  🐍 Scripts Python
+    └── templates/                ⚙️ Templates IaC (CDK/Terraform)
+
+ESTADÍSTICAS DEL PROYECTO
+==========================
+Total VMs: 383
+Total Aplicaciones: 8
+Propuestas Completadas: 4/8 (50%)
+Ahorro Proyectado: $38,262/año
+Estado: Fase de Planning
+
+ACCESO RÁPIDO
+=============
+1. Ver índice completo: cat PROJECT_INDEX.md
+2. Ver propuestas: cd modernization-proposals/
+3. Ver gestión: cd project-management/
+4. Ver aplicaciones: cd applications/
+5. Ver documentación: cd documentation/
+
