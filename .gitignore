@@ -11,10 +11,14 @@ __pycache__/
 venv/
 env/
 
-# Diagramas generados
+# Diagramas generados (excepto los del showcase)
 *.png
 *.jpg
 *.pdf
+
+# Excepción: Incluir imágenes del showcase de BGR
+!training/map-bgr/modernization-proposals/stack-sense-showcase/public/**/*.png
+!training/map-bgr/modernization-proposals/stack-sense-showcase/public/**/*.jpg
 
 
 # IDE
