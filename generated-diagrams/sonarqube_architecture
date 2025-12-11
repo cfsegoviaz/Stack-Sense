@@ -1,0 +1,65 @@
+digraph "SonarQube - Arquitectura AWS" {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label="SonarQube - Arquitectura AWS" nodesep=0.60 pad=2.0 rankdir=LR ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	a766e42bf1e84e7aa3aafb2da61bd390 [label=Developers height=1.9 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/general/user.png" shape=none]
+	subgraph "cluster_AWS Cloud" {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label="AWS Cloud" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		subgraph cluster_VPC {
+			graph [bgcolor="#EBF3E7" fontname="Sans-Serif" fontsize=12 label=VPC labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+			subgraph "cluster_Public Subnet" {
+				graph [bgcolor="#ECE8F6" fontname="Sans-Serif" fontsize=12 label="Public Subnet" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+				"696db63c334941f98e2793ef2c3ce51c" [label=ALB height=1.9 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/network/elb-application-load-balancer.png" shape=none]
+			}
+			subgraph "cluster_Private Subnet - AZ1" {
+				graph [bgcolor="#ECE8F6" fontname="Sans-Serif" fontsize=12 label="Private Subnet - AZ1" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+				"7cb5790cb6944e36a6160e92023f2345" [label="SonarQube 1
+t3.xlarge" height=2.3 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/compute/ec2.png" shape=none]
+			}
+			subgraph "cluster_Private Subnet - AZ2" {
+				graph [bgcolor="#ECE8F6" fontname="Sans-Serif" fontsize=12 label="Private Subnet - AZ2" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+				a088f0be98104eb7b9a2415214615544 [label="SonarQube 2
+t3.xlarge" height=2.3 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/compute/ec2.png" shape=none]
+			}
+			subgraph "cluster_Database Subnet" {
+				graph [bgcolor="#ECE8F6" fontname="Sans-Serif" fontsize=12 label="Database Subnet" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+				db7b3e9887134f4f9a3279f9e1650b82 [label="RDS PostgreSQL
+Multi-AZ" height=2.3 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/database/rds-postgresql-instance.png" shape=none]
+			}
+			subgraph cluster_Storage {
+				graph [bgcolor="#ECE8F6" fontname="Sans-Serif" fontsize=12 label=Storage labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+				"074e92b0a8b04263b0ccd2cbe13dff74" [label="S3
+Analysis Reports" height=2.3 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/storage/simple-storage-service-s3.png" shape=none]
+				"170c6f128fe440a7959775506d6e2d3e" [label="EFS
+Shared Data" height=2.3 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/storage/elastic-file-system-efs.png" shape=none]
+			}
+		}
+		subgraph "cluster_Security & Monitoring" {
+			graph [bgcolor="#EBF3E7" fontname="Sans-Serif" fontsize=12 label="Security & Monitoring" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+			"539a8c15a1c64df6adef54c39d76c955" [label="Secrets Manager" height=1.9 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/security/secrets-manager.png" shape=none]
+			"72f1c9b5acd249c89363b0949dda48eb" [label=CloudWatch height=1.9 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/management/cloudwatch.png" shape=none]
+		}
+		subgraph "cluster_CI/CD Integration" {
+			graph [bgcolor="#EBF3E7" fontname="Sans-Serif" fontsize=12 label="CI/CD Integration" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+			"6e8583cb61314b248b7e5ccf8db7bb44" [label=CodeBuild height=1.9 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/devtools/codebuild.png" shape=none]
+			d3f6b12d6bf44cf6a90e00f9ebc0d2c2 [label=CodeCommit height=1.9 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/devtools/codecommit.png" shape=none]
+		}
+		"271c8e86883a40c3bfa3543a507f6220" [label="Route 53" height=1.9 image="/Users/migueviana/.cache/uv/archive-v0/eE_rqwKfvJapOYqNDCAlE/lib/python3.12/site-packages/resources/aws/network/route-53.png" shape=none]
+	}
+	a766e42bf1e84e7aa3aafb2da61bd390 -> "271c8e86883a40c3bfa3543a507f6220" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"271c8e86883a40c3bfa3543a507f6220" -> "696db63c334941f98e2793ef2c3ce51c" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"696db63c334941f98e2793ef2c3ce51c" -> "7cb5790cb6944e36a6160e92023f2345" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"696db63c334941f98e2793ef2c3ce51c" -> a088f0be98104eb7b9a2415214615544 [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"7cb5790cb6944e36a6160e92023f2345" -> db7b3e9887134f4f9a3279f9e1650b82 [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	a088f0be98104eb7b9a2415214615544 -> db7b3e9887134f4f9a3279f9e1650b82 [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"7cb5790cb6944e36a6160e92023f2345" -> "170c6f128fe440a7959775506d6e2d3e" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	a088f0be98104eb7b9a2415214615544 -> "170c6f128fe440a7959775506d6e2d3e" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"7cb5790cb6944e36a6160e92023f2345" -> "074e92b0a8b04263b0ccd2cbe13dff74" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	a088f0be98104eb7b9a2415214615544 -> "074e92b0a8b04263b0ccd2cbe13dff74" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"7cb5790cb6944e36a6160e92023f2345" -> "539a8c15a1c64df6adef54c39d76c955" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	a088f0be98104eb7b9a2415214615544 -> "539a8c15a1c64df6adef54c39d76c955" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"6e8583cb61314b248b7e5ccf8db7bb44" -> "696db63c334941f98e2793ef2c3ce51c" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	d3f6b12d6bf44cf6a90e00f9ebc0d2c2 -> "696db63c334941f98e2793ef2c3ce51c" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"7cb5790cb6944e36a6160e92023f2345" -> "72f1c9b5acd249c89363b0949dda48eb" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	a088f0be98104eb7b9a2415214615544 -> "72f1c9b5acd249c89363b0949dda48eb" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+}
