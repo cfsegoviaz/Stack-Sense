@@ -231,12 +231,12 @@ export default function BGRMigrationDashboard() {
       
       <header className="mb-8">
         <div className="flex items-center justify-between">
-          <div>
-            <div className="flex items-center space-x-3 mb-2">
-              <Cloud className="w-8 h-8 text-blue-600" />
+          <div className="flex items-center space-x-4">
+            <img src="/logo.png" alt="BGR Logo" className="w-16 h-16 object-contain" />
+            <div>
               <h1 className="text-2xl font-bold text-slate-900">BGR Cloud Migration Strategy</h1>
+              <p className="text-slate-500">Análisis de Arquitectura Objetivo y ROI para Banco General Rumiñahui</p>
             </div>
-            <p className="text-slate-500">Análisis de Arquitectura Objetivo y ROI para Banco General Rumiñahui</p>
           </div>
           <div className="text-right">
             <div className="text-sm font-semibold text-slate-700">Arquitecto Asignado</div>
