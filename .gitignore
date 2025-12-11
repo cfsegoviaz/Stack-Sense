@@ -15,7 +15,7 @@ env/
 *.png
 *.jpg
 *.pdf
-diagrams/
+
 
 # IDE
 .vscode/
