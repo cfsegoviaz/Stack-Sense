@@ -34,6 +34,11 @@ modernization-proposals/
 │   └── 📁 diagrams/
 │       └── 🖼️ sonarqube_lift_shift.png
 │
+├── 📁 seq/                         # Seq Log Server
+│   ├── 📄 README.md               # Resumen de Seq
+│   ├── 📄 SEQ_MODERNIZATION.md
+│   └── 📁 diagrams/
+│
 └── 📁 templates/                   # Templates reutilizables
     ├── 📄 lift-and-shift-template.md
     ├── 📄 containerization-template.md (pendiente)
@@ -46,6 +51,7 @@ modernization-proposals/
 
 ### Modernización Completa
 - **[SARAS](./saras/)** - Containerización con ECS + Babelfish
+- **[Seq](./seq/)** - CloudWatch Logs + OpenSearch Service
 
 ### Static Site Hosting
 - **[Api Portal](./api-portal/)** - AWS Amplify + Azure DevOps
@@ -64,6 +70,7 @@ modernization-proposals/
 | **Api Portal** | Static Site | 5 días | $1.50 | 99.9% |
 | **Backoffice** | Lift & Shift | 3 semanas | $402 | - |
 | **SonarQube** | Lift & Shift | 2 semanas | $404 | 73% |
+| **Seq** | Modernización | 4 semanas | $278 | 85% |
 
 ---
 
@@ -165,6 +172,6 @@ modernization-proposals/
 
 ---
 
-**Última actualización**: 2025-12-05  
-**Total Aplicaciones**: 4/8 (50%)  
+**Última actualización**: 2025-12-11  
+**Total Aplicaciones**: 5/8 (62.5%)  
 **Estado**: En progreso
