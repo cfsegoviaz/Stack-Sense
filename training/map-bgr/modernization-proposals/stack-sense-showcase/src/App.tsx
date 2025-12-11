@@ -39,7 +39,7 @@ const appsData = [
           { step: 'Security', desc: 'Cert Manager (SSL Gratis)' }
         ],
         insight: 'El caso de éxito financiero más impactante. Se elimina completamente el mantenimiento de SO y licencias.',
-        diagram: './diagrams/app_apiportal.png'
+        diagram: '/diagrams/app_apiportal.png'
       }
     ]
   },
@@ -65,7 +65,7 @@ const appsData = [
           { step: 'Cache', desc: 'ElastiCache Redis' }
         ],
         insight: 'Babelfish es la clave aquí: permite usar PostgreSQL sin reescribir el código T-SQL existente, ahorrando meses de desarrollo.',
-        diagram: './diagrams/app_saras.png'
+        diagram: '/diagrams/app_saras.png'
       }
     ]
   },
@@ -91,7 +91,7 @@ const appsData = [
           { step: 'Storage', desc: 'EFS (Shared Plugins)' }
         ],
         insight: 'Pasar de Windows a Linux y de SQL Server a Postgres elimina costos de licencia y reduce overhead de recursos.',
-        diagram: './diagrams/arch_sonarqube.png'
+        diagram: '/diagrams/arch_sonarqube.png'
       }
     ]
   },
@@ -117,7 +117,7 @@ const appsData = [
           { step: 'Data Tier', desc: 'SQL Server On-Premise (Legacy)' }
         ],
         insight: 'Estrategia de menor riesgo. Permite ganar escalabilidad en la web sin enfrentar la complejidad de migrar la BD data legacy inmediatamente.',
-        diagram: './diagrams/app_backoffice_sistemas.png'
+        diagram: '/diagrams/app_backoffice_sistemas.png'
       }
     ]
   },
@@ -144,7 +144,7 @@ const appsData = [
           { step: 'Archival', desc: 'S3 Glacier' }
         ],
         insight: 'Elimina licencias SQL Server Enterprise (~$14k/año) y Windows Server. Servicios nativos AWS con mejor integración, escalabilidad automática y modelo pay-as-you-go. Ahorro de $18,664/año (85%).',
-        diagram: './diagrams/arch_seq_cloudwatch.png'
+        diagram: '/diagrams/arch_seq_cloudwatch.png'
       },
       {
         id: 'rehost',
@@ -163,7 +163,7 @@ const appsData = [
           { step: 'Load Balancer', desc: 'ALB' }
         ],
         insight: 'NO RECOMENDADA: Aunque tiene mayor ahorro ($20,452/año - 93%), Seq duplica funcionalidad AWS nativa. Requiere gestión de infraestructura, actualizaciones y menor integración con ecosistema AWS.',
-        diagram: './diagrams/arch_seq_ec2.png'
+        diagram: '/diagrams/arch_seq_ec2.png'
       }
     ]
   }
@@ -232,7 +232,7 @@ export default function BGRMigrationDashboard() {
       <header className="mb-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <img src="./logo.png" alt="BGR Logo" className="w-16 h-16 object-contain" />
+            <img src="/logo.png" alt="BGR Logo" className="w-16 h-16 object-contain" />
             <div>
               <h1 className="text-2xl font-bold text-slate-900">BGR Cloud Migration Strategy</h1>
               <p className="text-slate-500">Análisis de Arquitectura Objetivo y ROI para Banco General Rumiñahui</p>
