@@ -74,6 +74,5 @@ Para dudas o aclaraciones sobre esta propuesta:
 - **Email**: arquitectura@bgr.com.ec
 - **Documento**: SEQ_MODERNIZATION.md
 
----
 
 **Última actualización**: 11 de Diciembre, 2025

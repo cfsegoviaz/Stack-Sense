@@ -5,7 +5,6 @@
 **Aplicación**: Seq (Servidor de Logs)  
 **Preparado para**: Gerencia de TI - BGR
 
----
 
 ## 📊 Situación Actual
 
@@ -29,7 +28,6 @@
 - Licencias Windows: $3,000
 - Hardware (depreciación): $5,000
 
----
 
 ## 💡 Propuesta Recomendada
 
@@ -55,7 +53,6 @@ OpenSearch Service ← Búsqueda avanzada
 S3 Glacier ← Archival >90 días
 ```
 
----
 
 ## 💰 Análisis Financiero
 
@@ -78,7 +75,6 @@ S3 Glacier ← Archival >90 días
 - **Recuperación**: 3.2 meses
 - **Ahorro 3 años**: $56,000
 
----
 
 ## ✅ Beneficios Clave
 
@@ -101,7 +97,6 @@ S3 Glacier ← Archival >90 días
 ✅ **Pay-as-you-go** - Solo pagas lo que usas  
 ✅ **Costos predecibles** - Fácil de presupuestar  
 
----
 
 ## 📅 Timeline de Implementación
 
@@ -127,7 +122,6 @@ S3 Glacier ← Archival >90 días
 - Desactivación de Seq
 - Optimización y documentación
 
----
 
 ## ⚠️ Riesgos y Mitigaciones
 
@@ -145,7 +139,6 @@ S3 Glacier ← Archival >90 días
 **4. Resistencia al cambio**
 - ✅ Mitigación: Capacitación temprana y soporte dedicado
 
----
 
 ## 🎯 Comparación de Opciones
 
@@ -164,7 +157,6 @@ S3 Glacier ← Archival >90 días
 - Requiere gestión de infraestructura
 - Menor integración con ecosistema AWS
 
----
 
 ## 📋 Recursos Necesarios
 
@@ -184,7 +176,6 @@ S3 Glacier ← Archival >90 días
 - OpenSearch Dashboards (Operaciones)
 - Cost Optimization (Arquitectos)
 
----
 
 ## 🚀 Próximos Pasos
 
@@ -203,7 +194,6 @@ S3 Glacier ← Archival >90 días
 8. ⏳ Validación y pruebas
 9. ⏳ Go-live y descomisionamiento Seq
 
----
 
 ## 📞 Contactos
 
@@ -217,7 +207,6 @@ S3 Glacier ← Archival >90 días
 - **Diagramas**: /diagrams/
 - **FAQ**: Disponible en propuesta completa
 
----
 
 ## 🎓 Preguntas Frecuentes
 
@@ -241,7 +230,6 @@ S3 Glacier ← Archival >90 días
 - Seq se mantiene 2 semanas post-migración
 - Soporte 24/7 durante transición
 
----
 
 ## ✍️ Aprobaciones Requeridas
 
@@ -250,14 +238,12 @@ S3 Glacier ← Archival >90 días
 - [ ] **Operaciones** - Validación de timeline
 - [ ] **Seguridad** - Revisión de compliance
 
----
 
 **Preparado por**: Equipo de Arquitectura AWS  
 **Fecha**: 11 de Diciembre, 2025  
 **Versión**: 1.0  
 **Estado**: Pendiente de aprobación
 
----
 
 ## 📎 Anexos
 

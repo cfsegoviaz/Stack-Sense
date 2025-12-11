@@ -7,7 +7,6 @@
 **Estrategia**: Modernización con servicios AWS nativos  
 **Timeline**: 3-4 semanas
 
----
 
 ## 🎯 Contexto
 
@@ -60,7 +59,6 @@ Seq es una plataforma autohosteable que funciona como servidor de logs centraliz
   - Identidades: Active Directory
   - Configuración: Tcs.ServicioConfiguracionBGR.WS
 
----
 
 ## 🏗️ Arquitectura Actual (AS-IS)
 
@@ -76,7 +74,6 @@ Seq es una plataforma autohosteable que funciona como servidor de logs centraliz
 5. ❌ **Sin DevOps**: No hay CI/CD, automatización ni monitoreo proactivo
 6. ❌ **Dependencias Legacy**: Active Directory on-premise
 
----
 
 ## 💡 Arquitectura Propuesta (TO-BE)
 
@@ -131,7 +128,6 @@ En lugar de migrar Seq tal cual, modernizar con servicios AWS especializados:
 - **KMS**: Encriptación de logs
 - **CloudTrail**: Auditoría de accesos
 
----
 
 ### Opción 2: Lift & Shift (No Recomendada)
 
@@ -150,7 +146,6 @@ Si se requiere mantener Seq por razones específicas:
 - Menor integración con ecosistema AWS
 - Requiere gestión de infraestructura
 
----
 
 ## 📊 Análisis de Costos
 
@@ -202,7 +197,6 @@ Si se requiere mantener Seq por razones específicas:
 **Ahorro con Opción 1**: $22,000 - $3,336 = **$18,664/año (85% ahorro)**  
 **Ahorro con Opción 2**: $22,000 - $1,548 = **$20,452/año (93% ahorro)**
 
----
 
 ## 🚀 Plan de Migración
 
@@ -289,7 +283,6 @@ aws sns subscribe \
 - Configurar archival a S3
 - Documentación y capacitación
 
----
 
 ## 📋 Checklist de Migración
 
@@ -319,7 +312,6 @@ aws sns subscribe \
 - [ ] Descomisionar Seq on-premise
 - [ ] Revisión de costos reales vs estimados
 
----
 
 ## 🎓 Capacitación Requerida
 
@@ -339,7 +331,6 @@ aws sns subscribe \
 - **Cost Optimization**: Estrategias de retención
 - **Security Best Practices**: Encriptación y acceso
 
----
 
 ## ⚠️ Riesgos y Mitigaciones
 
@@ -387,7 +378,6 @@ aws sns subscribe \
   - Pruebas en ambiente de testing
   - Plan de rollback
 
----
 
 ## 📈 Beneficios de la Modernización
 
@@ -410,7 +400,6 @@ aws sns subscribe \
 ✅ **Pay-as-you-go**: Solo pagas lo que usas  
 ✅ **Costos Predecibles**: Fácil de presupuestar  
 
----
 
 ## 🔐 Consideraciones de Seguridad
 
@@ -435,7 +424,6 @@ aws sns subscribe \
 - **Segregación**: Log groups por criticidad
 - **Backup**: Automático con S3 versioning
 
----
 
 ## 📚 Documentación y Recursos
 
@@ -452,7 +440,6 @@ aws sns subscribe \
 - [AWS CloudWatch Workshop](https://catalog.workshops.aws/observability/)
 - [OpenSearch Fundamentals](https://opensearch.org/docs/latest/)
 
----
 
 ## 🎯 Recomendación Final
 
@@ -471,7 +458,6 @@ aws sns subscribe \
 ### Costo Mensual: ~$278/mes
 ### ROI: Positivo en 3 meses
 
----
 
 ## 📞 Próximos Pasos
 
@@ -481,7 +467,6 @@ aws sns subscribe \
 4. **Inicio de Semana 1**: Análisis y diseño
 5. **Go-Live**: Semana 4
 
----
 
 **Documento preparado por**: Equipo de Arquitectura AWS  
 **Fecha**: 11 de Diciembre, 2025  
