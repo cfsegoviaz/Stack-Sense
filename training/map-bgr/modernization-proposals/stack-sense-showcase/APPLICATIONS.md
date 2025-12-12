@@ -5,8 +5,23 @@ Este documento lista todas las aplicaciones incluidas en el showcase y sus diagr
 ## 📊 Resumen
 
 - **Total de Aplicaciones**: 5
-- **Ahorro Mensual Estimado**: ~$4,900 USD
-- **Ahorro Anual Estimado**: ~$59,000 USD
+- **Ahorro Mensual Estimado**: ~$5,179 USD
+- **Ahorro Anual Estimado**: ~$62,148 USD
+
+**Desglose de Ahorros**:
+- Api Portal: $1,998.50/mes (99.9%)
+- SARAS: $496/mes (35%)
+- SonarQube: $1,096/mes (73%)
+- Backoffice Sistemas: $279/mes (37%)
+- Seq: $1,555/mes (85%)
+
+**Inversión Inicial Estimada**:
+- Direct Connect Setup: $2,500 (one-time)
+- Migración y Testing: $15,000 - $25,000
+- Training: $5,000
+- **Total**: $22,500 - $32,500
+
+**ROI**: 4-6 meses
 
 ## 🎯 Aplicaciones
 
@@ -55,14 +70,27 @@ Este documento lista todas las aplicaciones incluidas en el showcase y sus diagr
 ### 4. Backoffice Sistemas
 - **Estrategia**: Rehost (Hybrid)
 - **Tipo de Migración**: Lift & Shift Híbrido
-- **Costo Actual**: On-Premise
-- **Costo Objetivo**: $402/mes (AWS) + On-Premise
-- **Ahorro**: TBD (Fase 3)
-- **Diagrama**: `app_backoffice_sistemas.png`
-- **Stack Actual**: On-Premise Datacenter, Conectividad Local
-- **Stack Objetivo**: EC2 Windows, Site-to-Site VPN, SQL Server On-Prem
+- **Costo Actual**: $760/mes (On-Premise)
+- **Costo Objetivo**: $481/mes (AWS Optimizado)
+- **Ahorro**: 37% ($279/mes)
+- **Diagrama**: `backoffice_sistemas_hybrid_architecture.png`
+- **Stack Actual**: 2 VMs Windows (12 vCPUs, 40GB RAM), SQL Server 2016 Enterprise On-Prem, Load Balancer On-Prem
+- **Stack Objetivo**: 2x EC2 t3.xlarge (Multi-AZ), ALB, Direct Connect (1 Gbps) + VPN Backup, SQL Server On-Prem, Azure DevOps CI/CD
 
-**Insight**: Estrategia de menor riesgo. Permite ganar escalabilidad en la web sin enfrentar la complejidad de migrar la BD data legacy inmediatamente.
+**Detalles Técnicos**:
+- **Usuarios**: 685 colaboradores BGR
+- **Criticidad**: ALTA
+- **Timeline**: 3 semanas
+- **Stack**: .NET Framework 4.7.1 (Obsoleto)
+- **Dependencias**: Active Directory (LDAP), Microservicio Notificador, BD Compartida (PORTAL_ADMINISTRATIVO_BGR)
+- **SLA Target**: 99.9%
+- **Conectividad**: Direct Connect 1 Gbps (latencia <10ms) + VPN Site-to-Site (backup)
+
+**Insight**: Arquitectura híbrida de menor riesgo. Permite escalabilidad cloud sin migrar BD compartida por múltiples aplicaciones. Direct Connect garantiza latencia <10ms crítica para performance. Ahorro de $3,348/año (37%) vs on-premise. Base de datos permanece on-premise según reglas del proyecto BGR.
+
+**Fases Futuras**:
+- Fase 2 (6 meses): Migrar a .NET Core + Linux (ahorro adicional $100-150/mes)
+- Fase 3 (12 meses): Evaluar migración BD a AWS RDS (ahorro adicional $100-200/mes)
 
 ---
 

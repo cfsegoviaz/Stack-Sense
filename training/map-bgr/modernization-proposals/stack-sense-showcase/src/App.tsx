@@ -99,25 +99,36 @@ const appsData = [
     id: 'backoffice',
     name: 'Backoffice Sistemas',
     icon: Cloud,
-    currentCost: 0,
+    currentCost: 760,
     strategies: [
       {
         id: 'hybrid',
         name: 'Rehost (Hybrid)',
         recommended: true,
         migrationType: 'Lift & Shift Híbrido',
-        targetCost: 402,
+        targetCost: 481,
+        savingsPercent: 37,
         isHybrid: true,
-        description: 'Migración de capa aplicativa a la nube manteniendo datos on-premise mediante VPN segura.',
-        fromStack: ['On-Premise Datacenter', 'Conectividad Local'],
-        toStack: ['EC2 Windows', 'Site-to-Site VPN', 'SQL Server On-Prem'],
+        description: 'Migración de capa aplicativa a AWS con arquitectura híbrida. Base de datos permanece on-premise con conectividad Direct Connect + VPN.',
+        fromStack: ['2 VMs Windows (12 vCPUs, 40GB RAM)', 'SQL Server 2016 Enterprise On-Prem', 'Load Balancer On-Prem'],
+        toStack: ['2x EC2 t3.xlarge (Multi-AZ)', 'ALB + Direct Connect (1 Gbps)', 'SQL Server On-Prem (Shared DB)', 'Azure DevOps CI/CD'],
         architecture: [
-          { step: 'Web Tier', desc: 'EC2 Windows + ALB' },
-          { step: 'Network', desc: 'VPN Site-to-Site (AES-256)' },
-          { step: 'Data Tier', desc: 'SQL Server On-Premise (Legacy)' }
+          { step: 'Compute', desc: '2x EC2 t3.xlarge (4 vCPU, 16GB)' },
+          { step: 'Load Balancer', desc: 'ALB (Multi-AZ)' },
+          { step: 'Conectividad', desc: 'Direct Connect 1Gbps + VPN Backup' },
+          { step: 'Database', desc: 'SQL Server 2016 On-Premise (ECBRPRCL13)' },
+          { step: 'CI/CD', desc: 'Azure DevOps + CodeDeploy' }
         ],
-        insight: 'Estrategia de menor riesgo. Permite ganar escalabilidad en la web sin enfrentar la complejidad de migrar la BD data legacy inmediatamente.',
-        diagram: '/diagrams/app_backoffice_sistemas.png'
+        insight: 'Arquitectura híbrida de menor riesgo. Permite escalabilidad cloud sin migrar BD compartida. Direct Connect garantiza latencia <10ms. Ahorro 37% ($279/mes) vs on-premise.',
+        diagram: '/diagrams/backoffice_sistemas_hybrid_architecture.png',
+        details: {
+          users: 685,
+          criticality: 'ALTA',
+          timeline: '3 semanas',
+          stack: '.NET Framework 4.7.1 (Obsoleto)',
+          dependencies: ['Active Directory (LDAP)', 'Microservicio Notificador', 'BD Compartida'],
+          sla: '99.9%'
+        }
       }
     ]
   },
