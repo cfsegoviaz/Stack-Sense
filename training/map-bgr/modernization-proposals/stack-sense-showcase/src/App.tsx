@@ -281,9 +281,10 @@ export default function BGRMigrationDashboard() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      <div className="flex gap-8">
         
-        <div className="lg:col-span-4 space-y-4">
+        {/* Sidebar fijo a la izquierda */}
+        <div className="w-80 flex-shrink-0 sticky top-6 self-start space-y-4">
           <h3 className="font-semibold text-slate-700 px-2">Aplicaciones Analizadas</h3>
           {appsData.map((app) => (
             <button
@@ -317,7 +318,8 @@ export default function BGRMigrationDashboard() {
           ))}
         </div>
 
-        <div className="lg:col-span-8">
+        {/* Contenido principal */}
+        <div className="flex-1 min-w-0">
           {/* Pestañas de Estrategias - Fuera de la card */}
           {selectedApp.strategies.length > 1 && (
             <div className="mb-4 bg-white rounded-lg shadow-sm border border-slate-200 p-2">
