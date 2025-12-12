@@ -423,7 +423,7 @@ export default function BGRMigrationDashboard() {
               <div className="bg-blue-50 p-5 rounded-xl border border-blue-100">
                 <h3 className="text-sm font-bold text-blue-800 mb-2 flex items-center uppercase">
                   <ShieldCheck className="w-4 h-4 mr-2" />
-                  Opinión del Arquitecto
+                  Recomendación Técnica Escala24x7
                 </h3>
                 <p className="text-blue-900 text-sm leading-relaxed">
                   {selectedStrategy.insight}
