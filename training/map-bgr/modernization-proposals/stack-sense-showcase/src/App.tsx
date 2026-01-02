@@ -177,6 +177,61 @@ const appsData = [
         diagram: '/diagrams/arch_seq_ec2.png'
       }
     ]
+  },
+  {
+    id: 'backoffice-banca-digital',
+    name: 'Backoffice Banca Digital',
+    icon: Database,
+    currentCost: 1200,
+    strategies: [
+      {
+        id: 'ecs-fargate',
+        name: 'ECS Fargate (Containerización)',
+        recommended: true,
+        migrationType: 'Replatform Containers',
+        targetCost: 296,
+        savingsPercent: 75,
+        description: 'Containerización de aplicación .NET Core 8 en ECS Fargate. Aprovecha RDS y S3 ya existentes en AWS.',
+        fromStack: ['3 VMs Windows (10 vCPUs, 20GB RAM)', 'SQL Server 2019', '.NET Core 8'],
+        toStack: ['ECS Fargate (2 tasks)', 'RDS SQL Server (existente)', 'ElastiCache Redis', 'S3 (existente)'],
+        architecture: [
+          { step: 'Compute', desc: 'ECS Fargate (2x 2vCPU, 4GB)' },
+          { step: 'Database', desc: 'RDS SQL Server (ya migrado)' },
+          { step: 'Cache', desc: 'ElastiCache Redis' },
+          { step: 'Storage', desc: 'S3 (buckets existentes)' },
+          { step: 'Conectividad', desc: 'Direct Connect (BDs on-prem)' }
+        ],
+        insight: 'Framework .NET Core 8 ya modernizado - ideal para containers. RDS y S3 ya en AWS reducen complejidad. Ahorro 75% vs on-premise sin gestión de servidores.',
+        diagram: '/diagrams/backoffice_banca_digital_ecs_fargate.png',
+        details: {
+          users: 685,
+          criticality: 'ALTA',
+          timeline: '4-6 semanas',
+          stack: '.NET Core 8 (Moderno)',
+          dependencies: ['RDS SQL Server (AWS)', 'Oracle SIGLO (on-prem)', 'LDAP', 'Redis'],
+          sla: '99.9%'
+        }
+      },
+      {
+        id: 'lift-shift',
+        name: 'Lift & Shift',
+        recommended: false,
+        migrationType: 'Rehost EC2',
+        targetCost: 548,
+        savingsPercent: 54,
+        description: 'Migración directa de VMs a EC2 Windows manteniendo arquitectura actual.',
+        fromStack: ['3 VMs Windows', 'SQL Server 2019', '.NET Core 8'],
+        toStack: ['2x EC2 t3.xlarge (Windows)', 'RDS SQL Server', 'EBS gp3'],
+        architecture: [
+          { step: 'Compute', desc: '2x EC2 t3.xlarge' },
+          { step: 'Database', desc: 'RDS SQL Server' },
+          { step: 'Storage', desc: 'EBS gp3 (200GB)' },
+          { step: 'Load Balancer', desc: 'ALB' }
+        ],
+        insight: 'NO RECOMENDADA: No aprovecha .NET Core 8 para containers. Costos de licencias Windows. Menor ahorro (54% vs 75%).',
+        diagram: '/diagrams/backoffice_banca_digital_lift_shift.png'
+      }
+    ]
   }
 ];
 
