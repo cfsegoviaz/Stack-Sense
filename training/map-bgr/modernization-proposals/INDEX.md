@@ -39,6 +39,14 @@ modernization-proposals/
 │   ├── 📄 SEQ_MODERNIZATION.md
 │   └── 📁 diagrams/
 │
+├── 📁 backoffice-banca-digital/    # Backoffice Banca Digital ⭐ NUEVO
+│   ├── 📄 README.md               # Resumen
+│   ├── 📄 BACKOFFICE_BANCA_DIGITAL_MODERNIZATION.md
+│   └── 📁 diagrams/
+│       ├── 🖼️ backoffice_banca_digital_ecs_fargate.png
+│       ├── 🖼️ backoffice_banca_digital_lift_shift.png
+│       └── 🖼️ backoffice_banca_digital_modernization.png
+│
 └── 📁 templates/                   # Templates reutilizables
     ├── 📄 lift-and-shift-template.md
     ├── 📄 containerization-template.md (pendiente)
@@ -68,9 +76,10 @@ modernization-proposals/
 |------------|------------|----------|-----------|--------|
 | **SARAS** | Modernización | 11 semanas | $904 | 35% |
 | **Api Portal** | Static Site | 5 días | $1.50 | 99.9% |
-| **Backoffice** | Lift & Shift | 3 semanas | $402 | - |
+| **Backoffice Sistemas** | Lift & Shift | 3 semanas | $402 | - |
 | **SonarQube** | Lift & Shift | 2 semanas | $404 | 73% |
 | **Seq** | Modernización | 4 semanas | $278 | 85% |
+| **Backoffice Banca Digital** ⭐ | ECS Fargate | 4-6 semanas | $296 | 75% |
 
 ---
 
@@ -172,6 +181,6 @@ modernization-proposals/
 
 ---
 
-**Última actualización**: 2025-12-11  
-**Total Aplicaciones**: 5/8 (62.5%)  
+**Última actualización**: 2026-01-02  
+**Total Aplicaciones**: 6/8 (75%)  
 **Estado**: En progreso
