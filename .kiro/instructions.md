@@ -33,7 +33,7 @@ Antes de entregar cualquier documento de modernización, verifica:
 1. Leer datos de RVTools y Cloudamize
 2. Contrastar información de ambas fuentes
 3. Identificar servidores y recursos
-4. Generar propuesta de modernización
+4. Generar propuestas de modernización
 5. Crear diagramas con MCP servidor
 6. Calcular costos y ROI
 7. Documentar según STYLE_GUIDE.md
