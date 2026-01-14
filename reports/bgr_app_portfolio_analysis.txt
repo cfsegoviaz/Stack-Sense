@@ -1,93 +1,13 @@
 ================================================================================
 ANÁLISIS DE PORTAFOLIO DE APLICACIONES BGR
 Fecha: 2025-12-01
-Total Aplicaciones: 8
+Total Aplicaciones: 0
 ================================================================================
 
 ## RESUMEN EJECUTIVO
-- Aplicaciones obsoletas: 8/8
+- Aplicaciones obsoletas: 0/0
 - Usuarios totales: 0
 - Prioridad ALTA: 0
-- Prioridad MEDIA: 8
+- Prioridad MEDIA: 0
 
 ## DETALLE POR APLICACIÓN
-
-### 1. PortalAdministrativoBGR
-**Prioridad:** MEDIA
-**Stack:** N/A N/A N/A
-**Base de Datos:** Los parámetros se encuentran en los archivos de configuración de la aplicación, el archivo "ConfiguracionesServicioWeb.config" se maneja por ambiente N/A
-**Arquitectura:** Diagrama de Arquitectura Objetivos
-**Usuarios:** 0
-**Servidores:** N/A
-**Obsoleto:** SÍ
-**Dependencias:** 4 identificadas
-
-### 2. PortalGuiaBGR
-**Prioridad:** MEDIA
-**Stack:** N/A N/A N/A
-**Base de Datos:** Los parámetros se encuentran en los archivos de configuración de la aplicación, el aarchivos "ConfiguracionesServicioWeb.config" se maneja por ambiente N/A
-**Arquitectura:** Diagrama de Arquitectura Objetivos
-**Usuarios:** 0
-**Servidores:** N/A
-**Obsoleto:** SÍ
-**Dependencias:** 4 identificadas
-
-### 3. Api Portal
-**Prioridad:** MEDIA
-**Stack:** N/A N/A N/A
-**Base de Datos:** Los parámetros se encuentran en los archivos de configuración de la aplicación, el aarchivos "ConfiguracionesServicioWeb.config" se maneja por ambiente N/A
-**Arquitectura:** Diagrama de Arquitectura Objetivos
-**Usuarios:** 0
-**Servidores:** N/A
-**Obsoleto:** SÍ
-**Dependencias:** 4 identificadas
-
-### 4. Backoffice Banca Digital
-**Prioridad:** MEDIA
-**Stack:** N/A N/A N/A
-**Base de Datos:** Los parámetros se encuentran en los archivos de configuración de la aplicación, el aarchivos "ConfiguracionesServicioWeb.config" se maneja por ambiente N/A
-**Arquitectura:** Diagrama de Arquitectura Objetivos
-**Usuarios:** 0
-**Servidores:** N/A
-**Obsoleto:** SÍ
-**Dependencias:** 4 identificadas
-
-### 5. Backoffice Sistemas BGR
-**Prioridad:** MEDIA
-**Stack:** N/A N/A N/A
-**Base de Datos:** Los parámetros se encuentran en los archivos de configuración de la aplicación, el aarchivos "ConfiguracionesServicioWeb.config" se maneja por ambiente N/A
-**Arquitectura:** Diagrama de Arquitectura Objetivos
-**Usuarios:** 0
-**Servidores:** N/A
-**Obsoleto:** SÍ
-**Dependencias:** 4 identificadas
-
-### 6. Saras
-**Prioridad:** MEDIA
-**Stack:** N/A N/A N/A
-**Base de Datos:** Los parámetros se encuentran en los archivos de configuración de la aplicación, el aarchivos "ConfiguracionesServicioWeb.config" se maneja por ambiente N/A
-**Arquitectura:** Diagrama de Arquitectura Objetivos
-**Usuarios:** 0
-**Servidores:** N/A
-**Obsoleto:** SÍ
-**Dependencias:** 4 identificadas
-
-### 7. Seq
-**Prioridad:** MEDIA
-**Stack:** N/A N/A N/A
-**Base de Datos:** Los parámetros se encuentran en los archivos de configuración de la aplicación, el aarchivos "ConfiguracionesServicioWeb.config" se maneja por ambiente N/A
-**Arquitectura:** Diagrama de Arquitectura Objetivos
-**Usuarios:** 0
-**Servidores:** N/A
-**Obsoleto:** SÍ
-**Dependencias:** 4 identificadas
-
-### 8. Sonar Qube
-**Prioridad:** MEDIA
-**Stack:** N/A N/A N/A
-**Base de Datos:** Los parámetros se encuentran en los archivos de configuración de la aplicación, el aarchivos "ConfiguracionesServicioWeb.config" se maneja por ambiente N/A
-**Arquitectura:** Diagrama de Arquitectura Objetivos
-**Usuarios:** 0
-**Servidores:** N/A
-**Obsoleto:** SÍ
-**Dependencias:** 4 identificadas
