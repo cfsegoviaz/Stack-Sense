@@ -31,3 +31,6 @@ env/
 .DS_Store
 Thumbs.db
 infrastructure/node_modules
+
+#apps
+apps/*

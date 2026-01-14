@@ -1,0 +1,90 @@
+Strategy and Organization,Technology Selection,Cloud Management,Cost Optimization,Culture and Governance,Innovation,Measurement and Improvement,Automation,Security and Compliance,Efficiency,Business Enablement,Sustainability
+2.8,3.5,2.4,3.5,1.8,1.8,1.5,1.0,1.3,3.0,2.0,1
+70.0,88.5,60.7,87.5,43.8,43.8,37.5,25.0,31.3,75.0,50.0,25.0
+"- Fortalecer el liderazgo: Desarrollar las habilidades de liderazgo de los directivos.
+- Mejorar la alineación estratégica: Asegurar que todos los empleados estén alineados con la visión y misión de la organización.
+- Optimizar la estructura organizativa: Adaptar la estructura organizativa a las necesidades del negocio.
+- Implementar procesos de gestión de riesgos: Identificar y controlar los riesgos que enfrenta la organización.
+- Capacitar a los empleados: Desarrollar las habilidades y conocimientos de los empleados.","- Innovar y mejorar continuamente la tecnología: Buscar nuevas formas de mejorar la eficiencia y la eficacia de la tecnología utilizada por la organización.
+- Desarrollar una cultura de aprendizaje en tecnología: Fomentar el aprendizaje continuo en tecnología entre los empleados.
+- Aprovechar las últimas tecnologías: Implementar las últimas tecnologías disponibles que puedan mejorar el rendimiento de la organización.
+- Gestionar el cambio tecnológico: Implementar cambios tecnológicos de forma eficaz y eficiente.
+- Responsabilidad social en tecnología: Implementar prácticas de responsabilidad social en la selección y uso de la tecnología.","- Implementar medidas de seguridad básicas: Implementar medidas de seguridad básicas para proteger los datos y aplicaciones en la nube AWS, como el uso de IAM, MFA y VPC.
+- Establecer un marco de trabajo de gobernanza básica: Implementar un marco de trabajo de gobernanza básica para la nube AWS que defina roles, responsabilidades y políticas básicas, como la política de uso aceptable.
+- Comenzar a optimizar costos: Implementar algunas estrategias básicas de optimización de costos para la nube AWS, como el uso de instancias reservadas y Spot Fleets.
+- Implementar procesos operativos básicos: Definir e implementar algunos procesos operativos básicos para la gestión de la nube AWS, como la gestión de cambios y la gestión de incidentes.
+- Capacitar a los empleados en las bases de AWS: Capacitar a los empleados en las bases de la gestión de la nube AWS, como los cursos básicos de AWS Skill Builder","Implementar AWS Budgets:  Utilice AWS Budgets para establecer presupuestos para sus costos de AWS y recibir alertas cuando se acerque o exceda los límites.
+- Configure acciones automáticas, como detener instancias o enviar notificaciones, cuando se activen las alertas de presupuesto.
+(CAF: Administración)
+
+Utilizar AWS Organizations para la gestión de costos multi-cuenta:  Si tiene varias cuentas de AWS, AWS Organizations le permite consolidar la facturación, aplicar políticas y controlar el acceso a los recursos.
+- Cree una estructura organizativa que refleje su estructura empresarial.
+- Implemente políticas de control de servicios para evitar gastos innecesarios.
+(CAF: Gobernanza)","- Establecer un equipo central de la nube: Designar un grupo de personas responsables de liderar la adopción de la nube, definiendo la estrategia y los objetivos iniciales. Este equipo debe incluir miembros de diferentes áreas (TI, seguridad, negocio) para asegurar una visión holística. (CAF: Estrategia, Planificación)
+- Comenzar con la capacitación básica en la nube: Brindar a los equipos técnicos y de negocio una comprensión fundamental de los conceptos básicos de la nube, los servicios de AWS y los modelos de responsabilidad compartida. (CAF: Preparación, Habilitación de la nube)
+- Definir políticas de seguridad básicas: Implementar políticas iniciales para el control de acceso, gestión de identidades y prevención de pérdida de datos. Se puede empezar con las políticas predefinidas por AWS y adaptarlas a las necesidades de la organización. (CAF: Gobernanza, Administración)
+- Fomentar la experimentación y el aprendizaje: Permitir a los equipos experimentar con servicios de AWS en un entorno controlado (sandbox) para ganar experiencia práctica y comprender los beneficios de la nube. (CAF: Adopción, Innovación)","- Adoptar una mentalidad de experimentación: Comenzar con proyectos pequeños y de bajo riesgo que permitan explorar los servicios de AWS y fomentar la creatividad.
+Ejemplo: Desplegar una aplicación web simple en Elastic Beanstalk o experimentar con servicios de IA/ML como Rekognition o Comprehend.
+(CAF: Gestión de la Innovación)
+- Utilizar el ""Pozo de innovación"" (Innovation Sandbox) de AWS para experimentar con nuevos servicios en un entorno seguro y controlado.
+","- Establecer una base de medición: Comienza por definir las métricas clave para tu negocio (KPIs). Esto puede incluir costos, rendimiento, disponibilidad y seguridad. AWS proporciona herramientas como CloudWatch y Cost Explorer para recopilar datos. Define una línea base para estas métricas para poder rastrear el progreso.
+Ejemplo: Monitorizar el gasto mensual en AWS, la latencia de las aplicaciones críticas y el número de incidentes de seguridad.
+- Implementar un sistema básico de monitoreo: Configura dashboards básicos en CloudWatch para visualizar las métricas clave y recibir alertas sobre posibles problemas.
+Ejemplo: Crear un dashboard que muestre el uso de la CPU, la memoria y el disco de las instancias EC2.","- Implementar scripts para automatizar tareas comunes como el aprovisionamiento de instancias EC2, la creación de copias de seguridad de S3 y la gestión de grupos de seguridad.
+- Utilizar AWS CloudFormation para definir y aprovisionar infraestructura como código (IaC).
+- Configurar AWS Systems Manager Automation para automatizar tareas operativas como actualizaciones de parches y ejecución de comandos.
+- Implementar AWS Config para evaluar la configuración de los recursos y garantizar el cumplimiento de las políticas.
+(CAF: Operaciones, Costo)","Implementar controles de seguridad fundamentales:
+- Habilitar AWS CloudTrail: Para registrar eventos de API y tener una auditoría de las acciones realizadas en la cuenta.
+- Configurar AWS Config: Para evaluar la configuración de los recursos de AWS en relación con las prácticas recomendadas y las políticas internas.
+- Utilizar AWS Identity and Access Management (IAM): Crear usuarios individuales con permisos mínimos necesarios para cada rol, evitando el uso de la cuenta root.
+- Activar AWS Shield: Para proteger contra ataques DDoS comunes.
+- Implementar la autenticación multifactor (MFA): Para todas las cuentas de usuario, especialmente las con privilegios administrativos.
+","Implementar AWS Trusted Advisor y AWS Compute Optimizer para identificar oportunidades de optimización: Trusted Advisor ofrece recomendaciones para optimizar costos, seguridad y rendimiento. Compute Optimizer analiza el uso de las instancias EC2 y recomienda tipos de instancias más eficientes.
+(CAF: Gestión de Recursos Financieros, Gestión del Rendimiento, Seguridad)
+","- Realizar un análisis de la cartera de aplicaciones para identificar las que son candidatas para migrar a la nube. Priorizar las aplicaciones con bajo riesgo y alto potencial de retorno de la inversión (ROI).
+- AWS proporciona herramientas y servicios, como AWS Migration Hub, para facilitar la evaluación y migración de aplicaciones.
+(CAF: Estrategia y Planificación)","- Se recomienda utilizar herramientas de AWS como el ""Customer Carbon Footprint Tool"" para obtener una visión clara de las emisiones de CO2 generadas por sus operaciones en la nube.
+- Utilizar las herramientas proporcionadas por AWS para la medición de la huella de carbono es una mejor práctica para establecer una línea base.
+(CAF: Estrategia)"
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Security,Operations,People,Platform,Business,,,,,,,
+60.0,30,60,40,80.0,,,,,,,

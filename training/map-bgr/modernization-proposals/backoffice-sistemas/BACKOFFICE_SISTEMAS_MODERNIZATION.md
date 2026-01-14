@@ -299,5 +299,209 @@ Complete or Rollback
 4. **Monitoreo**: EC2/ALB → CloudWatch → SNS Alerts
 5. **Backups**: EC2 → S3 Backups
 
+### 📋 Esfuerzo Escala24x7 - Opción 1 (EC2 Híbrido - RECOMENDADA)
+
+| Tarea | Horas | Equipo |
+|-------|-------|--------|
+| VPC/Redes | 4 | Infra |
+| EC2 Instances (2) | 4 | Infra |
+| ASG Configuration | 4 | Infra |
+| ALB | 2 | Infra |
+| EBS Storage | 4 | Infra |
+| VPN Site-to-Site | 16 | Infra |
+| Direct Connect config | 16 | Infra |
+| S3 Buckets (3) | 6 | Infra |
+| Secrets Manager | 1 | Infra |
+| Route 53 | 2 | Infra |
+| CloudWatch Dashboard | 8 | Infra |
+| Azure DevOps pipeline | 24 | DevOps |
+| MGN Configuration | 2 | Infra |
+| MGN Instances (2) | 2 | Infra |
+| MGN Tests | 2 | Infra |
+| Testing y validación | 16 | QA |
+| Knowledge transfer | 8 | Infra |
+| **TOTAL** | **121** | |
+
+**Costo implementación**: 121 horas × $150/hora = **$18,150 USD**
+
 ---
 
+
+
+---
+
+# Opciones de Arquitectura Adicionales
+
+## Opción 2: ECS Fargate Híbrido
+
+![Arquitectura ECS Híbrido](./diagrams/generated-diagrams/backoffice_sistemas_ecs_hybrid.png)
+
+### Descripción
+Modernización a contenedores ECS Fargate manteniendo conectividad híbrida con base de datos on-premise. Combina beneficios de contenedores con arquitectura híbrida existente.
+
+### Componentes
+| Servicio | Configuración | Costo/mes |
+|----------|---------------|-----------|
+| ECS Fargate | 2 tasks x 2 vCPU, 4 GB RAM | $147.00 |
+| Application Load Balancer | HTTPS con WAF | $35.00 |
+| Amazon ECR | Registry privado | $5.00 |
+| VPN Site-to-Site | 2 túneles IPSec | $36.00 |
+| Direct Connect | 1 Gbps compartido | $50.00 |
+| Secrets Manager | Credenciales BD | $2.00 |
+| CloudWatch | Logs y métricas | $15.00 |
+| **TOTAL** | | **$290/mes** |
+
+### Ventajas
+- ✅ Zero server management
+- ✅ Auto-scaling nativo
+- ✅ Rolling deployments sin downtime
+- ✅ Mantiene BD on-premise (compliance)
+- ✅ Menor costo que EC2
+
+### Desventajas
+- ❌ Requiere containerización de .NET Framework
+- ❌ Latencia a BD on-premise
+- ❌ Curva de aprendizaje Docker/ECS
+
+### 💡 Tips y Recomendaciones IA
+
+**Cuándo elegir esta opción:**
+- Equipos con experiencia en contenedores
+- Necesidad de deployments frecuentes
+- Planificación de migración gradual a cloud
+
+**Consideraciones importantes:**
+- .NET Framework 4.7.1 requiere contenedores Windows
+- Evaluar migración a .NET Core 8 para contenedores Linux
+- Latencia a BD on-premise puede afectar performance
+
+**Recomendaciones de implementación:**
+- Usar Windows containers con ECS
+- Configurar health checks robustos
+- Implementar circuit breaker para conexión a BD
+
+**Ideal para:**
+- Organizaciones con estrategia container-first
+- Equipos que planean modernizar gradualmente
+- Aplicaciones con deployments frecuentes
+
+#### 📋 Esfuerzo Escala24x7
+
+| Tarea | Horas | Equipo |
+|-------|-------|--------|
+| VPC/Redes | 4 | Infra |
+| Fargate Cluster | 2 | Infra |
+| Fargate Service (2 tasks) | 8 | Infra |
+| ALB + WAF | 6 | Infra |
+| ECR | 1 | Infra |
+| VPN Site-to-Site | 16 | Infra |
+| Direct Connect config | 16 | Infra |
+| Secrets Manager | 1 | Infra |
+| DevOps Windows Container | 2 | DevOps |
+| Application pipeline (ECS) | 4 | Infra |
+| CloudWatch Dashboard | 8 | Infra |
+| Testing y validación | 16 | QA |
+| Knowledge transfer | 8 | Infra |
+| **TOTAL** | **92** | |
+
+**Costo implementación**: 92 horas × $150/hora = **$13,800 USD**
+
+---
+
+## Opción 3: Full Cloud con RDS SQL Server
+
+![Arquitectura Full Cloud](./diagrams/generated-diagrams/backoffice_sistemas_full_cloud.png)
+
+### Descripción
+Migración completa a AWS incluyendo base de datos. Elimina dependencia on-premise pero requiere migración de datos compartidos.
+
+### Componentes
+| Servicio | Configuración | Costo/mes |
+|----------|---------------|-----------|
+| EC2 t3.xlarge | 2 instancias Windows | $243.48 |
+| RDS SQL Server Standard | db.m5.large | $380.00 |
+| Application Load Balancer | HTTPS | $22.50 |
+| AWS DMS | Migración CDC | $130.00 |
+| VPN Site-to-Site | Conectividad AD | $36.00 |
+| EBS gp3 | 400 GB total | $32.00 |
+| Secrets Manager | Credenciales | $2.00 |
+| CloudWatch | Logs y métricas | $15.00 |
+| Amazon S3 | Backups | $5.00 |
+| **TOTAL** | | **$866/mes** |
+
+### Ventajas
+- ✅ Independencia de infraestructura on-premise
+- ✅ Backups automáticos RDS
+- ✅ Alta disponibilidad Multi-AZ
+- ✅ Menor latencia (todo en AWS)
+- ✅ Escalabilidad de BD
+
+### Desventajas
+- ❌ Mayor costo por licencias SQL Server
+- ❌ Requiere migración de BD compartida
+- ❌ Coordinación con otras aplicaciones
+- ❌ Complejidad de migración de datos
+
+### 💡 Tips y Recomendaciones IA
+
+**Cuándo elegir esta opción:**
+- Cuando se planea migrar todas las apps que comparten la BD
+- Necesidad de independencia total de on-premise
+- Requisitos de DR/HA avanzados
+
+**Consideraciones importantes:**
+- BD PORTAL_ADMINISTRATIVO_BGR es compartida por múltiples apps
+- Requiere coordinación con otras aplicaciones dependientes
+- Evaluar migración a Aurora PostgreSQL para eliminar licencias
+
+**Recomendaciones de implementación:**
+- Usar AWS DMS con CDC para migración con mínimo downtime
+- Planificar migración en wave con apps dependientes
+- Considerar Babelfish para eliminar licencias SQL Server
+
+**Ideal para:**
+- Migración completa del portafolio a AWS
+- Organizaciones que buscan eliminar datacenter on-premise
+- Aplicaciones críticas que requieren HA/DR avanzado
+
+#### 📋 Esfuerzo Escala24x7
+
+| Tarea | Horas | Equipo |
+|-------|-------|--------|
+| VPC/Redes | 4 | Infra |
+| EC2 Instances (2) | 4 | Infra |
+| ALB | 2 | Infra |
+| RDS SQL Server | 2 | Infra |
+| EBS Storage | 4 | Infra |
+| VPN Site-to-Site | 16 | Infra |
+| DMS replication instance | 4 | Data |
+| DMS replication task | 4 | Data |
+| Secrets Manager | 1 | Infra |
+| S3 Bucket | 2 | Infra |
+| CloudWatch Dashboard | 8 | Infra |
+| Testing y validación | 24 | QA |
+| Knowledge transfer | 8 | Infra |
+| **TOTAL** | **83** | |
+
+**Costo implementación**: 83 horas × $150/hora = **$12,450 USD**
+
+---
+
+## Comparativa de Opciones
+
+| Criterio | EC2 Híbrido | ECS Híbrido | Full Cloud RDS |
+|----------|-------------|-------------|----------------|
+| **Costo/mes** | $402 | $290 | $866 |
+| **Ahorro vs actual** | 45% | 60% | -19% |
+| **Complejidad** | Baja | Media | Alta |
+| **BD Location** | On-Premise | On-Premise | AWS |
+| **Modernización** | Ninguna | Contenedores | Parcial |
+| **Timeline** | 3 semanas | 5 semanas | 8 semanas |
+| **Recomendado** | ✅ Sí | Para DevOps maduros | Solo si migra todo |
+
+### Recomendación Final
+**EC2 Híbrido** es la opción recomendada por:
+1. Menor riesgo y complejidad
+2. Mantiene BD compartida on-premise (requisito del proyecto)
+3. Migración rápida con AWS MGN
+4. Balance óptimo costo/beneficio

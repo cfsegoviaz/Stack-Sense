@@ -684,3 +684,132 @@ Alarms:
 **Última actualización**: 2025-12-04  
 **Versión**: 2.0 - Azure DevOps Integration  
 **Estado**: Listo para implementación
+
+
+---
+
+# Opciones de Arquitectura Adicionales
+
+## Opción 2: S3 + CloudFront Directo (Sin Amplify)
+
+![Arquitectura S3 + CloudFront](./diagrams/generated-diagrams/api_portal_s3_cloudfront.png)
+
+### Descripción
+Hosting estático directo en S3 con CloudFront CDN, sin usar AWS Amplify. Máximo control y mínimo costo.
+
+### Componentes
+| Servicio | Configuración | Costo/mes |
+|----------|---------------|-----------|
+| Amazon S3 | Bucket estático | $0.50 |
+| CloudFront | CDN global | $0.50 |
+| Route 53 | DNS | $0.50 |
+| Certificate Manager | SSL/TLS | $0.00 |
+| **TOTAL** | | **$1.50/mes** |
+
+### Ventajas
+- ✅ Costo mínimo absoluto
+- ✅ CDN global (400+ edge locations)
+- ✅ SSL automático gratuito
+- ✅ Sin vendor lock-in de Amplify
+- ✅ Control total sobre configuración
+
+### Desventajas
+- ❌ Requiere configuración manual de CI/CD
+- ❌ Sin preview deployments automáticos
+- ❌ Más configuración inicial
+
+### 💡 Tips y Recomendaciones IA
+
+**Cuándo elegir esta opción:**
+- Equipos con CI/CD existente (Azure DevOps, Jenkins)
+- Proyectos que requieren máximo control
+- Organizaciones con restricciones de servicios AWS
+
+**Consideraciones importantes:**
+- Configurar Origin Access Identity para seguridad
+- Habilitar versioning en S3 para rollbacks
+- Configurar invalidación de cache en deployments
+
+**Recomendaciones de implementación:**
+- Usar aws s3 sync con --delete para deployments
+- Configurar CloudFront behaviors para SPA routing
+- Implementar custom error pages para 404
+
+**Ideal para:**
+- Sitios estáticos simples
+- Documentación técnica
+- Landing pages
+
+---
+
+## Opción 3: EC2 Lift & Shift
+
+![Arquitectura EC2](./diagrams/generated-diagrams/api_portal_ec2_lift_shift.png)
+
+### Descripción
+Migración directa del servidor actual a EC2 con Nginx. Mantiene arquitectura tradicional.
+
+### Componentes
+| Servicio | Configuración | Costo/mes |
+|----------|---------------|-----------|
+| EC2 t3.micro | 2 vCPU, 1 GB RAM - Linux | $7.59 |
+| Application Load Balancer | HTTPS | $22.50 |
+| EBS gp3 | 50 GB | $4.00 |
+| CloudWatch | Logs básicos | $3.00 |
+| **TOTAL** | | **$37.09/mes** |
+
+### Ventajas
+- ✅ Migración más simple
+- ✅ Sin cambios de arquitectura
+- ✅ Familiar para equipos tradicionales
+- ✅ Flexibilidad para agregar backend
+
+### Desventajas
+- ❌ Costo 25x mayor que S3/CloudFront
+- ❌ Requiere mantenimiento de servidor
+- ❌ Sin CDN global incluido
+- ❌ Escalabilidad manual
+
+### 💡 Tips y Recomendaciones IA
+
+**Cuándo elegir esta opción:**
+- Si se planea agregar backend dinámico
+- Equipos sin experiencia en arquitecturas serverless
+- Requisitos de configuración especial de servidor
+
+**Consideraciones importantes:**
+- Usar t3.micro es suficiente para sitio estático
+- Considerar Reserved Instances para ahorro
+- Configurar Auto Scaling Group para HA
+
+**Recomendaciones de implementación:**
+- Usar Amazon Linux 2 con Nginx
+- Configurar SSL con Let's Encrypt o ACM
+- Implementar health checks en ALB
+
+**Ideal para:**
+- Sitios que evolucionarán a aplicaciones dinámicas
+- Equipos que prefieren control de servidor
+- Requisitos de compliance específicos
+
+---
+
+## Comparativa de Opciones
+
+| Criterio | Amplify + Azure DevOps | S3 + CloudFront | EC2 Lift & Shift |
+|----------|------------------------|-----------------|------------------|
+| **Costo/mes** | $1.50 | $1.50 | $37.09 |
+| **Ahorro vs actual** | 99% | 99% | 75% |
+| **Complejidad** | Muy Baja | Baja | Media |
+| **CDN Global** | ✅ Sí | ✅ Sí | ❌ No |
+| **CI/CD Integrado** | ✅ Azure DevOps | Manual | Manual |
+| **Escalabilidad** | Automática | Automática | Manual |
+| **Timeline** | 5 días | 3 días | 1 semana |
+| **Recomendado** | ✅ Sí | Para control máximo | Solo si necesita backend |
+
+### Recomendación Final
+**AWS Amplify + Azure DevOps** es la opción recomendada por:
+1. Integración nativa con CI/CD existente
+2. Preview deployments automáticos
+3. Mismo costo que S3 directo pero más features
+4. Menor esfuerzo de configuración

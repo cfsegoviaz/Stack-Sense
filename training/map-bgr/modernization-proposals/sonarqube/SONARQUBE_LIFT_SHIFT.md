@@ -677,3 +677,133 @@ sonar.cache.redis.port=6379
 **Versión**: 1.0  
 **Estado**: Listo para implementación  
 **Timeline**: 2 semanas
+
+
+---
+
+# Opciones de Arquitectura Adicionales
+
+## Opción 2: ECS Fargate + Aurora PostgreSQL
+
+![Arquitectura ECS Fargate](./diagrams/generated-diagrams/sonarqube_ecs_fargate.png)
+
+### Descripción
+Modernización completa a contenedores serverless con ECS Fargate y Aurora PostgreSQL para máxima escalabilidad y mínimo mantenimiento operativo.
+
+### Componentes
+| Servicio | Configuración | Costo/mes |
+|----------|---------------|-----------|
+| ECS Fargate | 2 tasks x 4 vCPU, 8 GB RAM | $295.00 |
+| Aurora PostgreSQL | db.r6g.large Multi-AZ | $280.00 |
+| Application Load Balancer | HTTPS con WAF | $35.00 |
+| Amazon ECR | Registry privado | $5.00 |
+| Amazon EFS | Plugins y datos | $15.00 |
+| CloudWatch | Logs y métricas | $15.00 |
+| NAT Gateway | Salida a internet | $35.00 |
+| **TOTAL** | | **$680/mes** |
+
+### Ventajas
+- ✅ Zero server management
+- ✅ Auto-scaling nativo
+- ✅ Alta disponibilidad Multi-AZ
+- ✅ Actualizaciones sin downtime (rolling deployment)
+- ✅ Mejor aislamiento de seguridad
+
+### Desventajas
+- ❌ Mayor costo que EC2 ($680 vs $404)
+- ❌ Requiere containerización
+- ❌ Curva de aprendizaje ECS/Docker
+
+### 💡 Tips y Recomendaciones IA
+
+**Cuándo elegir esta opción:**
+- Equipos con experiencia en contenedores
+- Necesidad de auto-scaling frecuente
+- Múltiples ambientes (dev, staging, prod)
+
+**Consideraciones importantes:**
+- SonarQube requiere mínimo 4GB RAM por task
+- Elasticsearch embebido necesita configuración especial en contenedores
+- Usar EFS para persistencia de plugins entre deployments
+
+**Recomendaciones de implementación:**
+- Usar imagen oficial de SonarQube en Docker Hub
+- Configurar health checks en /api/system/status
+- Implementar blue-green deployment para actualizaciones
+
+**Ideal para:**
+- Organizaciones con estrategia container-first
+- Equipos DevOps maduros
+- Ambientes con múltiples instancias SonarQube
+
+---
+
+## Opción 3: SonarCloud SaaS
+
+![Arquitectura SonarCloud](./diagrams/generated-diagrams/sonarqube_sonarcloud_saas.png)
+
+### Descripción
+Migración a SonarCloud, la versión SaaS de SonarQube gestionada por SonarSource. Elimina completamente la infraestructura y mantenimiento.
+
+### Componentes
+| Servicio | Configuración | Costo/mes |
+|----------|---------------|-----------|
+| SonarCloud Enterprise | 120 usuarios, LOC ilimitado | $450.00 |
+| **TOTAL** | | **$450/mes** |
+
+### Ventajas
+- ✅ Zero infraestructura (100% SaaS)
+- ✅ Siempre actualizado automáticamente
+- ✅ Soporte incluido de SonarSource
+- ✅ Integración nativa con GitHub/GitLab/Azure DevOps
+- ✅ Sin mantenimiento operativo
+
+### Desventajas
+- ❌ Datos en cloud externo (compliance)
+- ❌ Menos personalización que self-hosted
+- ❌ Dependencia de proveedor externo
+- ❌ Requiere conectividad a internet para análisis
+
+### 💡 Tips y Recomendaciones IA
+
+**Cuándo elegir esta opción:**
+- Equipos pequeños sin capacidad de ops
+- Proyectos open source (gratis en SonarCloud)
+- Organizaciones sin restricciones de datos en cloud
+
+**Consideraciones importantes:**
+- Verificar políticas de compliance del banco
+- Código fuente se envía a SonarCloud para análisis
+- Pricing basado en líneas de código privado
+
+**Recomendaciones de implementación:**
+- Empezar con trial gratuito de 14 días
+- Migrar proyectos gradualmente
+- Configurar branch analysis para PRs
+
+**Ideal para:**
+- Startups y equipos ágiles
+- Proyectos con código no sensible
+- Organizaciones que priorizan simplicidad sobre control
+
+---
+
+## Comparativa de Opciones
+
+| Criterio | EC2 + PostgreSQL | ECS Fargate | SonarCloud SaaS |
+|----------|------------------|-------------|-----------------|
+| **Costo/mes** | $404 | $680 | $450 |
+| **Ahorro vs actual** | 73% | 55% | 70% |
+| **Complejidad** | Baja | Media | Muy Baja |
+| **Mantenimiento** | Medio | Bajo | Ninguno |
+| **Escalabilidad** | Manual | Automática | Automática |
+| **Control** | Total | Alto | Limitado |
+| **Timeline** | 2 semanas | 3 semanas | 1 semana |
+| **Recomendado** | ✅ Sí | Para DevOps maduros | Si compliance permite |
+
+### Recomendación Final
+**EC2 + PostgreSQL** es la opción recomendada por:
+1. Mejor balance costo/beneficio
+2. Control total sobre datos y configuración
+3. Cumplimiento de políticas de seguridad bancaria
+4. Migración más simple desde on-premise

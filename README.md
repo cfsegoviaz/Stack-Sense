@@ -30,19 +30,120 @@ Actuar como arquitecto AWS experimentado para:
 
 ```
 stack-sense/
-├── parsers/           # Parsers para diferentes fuentes
-│   ├── rvtools/      # Parser de RVTools exports
-│   ├── cloudamize/   # Parser de Cloudamize
-│   └── matilda/      # Parser de Matilda
-├── analysis/         # Motores de análisis y recomendaciones
-├── tools/            # Herramientas de conversión y utilidades
-├── training/         # Proyectos de clientes
-│   └── map-bgr/     # Proyecto BGR (383 VMs)
-├── reports/          # Reportes generados
-├── diagrams/         # Diagramas de arquitectura
-├── templates/        # Templates de IaC
-└── examples/         # Ejemplos de uso
+├── apps/                          # Aplicaciones del ecosistema
+│   └── stack-sense-showcase/      # 🎨 Capa de presentación (ver sección abajo)
+├── parsers/                       # Parsers para diferentes fuentes
+│   ├── rvtools/                   # Parser de RVTools exports
+│   ├── cloudamize/                # Parser de Cloudamize
+│   └── matilda/                   # Parser de Matilda
+├── analysis/                      # Motores de análisis y recomendaciones
+├── tools/                         # Herramientas de conversión y utilidades
+├── pricing/                       # Matrices de precios transversales
+│   └── escala24x7_effort_matrix.json
+├── training/                      # Proyectos de clientes
+│   └── map-bgr/                   # Proyecto BGR (383 VMs)
+├── reports/                       # Reportes generados
+├── docs/                          # Documentación adicional
+├── templates/                     # Templates de IaC
+└── examples/                      # Ejemplos de uso
 ```
+
+## 🎨 Stack Sense Showcase
+
+Aplicación web que presenta los análisis de migración generados con IA. Desplegada en AWS usando SST (Serverless Stack).
+
+### Arquitectura
+
+```
+apps/stack-sense-showcase/
+├── sst.config.ts                  # Configuración SST (Cognito, API Gateway, S3)
+├── packages/
+│   ├── web/                       # Frontend React + Vite
+│   │   ├── src/
+│   │   │   ├── pages/             # Páginas de la aplicación
+│   │   │   ├── components/        # Componentes React (shadcn/ui)
+│   │   │   ├── hooks/             # Custom hooks (auth, API)
+│   │   │   └── lib/               # Utilidades, tipos y cliente API
+│   │   └── public/
+│   │       ├── diagrams/          # Diagramas de arquitectura
+│   │       └── logos/             # Logos de clientes
+│   └── api/                       # Backend Lambda
+│       └── src/
+│           ├── data/              # Datos JSON por cliente (protegidos)
+│           │   └── {client}/      # Carpeta por cliente
+│           ├── lib/               # Utilidades compartidas
+│           └── modules/           # Módulos del API
+│               ├── clients/       # GET /clients, GET /clients/{slug}
+│               ├── applications/  # GET /clients/{slug}/applications
+│               ├── waves/         # GET /clients/{slug}/waves
+│               ├── lift-shift/    # GET /clients/{slug}/lift-shift
+│               ├── assessments/   # GET /clients/{slug}/assessments/mra|ola
+│               └── users/         # CRUD usuarios Cognito
+```
+
+### API Endpoints
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/clients` | Lista de clientes |
+| GET | `/clients/{slug}` | Detalle del cliente |
+| GET | `/clients/{slug}/waves` | Olas de migración |
+| GET | `/clients/{slug}/applications` | Lista de aplicaciones |
+| GET | `/clients/{slug}/applications/{app}` | Detalle de aplicación |
+| GET | `/clients/{slug}/lift-shift` | Datos lift & shift |
+| GET | `/clients/{slug}/assessments/mra` | MRA Assessment |
+| GET | `/clients/{slug}/assessments/ola` | OLA Assessment |
+| GET | `/users` | Lista usuarios Cognito |
+| POST | `/users` | Crear usuario |
+
+### Stack Tecnológico
+
+- **Frontend**: React 18, Vite, TypeScript, Tailwind CSS, shadcn/ui
+- **Backend**: AWS Lambda + API Gateway
+- **Auth**: Amazon Cognito
+- **Hosting**: S3 + CloudFront (StaticSite)
+- **IaC**: SST v3
+
+### Páginas Principales
+
+| Página | Descripción |
+|--------|-------------|
+| `/` | Landing page |
+| `/{client}` | Dashboard del cliente |
+| `/{client}/applications` | Lista de aplicaciones |
+| `/{client}/applications/{app}` | Detalle con arquitecturas propuestas |
+| `/{client}/architectures` | Galería de arquitecturas |
+| `/{client}/waves` | Olas de migración |
+| `/{client}/map/{phase}` | Fases MAP (Assess, Mobilize, Migrate) |
+| `/{client}/lift-shift` | Análisis Lift & Shift |
+| `/{client}/mra` | Migration Readiness Assessment |
+| `/{client}/ola` | Operating Level Agreement |
+
+### Comandos
+
+```bash
+cd apps/stack-sense-showcase
+
+# Desarrollo local
+npm run dev
+
+# Deploy a producción
+npm run deploy
+
+# Deploy a dev
+npm run deploy:dev
+
+# Eliminar stack
+npm run remove
+```
+
+### Agregar Nuevo Cliente
+
+1. Crear carpeta en `packages/api/src/data/{client-slug}/`
+2. Agregar `client.json`, `waves.json`, `apps/index.json`
+3. Crear JSON por cada aplicación en `apps/`
+4. Agregar logo en `packages/web/public/logos/`
+5. Registrar en `packages/api/src/data/clients.json`
 
 ## ⚙️ Requisitos
 

@@ -1,8 +1,0 @@
-IMPORTANTE: Coloca el logo de BGR aquí como "logo.png"
-
-El logo debe estar en formato PNG y se recomienda:
-- Tamaño: 256x256px o similar
-- Fondo transparente
-- Formato: PNG
-
-Renombra tu archivo de logo a: logo.png

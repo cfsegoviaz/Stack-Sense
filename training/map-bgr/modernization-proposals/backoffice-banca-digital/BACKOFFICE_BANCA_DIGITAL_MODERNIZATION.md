@@ -133,6 +133,26 @@ Migración directa de VMs a EC2 manteniendo arquitectura actual.
 - Costos de licencias Windows
 - Escalabilidad limitada
 
+#### 📋 Esfuerzo Escala24x7
+
+| Tarea | Horas | Equipo |
+|-------|-------|--------|
+| VPC/Redes | 4 | Infra |
+| EC2 Instances (2) | 4 | Infra |
+| ALB | 2 | Infra |
+| EBS Storage | 4 | Infra |
+| VPN Site-to-Site | 16 | Infra |
+| Secrets Manager | 1 | Infra |
+| MGN Configuration | 2 | Infra |
+| MGN Instances (2) | 2 | Infra |
+| MGN Tests | 2 | Infra |
+| CloudWatch Logs | 4 | Infra |
+| Testing y validación | 16 | QA |
+| Knowledge transfer | 5 | Infra |
+| **TOTAL** | **62** | |
+
+**Costo implementación**: 62 horas × $150/hora = **$9,300 USD**
+
 ---
 
 ### Opción 2: Replatform Optimizado - EC2 Linux + .NET Core
@@ -157,6 +177,25 @@ Aprovechar .NET Core 8 para migrar a Linux y reducir costos.
 **Desventajas**:
 - Requiere testing exhaustivo
 - Posibles ajustes de configuración
+
+#### 📋 Esfuerzo Escala24x7
+
+| Tarea | Horas | Equipo |
+|-------|-------|--------|
+| VPC/Redes | 4 | Infra |
+| EC2 Instances (2) Linux | 4 | Infra |
+| ALB | 2 | Infra |
+| EBS Storage | 4 | Infra |
+| ElastiCache Cluster | 4 | Infra |
+| VPN Site-to-Site | 16 | Infra |
+| Secrets Manager | 1 | Infra |
+| Application pipeline | 4 | Infra |
+| CloudWatch Dashboard | 8 | Infra |
+| Testing y validación | 16 | QA |
+| Knowledge transfer | 7 | Infra |
+| **TOTAL** | **70** | |
+
+**Costo implementación**: 70 horas × $150/hora = **$10,500 USD**
 
 ---
 
@@ -187,6 +226,27 @@ Containerizar la aplicación .NET Core 8 y desplegar en ECS Fargate.
 - Requiere containerización
 - Curva de aprendizaje
 
+#### 📋 Esfuerzo Escala24x7
+
+| Tarea | Horas | Equipo |
+|-------|-------|--------|
+| VPC/Redes | 4 | Infra |
+| Fargate Cluster | 2 | Infra |
+| Fargate Service (2 tasks) | 8 | Infra |
+| ALB | 2 | Infra |
+| ECR | 1 | Infra |
+| ElastiCache Cluster | 4 | Infra |
+| AWS Transfer Family | 16 | Infra |
+| VPN Site-to-Site | 16 | Infra |
+| Secrets Manager | 1 | Infra |
+| Application pipeline (ECS) | 4 | Infra |
+| CloudWatch Dashboard | 8 | Infra |
+| Testing y validación | 16 | QA |
+| Knowledge transfer | 9 | Infra |
+| **TOTAL** | **91** | |
+
+**Costo implementación**: 91 horas × $150/hora = **$13,650 USD**
+
 ---
 
 ### Opción 4: Modernización Completa - ECS + Aurora + Serverless
@@ -216,18 +276,129 @@ Modernización completa con servicios managed.
 - Requiere cambios en queries
 - Timeline extendido
 
+#### 📋 Esfuerzo Escala24x7
+
+| Tarea | Horas | Equipo |
+|-------|-------|--------|
+| VPC/Redes | 4 | Infra |
+| Fargate Cluster | 2 | Infra |
+| Fargate Service (2 tasks) | 8 | Infra |
+| ALB | 2 | Infra |
+| ECR | 1 | Infra |
+| Aurora PostgreSQL + Babelfish | 4 | Infra |
+| ElastiCache Cluster | 4 | Infra |
+| API Gateway | 8 | Infra |
+| Lambda Functions | 16 | Infra |
+| EventBridge Rules | 4 | Infra |
+| AWS Transfer Family | 16 | Infra |
+| VPN Site-to-Site | 16 | Infra |
+| DMS replication instance | 4 | Data |
+| DMS replication task | 4 | Data |
+| Secrets Manager | 1 | Infra |
+| Application pipeline (ECS) | 4 | Infra |
+| CloudWatch Dashboard | 8 | Infra |
+| Testing y validación | 32 | QA |
+| Knowledge transfer | 18 | Infra |
+| **TOTAL** | **156** | |
+
+**Costo implementación**: 156 horas × $150/hora = **$23,400 USD**
+
 ---
 
 ## 📊 Comparativa de Opciones
 
 | Aspecto | Lift & Shift | Replatform | ECS Fargate ⭐ | Modernización |
 |---------|--------------|------------|----------------|---------------|
-| **Costo Mensual** | $547.91 | $380.50 | $295.80 | $420.00 |
+| **Costo Mensual AWS** | $547.91 | $380.50 | $295.80 | $420.00 |
 | **Timeline** | 2-3 sem | 3-4 sem | 4-6 sem | 8-12 sem |
 | **Riesgo** | Bajo | Medio | Medio | Alto |
 | **Escalabilidad** | Manual | Manual | Auto | Auto |
 | **Mantenimiento** | Alto | Medio | Bajo | Bajo |
 | **Cambios Código** | Ninguno | Mínimos | Config | Moderados |
+| **Esfuerzo Impl. (hrs)** | 62 | 70 | 91 | 156 |
+| **Costo Impl. Escala24x7** | $9,300 | $10,500 | $13,650 | $23,400 |
+
+---
+
+## 🔧 Esfuerzo de Implementación Escala24x7
+
+*Basado en matriz de esfuerzos: `/pricing/escala24x7_effort_matrix.json`*
+*Tarifa: $150 USD/hora*
+
+### Opción 1: Lift & Shift (62 horas = $9,300)
+
+| Tarea | Horas |
+|-------|-------|
+| VPC/Redes [Terraform] | 8 |
+| EC2 [Terraform] x2 | 8 |
+| ALB [Terraform] | 4 |
+| ASG [Terraform] | 4 |
+| VPN [Terraform] | 32 |
+| Secrets Manager [Terraform] | 2 |
+| CloudWatch dashboard | 4 |
+| **Total** | **62** |
+
+### Opción 2: Replatform Linux (70 horas = $10,500)
+
+| Tarea | Horas |
+|-------|-------|
+| VPC/Redes [Terraform] | 8 |
+| EC2 [Terraform] x2 | 8 |
+| ALB [Terraform] | 4 |
+| Elasticache Cluster [Terraform] | 8 |
+| VPN [Terraform] | 32 |
+| Secrets Manager [Terraform] | 2 |
+| CloudWatch dashboard | 4 |
+| Infrastructure deployment pipeline (Terraform) | 8 |
+| **Total** | **70** |
+
+### Opción 3: ECS Fargate (91 horas = $13,650) ⭐
+
+| Tarea | Horas |
+|-------|-------|
+| VPC/Redes [Terraform] | 8 |
+| Fargate Cluster [Terraform] | 4 |
+| Fargate Service [Terraform] | 8 |
+| ALB [Terraform] | 4 |
+| ECR | 1 |
+| Elasticache Cluster [Terraform] | 8 |
+| Secrets Manager [Terraform] | 2 |
+| VPN [Terraform] | 32 |
+| Azure DevOps infrastructure pipeline (Terraform) | 24 |
+| **Total** | **91** |
+
+### Opción 4: Modernización Completa (156 horas = $23,400)
+
+| Tarea | Horas |
+|-------|-------|
+| VPC/Redes [Terraform] | 8 |
+| Fargate Cluster [Terraform] | 4 |
+| Fargate Service [Terraform] | 8 |
+| ALB [Terraform] | 4 |
+| ECR | 1 |
+| Aurora Global DB [Terraform] | 8 |
+| Elasticache Cluster [Terraform] | 8 |
+| Lambda Function [Terraform] x2 | 32 |
+| API Gateway [Terraform] | 16 |
+| EventBridge Rule x2 | 8 |
+| Step Functions state machine | 16 |
+| SFTP Transfer AWS | 16 |
+| Secrets Manager [Terraform] | 2 |
+| Azure DevOps infrastructure pipeline (Terraform) | 24 |
+| **Total** | **156** |
+
+---
+
+## 💰 Análisis de Costo Total (TCO 12 meses)
+
+| Opción | AWS Anual | Implementación | **Total Año 1** | Años 2+ |
+|--------|-----------|----------------|-----------------|---------|
+| Lift & Shift | $6,575 | $9,300 | **$15,875** | $6,575 |
+| Replatform | $4,566 | $10,500 | **$15,066** | $4,566 |
+| **ECS Fargate** ⭐ | **$3,550** | **$13,650** | **$17,200** | **$3,550** |
+| Modernización | $5,040 | $23,400 | **$28,440** | $5,040 |
+
+> **Nota**: ECS Fargate tiene mayor costo inicial pero el menor costo recurrente. ROI positivo vs Lift & Shift en mes 15.
 
 ---
 
@@ -241,6 +412,7 @@ Modernización completa con servicios managed.
 4. **Ahorro Significativo**: 46% menos que Lift & Shift
 5. **Operaciones Simplificadas**: Sin gestión de EC2
 6. **Escalabilidad**: Auto-scaling para picos de demanda
+7. **Mejor TCO a largo plazo**: Menor costo recurrente ($3,550/año)
 
 ### Arquitectura Detallada ECS Fargate
 

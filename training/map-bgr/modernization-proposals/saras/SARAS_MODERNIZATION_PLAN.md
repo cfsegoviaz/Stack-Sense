@@ -499,3 +499,84 @@ var connectionString = "Server=aurora-babelfish.cluster-xxx.us-east-1.rds.amazon
 **Última actualización**: 2025-12-04  
 **Versión**: 1.0  
 **Estado**: Propuesta para aprobación
+
+
+---
+
+# Opción de Arquitectura Adicional
+
+## Opción 3: Serverless Lambda + Aurora Serverless v2
+
+![Arquitectura Serverless](./diagrams/generated-diagrams/saras_serverless_lambda.png)
+
+### Descripción
+Arquitectura completamente serverless usando AWS Lambda para compute y Aurora Serverless v2 para base de datos. Máxima escalabilidad y pago por uso.
+
+### Componentes
+| Servicio | Configuración | Costo/mes |
+|----------|---------------|-----------|
+| AWS Lambda | 3 funciones, 512 MB RAM | $45.00 |
+| API Gateway | REST API con throttling | $35.00 |
+| Aurora Serverless v2 | PostgreSQL con Babelfish | $180.00 |
+| ElastiCache Redis | cache.t3.micro | $25.00 |
+| Amazon SQS | Cola de alertas | $5.00 |
+| Amazon SNS | Notificaciones | $5.00 |
+| Amazon S3 | Reports y archivos | $10.00 |
+| CloudWatch | Logs y métricas | $20.00 |
+| **TOTAL** | | **$325/mes** |
+
+### Ventajas
+- ✅ Pago por uso real (sin idle costs)
+- ✅ Escalabilidad automática ilimitada
+- ✅ Zero server management
+- ✅ Alta disponibilidad nativa
+- ✅ Menor costo en cargas variables
+
+### Desventajas
+- ❌ Requiere refactoring significativo a funciones
+- ❌ Cold starts pueden afectar latencia
+- ❌ Límites de ejecución (15 min max)
+- ❌ Complejidad en debugging distribuido
+
+### 💡 Tips y Recomendaciones IA
+
+**Cuándo elegir esta opción:**
+- Cargas de trabajo variables o impredecibles
+- Equipos con experiencia en arquitecturas serverless
+- Presupuesto limitado con picos de uso ocasionales
+
+**Consideraciones importantes:**
+- SARAS procesa transacciones en tiempo real - evaluar cold starts
+- Aurora Serverless v2 escala automáticamente ACUs
+- Lambda tiene límite de 15 minutos por ejecución
+
+**Recomendaciones de implementación:**
+- Usar Provisioned Concurrency para funciones críticas
+- Implementar circuit breaker pattern para resiliencia
+- Configurar DLQ (Dead Letter Queue) para manejo de errores
+
+**Ideal para:**
+- Sistemas de alertas con picos de actividad
+- Procesamiento batch de transacciones
+- Organizaciones que buscan optimizar costos variables
+
+---
+
+## Comparativa de Opciones
+
+| Criterio | ECS + Babelfish | Lift & Shift | Serverless Lambda |
+|----------|-----------------|--------------|-------------------|
+| **Costo/mes** | $904 | $1,450 | $325 |
+| **Ahorro vs actual** | 62% | 40% | 86% |
+| **Complejidad** | Alta | Baja | Muy Alta |
+| **Escalabilidad** | Auto (ECS) | Manual | Ilimitada |
+| **Refactoring** | Containerización | Ninguno | Completo |
+| **Timeline** | 11 semanas | 4 semanas | 16 semanas |
+| **Recomendado** | ✅ Sí | Migración rápida | Para cargas variables |
+
+### Recomendación Final
+**ECS Fargate + Aurora Babelfish** es la opción recomendada por:
+1. Balance óptimo entre modernización y riesgo
+2. Compatibilidad T-SQL con Babelfish (sin cambios de código SQL)
+3. Escalabilidad automática sin refactoring completo
+4. Elimina licencias SQL Server Enterprise

@@ -3,8 +3,60 @@
 
 **Proyecto**: MAP-BGR (Migration Acceleration Program)  
 **Cliente**: Banco General de Ruritania  
-**Total Aplicaciones**: 8  
-**Total VMs**: 383
+**Total Aplicaciones**: 44  
+**Analizadas**: 6 (14%)  
+**Pendientes**: 38
+
+---
+
+## 🚀 Inicio Rápido
+
+Para analizar una nueva aplicación:
+```bash
+# Ver aplicaciones pendientes
+cat ANALYSIS_CHECKLIST.md
+
+# Usar el prompt template
+cat templates/ANALYSIS_PROMPT.md
+```
+
+---
+
+## 📊 Progreso de Análisis
+
+```
+Completadas: ████░░░░░░░░░░░░░░░░░░░░░░░░░░ 6/44 (14%)
+```
+
+### ✅ Aplicaciones Analizadas (6)
+
+| # | Aplicación | Estrategia | Costo/mes | Ahorro |
+|---|------------|------------|-----------|--------|
+| 1 | Backoffice Banca Digital | ECS Fargate | $296 | 75% |
+| 2 | Backoffice Sistemas | EC2 Híbrido | $402 | - |
+| 3 | SARAS | ECS + Babelfish | $904 | 35% |
+| 4 | API Portal | Amplify | $1.50 | 99% |
+| 5 | SonarQube | EC2 + PostgreSQL | $404 | 73% |
+| 6 | SEQ | CloudWatch | $278 | 85% |
+
+### ⏳ Próximas a Analizar - Prioridad 1 (12)
+
+| # | Aplicación | Criticidad | Ponderación |
+|---|------------|------------|-------------|
+| 7 | Visor Histórico de Cheques | Media | 52 |
+| 8 | Calculadora Inmobiliaria | Media | 52 |
+| 9 | Administrador de Pagos | Alta | 50 |
+| 10 | Librarian | Media | 45 |
+| 11 | Cuadre y Compensación ATMs | Media | 45 |
+| 12 | PortalGuiaBGR | Baja | 43 |
+| 13 | PortalAdministrativoBGR | Baja | 43 |
+| 14 | BGRTuCuenta | Baja | 43 |
+| 15 | Acciones y Accionistas | Media | 42 |
+| 16 | Estructuras de Control | Media | 40 |
+| 17 | Nueva Centralizada | Baja | 36 |
+| 18 | Redis | Alta | 28 |
+
+> Ver lista completa en [ANALYSIS_CHECKLIST.md](./ANALYSIS_CHECKLIST.md)
 
 ---
 
@@ -12,39 +64,20 @@
 
 ```
 modernization-proposals/
-├── README.md                          # Este archivo
-├── saras/                             # Aplicación SARAS
-│   ├── SARAS_MODERNIZATION_PLAN.md   # Plan de modernización
-│   └── diagrams/                      # Diagramas de arquitectura
-├── api-portal/                        # Api Portal
-│   ├── API_PORTAL_AZURE_DEVOPS_AMPLIFY.md
-│   └── diagrams/
-├── backoffice-sistemas/               # Backoffice Sistemas
-│   ├── BACKOFFICE_SISTEMAS_LIFT_SHIFT.md
-│   └── diagrams/
-├── sonarqube/                         # SonarQube
-│   ├── SONARQUBE_LIFT_SHIFT.md
-│   └── diagrams/
-└── templates/                         # Templates reutilizables
-    ├── lift-and-shift-template.md
-    ├── containerization-template.md
-    └── static-site-template.md
+├── README.md                    # Este archivo
+├── INDEX.md                     # Índice visual
+├── ANALYSIS_CHECKLIST.md        # Tracking de 44 apps
+├── templates/
+│   ├── ANALYSIS_PROMPT.md       # Prompt para analizar apps
+│   ├── lift-and-shift-template.md
+│   └── STYLE_GUIDE.md
+├── backoffice-banca-digital/    # ✅ Completada
+├── backoffice-sistemas/         # ✅ Completada
+├── saras/                       # ✅ Completada
+├── api-portal/                  # ✅ Completada
+├── sonarqube/                   # ✅ Completada
+└── seq/                         # ✅ Completada
 ```
-
----
-
-## 🎯 Resumen de Aplicaciones
-
-| # | Aplicación | VMs | Estrategia | Timeline | Costo/mes | Ahorro | Estado |
-|---|------------|-----|------------|----------|-----------|--------|--------|
-| 1 | **SARAS** | 2 | Modernización (ECS + Babelfish) | 11 semanas | $904 | 99.9% | ✅ Propuesta lista |
-| 2 | **Api Portal** | 5 | Static Site (Amplify + Azure DevOps) | 5 días | $1.50 | 99.9% | ✅ Propuesta lista |
-| 3 | **Backoffice Sistemas** | 5 | Lift & Shift (EC2 + VPN) | 3 semanas | $402 | - | ✅ Propuesta lista |
-| 4 | **SonarQube** | 3 | Lift & Shift (EC2 + PostgreSQL) | 2 semanas | $404 | 73% | ✅ Propuesta lista |
-| 5 | Portal Guía BGR | 4 | Pendiente | - | - | - | 📋 Por definir |
-| 6 | Portal Adm BGR | 4 | Pendiente | - | - | - | 📋 Por definir |
-| 7 | Backoffice Banca | 6 | Pendiente | - | - | - | 📋 Por definir |
-| 8 | Seq (Logging) | 5 | Pendiente | - | - | - | 📋 Por definir |
 
 ---
 

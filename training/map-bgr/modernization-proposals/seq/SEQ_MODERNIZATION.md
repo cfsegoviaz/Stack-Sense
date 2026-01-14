@@ -169,6 +169,25 @@ Si se requiere mantener Seq por razones específicas:
 
 #### Total Mensual Opción 1: **~$278/mes** (~$3,336/año)
 
+#### 📋 Esfuerzo Escala24x7 - Opción 1 (Modernización AWS)
+
+| Tarea | Horas | Equipo |
+|-------|-------|--------|
+| CloudWatch Logs setup | 4 | Infra |
+| OpenSearch Cluster | 6 | Infra |
+| Kinesis Data Firehose | 4 | Infra |
+| Lambda Functions | 16 | Infra |
+| S3 Bucket (archival) | 2 | Infra |
+| CloudWatch Dashboard | 8 | Infra |
+| CloudWatch Alarms | 8 | Infra |
+| SNS Topics | 4 | Infra |
+| Migración datos | 16 | Infra |
+| Testing y validación | 16 | QA |
+| Knowledge transfer | 16 | Infra |
+| **TOTAL** | **100** | |
+
+**Costo implementación**: 100 horas × $150/hora = **$15,000 USD**
+
 ### Opción 2: Lift & Shift Seq
 
 #### Compute
@@ -185,6 +204,26 @@ Si se requiere mantener Seq por razones específicas:
 - **Data Transfer**: 100 GB × $0.09/GB = $9/mes
 
 #### Total Mensual Opción 2: **~$129/mes** (~$1,548/año)
+
+#### 📋 Esfuerzo Escala24x7 - Opción 2 (Lift & Shift)
+
+| Tarea | Horas | Equipo |
+|-------|-------|--------|
+| VPC/Redes | 4 | Infra |
+| EC2 Instance | 2 | Infra |
+| RDS PostgreSQL | 2 | Infra |
+| EFS Storage | 4 | Infra |
+| ALB | 2 | Infra |
+| S3 Bucket | 2 | Infra |
+| MGN Configuration | 2 | Infra |
+| MGN Instance | 1 | Infra |
+| MGN Tests | 1 | Infra |
+| CloudWatch Logs | 4 | Infra |
+| Testing y validación | 8 | QA |
+| Knowledge transfer | 4 | Infra |
+| **TOTAL** | **36** | |
+
+**Costo implementación**: 36 horas × $150/hora = **$5,400 USD**
 
 ### Comparación con On-Premise Actual
 
